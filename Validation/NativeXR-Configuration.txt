@@ -1,0 +1,16 @@
+Validacion de arquitectura XR y configuracion OpenXR
+Scene=Assets/Scenes/Vivienda_Prueba.unity
+Mediator=1
+BodyTransformer=1
+NativeContinuousMove=1
+Gravity=1
+NativeTeleportation=1
+LegacyMoveEnabled=0
+Android OpenXRLoader=True
+Android InitializeXR=True
+Android errors=0 warnings=0
+Standalone OpenXRLoader=True
+Standalone InitializeXR=False
+Standalone errors=0 warnings=0
+Android=ARM64 minSDK=AndroidApiLevel29 backend=IL2CPP
+La validacion del editor no acredita rendimiento ni comodidad en un visor fisico.

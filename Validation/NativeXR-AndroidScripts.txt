@@ -1,0 +1,2 @@
+Android player script assemblies=45
+Esta comprobacion no genera un APK ni sustituye la prueba en Quest.

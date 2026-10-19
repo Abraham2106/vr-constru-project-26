@@ -1,0 +1,26 @@
+PASS Un unico Locomotion Mediator activo
+PASS Movimiento y teletransporte comparten Body Transformer
+PASS Movimiento anterior inactivo
+PASS Gravedad y capsula nativas
+PASS Escritorio separado de XR; menu visible
+PASS Menu bloquea locomocion por Input Actions
+PASS WASD mueve por proveedor y Body Transformer: 1.39m
+PASS Menu usa Teleportation Provider al segundo piso
+PASS Teletransporte nativo al primer piso
+PASS Teletransporte nativo al exterior
+PASS Rutas estructurales completas: 12/12
+PASS Recorrido nativo Apartamento 1 - Baño
+PASS Recorrido nativo Apartamento 1 - Cocina
+PASS Recorrido nativo Apartamento 1 - Dormitorio 1
+PASS Recorrido nativo Apartamento 1 - Dormitorio 2
+PASS Recorrido nativo Apartamento 1 - Lavanderia
+PASS Recorrido nativo Apartamento 1 - Sala
+PASS Recorrido nativo Apartamento 2 - Baño
+PASS Recorrido nativo Apartamento 2 - Cocina
+PASS Recorrido nativo Apartamento 2 - Dormitorio 1
+PASS Recorrido nativo Apartamento 2 - Dormitorio 2
+PASS Recorrido nativo Apartamento 2 - Lavanderia
+PASS Recorrido nativo Apartamento 2 - Sala
+PASS Errores durante prueba=0
+Fallos=0
+Prueba automatizada en editor; visor fisico pendiente.

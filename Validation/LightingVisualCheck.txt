@@ -1,0 +1,2 @@
+Errores Play=0
+Dia/noche exterior e interior capturados.

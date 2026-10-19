@@ -1,0 +1,10 @@
+PASS XR Interaction Simulator oficial activo
+PASS Vista de escritorio desactivada en modo XR
+PASS Seguimiento mediante Tracked Pose Driver
+PASS HMD del Input System disponible
+PASS Dispositivo izquierdo disponible
+PASS Dispositivo derecho disponible
+PASS Interactores de ambos mandos activos=2
+PASS Altura de ojos simulada=1.36m
+PASS Menu XR visible
+Fallos=0

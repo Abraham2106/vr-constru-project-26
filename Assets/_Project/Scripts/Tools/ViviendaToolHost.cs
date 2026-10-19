@@ -21,10 +21,8 @@ namespace Vivienda.Tools
         [SerializeField] MeasureTool measureTool;
         [SerializeField] WallPaintTool wallPaintTool;
 
-        [Header("Simulador (Editor)")]
-        [SerializeField] bool allowKeyboardFallback = true;
-        [SerializeField] KeyCode simulateTriggerKey = KeyCode.Space;
-        [SerializeField] KeyCode simulateSecondaryKey = KeyCode.LeftControl;
+        [SerializeField] InputActionReference triggerAction;
+        [SerializeField] InputActionReference secondaryAction;
 
         readonly Dictionary<string, IViviendaTool> toolsById = new();
         IViviendaTool activeTool;
@@ -110,30 +108,10 @@ namespace Vivienda.Tools
             activeTool?.OnSecondaryDown();
         }
 
-        bool triggerWasPressed;
-        bool secondaryWasPressed;
-
         void Update()
         {
-            var device = UnityEngine.XR.InputDevices.GetDeviceAtXRNode(UnityEngine.XR.XRNode.RightHand);
-            device.TryGetFeatureValue(UnityEngine.XR.CommonUsages.triggerButton, out var trigger);
-            device.TryGetFeatureValue(UnityEngine.XR.CommonUsages.secondaryButton, out var secondary);
-            if (trigger && !triggerWasPressed) NotifyTriggerPressed();
-            if (secondary && !secondaryWasPressed) NotifySecondaryPressed();
-            triggerWasPressed = trigger;
-            secondaryWasPressed = secondary;
-            if (!allowKeyboardFallback || activeTool == null) return;
-#if ENABLE_INPUT_SYSTEM
-            var keyboard = Keyboard.current;
-            if (keyboard != null)
-            {
-                if (keyboard.spaceKey.wasPressedThisFrame) NotifyTriggerPressed();
-                if (keyboard.leftCtrlKey.wasPressedThisFrame) NotifySecondaryPressed();
-            }
-#else
-            if (Input.GetKeyDown(simulateTriggerKey)) NotifyTriggerPressed();
-            if (Input.GetKeyDown(simulateSecondaryKey)) NotifySecondaryPressed();
-#endif
+            if (triggerAction != null && triggerAction.action.WasPressedThisFrame()) NotifyTriggerPressed();
+            if (secondaryAction != null && secondaryAction.action.WasPressedThisFrame()) NotifySecondaryPressed();
         }
     }
 }

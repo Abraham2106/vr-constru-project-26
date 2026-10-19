@@ -7,6 +7,7 @@ namespace ProyectoVR
     [DisallowMultipleComponent]
     public class DesktopDoorInteraction : MonoBehaviour
     {
+        [SerializeField] InputActionReference interactAction;
         Camera view;
         DoorHinge door;
         WindowHinge window;
@@ -18,12 +19,12 @@ namespace ProyectoVR
         {
             door = null; window = null; lightSwitch = null;
             if(ProyectoVR.UI.VrWorldMenuController.AnyMenuVisible)return;
-            if (view == null || Keyboard.current == null) return;
+            if (!DesktopPreview.IsActive || view == null || interactAction == null) return;
             if (!Physics.Raycast(view.transform.position, view.transform.forward, out var hit, 3f, ~0, QueryTriggerInteraction.Ignore)) return;
             door = hit.collider.GetComponentInParent<DoorHinge>();
             window = hit.collider.GetComponentInParent<WindowHinge>();
             lightSwitch=hit.collider.GetComponentInParent<LightSwitch>();
-            if (!Keyboard.current.eKey.wasPressedThisFrame) return;
+            if (!interactAction.action.WasPressedThisFrame()) return;
             if (door != null) door.Toggle();
             else if (window != null) window.Toggle();
             else if(lightSwitch!=null)lightSwitch.Toggle();

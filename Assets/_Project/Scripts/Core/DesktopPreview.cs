@@ -13,21 +13,22 @@ namespace ProyectoVR
     public class DesktopPreview : MonoBehaviour
     {
         public static bool IsActive { get; private set; }
+        public enum PreviewMode { Desktop, XRSimulator, Headset }
+        [SerializeField] PreviewMode mode;
+        [SerializeField] InputActionReference lookAction;
+        [SerializeField] InputActionReference lookHoldAction;
         XROrigin origin;
         float pitch;
+        float yaw;
 
         void Start()
         {
             origin = GetComponent<XROrigin>();
-#if UNITY_EDITOR
-            var head = UnityEngine.XR.InputDevices.GetDeviceAtXRNode(XRNode.Head);
-            var name = (head.name ?? "").ToLowerInvariant();
-            bool simulated = name.Contains("simulat") || name.Contains("mock");
-            bool realHeadset = head.isValid && !simulated && (head.characteristics & InputDeviceCharacteristics.HeadMounted) != 0;
-            IsActive = !realHeadset && (simulated || !XRSettings.isDeviceActive);
+#if UNITY_EDITOR || UNITY_STANDALONE
+            IsActive = mode == PreviewMode.Desktop;
             if (IsActive && origin.Camera != null)
             {
-                foreach (var simulator in FindObjectsByType<XRDeviceSimulator>(FindObjectsInactive.Include, FindObjectsSortMode.None))
+                foreach (var simulator in FindObjectsByType<XRInteractionSimulator>(FindObjectsInactive.Include))
                     simulator.gameObject.SetActive(false);
                 var driver = origin.Camera.GetComponent<TrackedPoseDriver>();
                 if (driver != null) driver.enabled = false;
@@ -44,15 +45,15 @@ namespace ProyectoVR
 
         void Update()
         {
-            if (!IsActive || origin == null || origin.Camera == null || Mouse.current == null) return;
-            bool look = Mouse.current.rightButton.isPressed && !VrWorldMenuController.AnyMenuVisible;
+            if (!IsActive || origin == null || origin.Camera == null || lookAction == null || lookHoldAction == null) return;
+            bool look = lookHoldAction.action.IsPressed() && !VrWorldMenuController.AnyMenuVisible;
             Cursor.lockState = look ? CursorLockMode.Locked : CursorLockMode.None;
             Cursor.visible = !look;
             if (!look) return;
-            var delta = Mouse.current.delta.ReadValue() * .08f;
-            transform.Rotate(0, delta.x, 0, UnityEngine.Space.World);
+            var delta = lookAction.action.ReadValue<Vector2>() * .08f;
+            yaw += delta.x;
             pitch = Mathf.Clamp(pitch - delta.y, -80, 80);
-            origin.Camera.transform.localRotation = Quaternion.Euler(pitch, 0, 0);
+            origin.Camera.transform.localRotation = Quaternion.Euler(pitch, yaw, 0);
         }
 
         void OnDisable()
@@ -63,4 +64,3 @@ namespace ProyectoVR
         }
     }
 }
-
