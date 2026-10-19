@@ -1,0 +1,27 @@
+PASS Simulador escritorio activo
+PASS Menu visible al iniciar
+PASS Paleta con 12 colores
+PASS Menu recibe raycast UI del raton
+PASS Simulador escritorio activo
+PASS Menu visible al iniciar
+PASS Paleta con 12 colores
+PASS Menu recibe raycast UI del raton
+PASS 11 puertas registradas en XR
+PASS Ventanas reales registradas XR: 14
+PASS Boton medir activa herramienta y cierra menu
+PASS Medida de 1m anclada al mundo
+PASS Paleta selecciona color y activa pintura
+PASS 12 interruptores por habitacion
+PASS Gatillo en interruptor solo cambia su habitacion
+PASS Grip a distancia abre todas las puertas
+PASS Grip a distancia abre todas las ventanas
+PASS Marcos permanecen fijos
+PASS Ventanas aumentan ambiente exterior
+PASS Grip cierra puertas
+PASS Grip cierra ventanas
+PASS Noche: sol y dos luces exteriores; habitaciones apagadas
+PASS Teletransporte al segundo piso
+PASS Teletransporte al primer piso
+PASS Teletransporte al exterior frente entrada
+PASS Errores durante Play: 0
+Fallos=0

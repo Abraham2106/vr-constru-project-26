@@ -1,0 +1,34 @@
+{
+  "albedo": "Grass01_BaseColor_Linear.exr",
+  "albedoEncoding": "Linear Rec.709 HDR; disable sRGB import",
+  "normal": "Grass01_Normal_UVRotated.png",
+  "normalEncoding": "Y+ tangent, camera-ray evaluation, original strength0.75 baked, basis compensated for18.3degreeUVrotation",
+  "normalStrength": 1,
+  "metallicSmoothness": "Grass01_MetallicSmoothness.png",
+  "metallicEncoding": "linearRmetallic alpha1minusRoughness",
+  "tint": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "originalIOR": 1.45,
+  "originalSpecularLevel": 0.5,
+  "originalBaseColorMax": [
+    2.5020313,
+    2.8774309,
+    0
+  ],
+  "uvAffine": [
+    [
+      4.74722199,
+      -1.5696762
+    ],
+    [
+      1.5696762,
+      4.74722199
+    ]
+  ],
+  "normalBasisUnitCheck": "passed",
+  "limits": "Standard approximates source mixed Principled/Reflection BSDF; view transform ACES differs AgX."
+}

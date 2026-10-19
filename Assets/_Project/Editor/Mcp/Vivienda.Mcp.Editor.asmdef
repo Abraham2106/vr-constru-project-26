@@ -1,0 +1,19 @@
+{
+    "name": "Vivienda.Mcp.Editor",
+    "rootNamespace": "Vivienda.EditorTools.Mcp",
+    "references": [
+        "Unity.AI.MCP.Editor",
+        "Vivienda.Agent4.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

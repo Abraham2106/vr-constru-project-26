@@ -1,0 +1,544 @@
+fileFormatVersion: 2
+guid: 8f97507666a730443ac4abcbd8a5346f
+ModelImporter:
+  serializedVersion: 24501
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AR3DMat Architectural Clear Glass
+    second: {fileID: 2100000, guid: fd7ca8b178a936249bde4c3a9d2dcfc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Acoustic Ceiling Tile
+    second: {fileID: 2100000, guid: d84bac3e3d74dd94c8d0c3e7491cadcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Beige Painted Plaster Wall
+    second: {fileID: 2100000, guid: 3e86fb3d5ad303a468353c68e8a32b2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black Ceiling
+    second: {fileID: 2100000, guid: b2912da3b53926449b298c4f6985608e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black matte metal
+    second: {fileID: 2100000, guid: 42cb1cfbbeb2bf54f8f00dbbeb4fd419, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black steel
+    second: {fileID: 2100000, guid: 674117518bc3c5c4489bbf84ec4def5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brown Leather Fabric
+    second: {fileID: 2100000, guid: 700775f3e3b51e9498bb4bdd65897b65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brown Polished Oak Wood
+    second: {fileID: 2100000, guid: c04623fd92413794bb99345a134cebda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brown leather
+    second: {fileID: 2100000, guid: ec643a1c2e08eb545ac936270728209e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brown wood
+    second: {fileID: 2100000, guid: 26695a3c4107e184daec37d64569ed3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceramic Black Tiles English
+    second: {fileID: 2100000, guid: b7b8098cb594ff747a8e22ba02be686a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceramic Gray Tile
+    second: {fileID: 2100000, guid: d238b698cd8b6aa4590000288241e96f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceramic Tiles (Floor Tiles)
+    second: {fileID: 2100000, guid: ebdb060f337cb6647890a94406fc4b6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceramic tiles
+    second: {fileID: 2100000, guid: f5d599076d8be484da4607aa2a67fb89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete tiles
+    second: {fileID: 2100000, guid: 34f2b0b2331359349bbba156225dec9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete tiles.001
+    second: {fileID: 2100000, guid: e6bdb447a0a243f4ba09d016ec548112, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark Ceramic
+    second: {fileID: 2100000, guid: 35796d61be74c6742a44d9f2985e3c13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark grey ceramic tiles
+    second: {fileID: 2100000, guid: 7f1f9e48d344f0c45813c7cb1414275a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frosted Glass
+    second: {fileID: 2100000, guid: beaf61389cbd97646a4e7335c238454c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 61645f365dda44049aecab114aea8c14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass.001
+    second: {fileID: 2100000, guid: 5096892af90777f489811c909591ac9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass
+    second: {fileID: 2100000, guid: e91d5d53205f2564691b6f2866b1b2c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass 01
+    second: {fileID: 2100000, guid: 50d259e51c5aa41469c4915e41625f1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass-Paving-Linear
+    second: {fileID: 2100000, guid: 358dc28963d32324bbd042450bbe058b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass.001
+    second: {fileID: 2100000, guid: 201574f1117dd63468ce4764514d4185, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray Ceramic Tile
+    second: {fileID: 2100000, guid: 64fdb054102aa8e40ac6feb3d1b65a4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Green grass or lawn
+    second: {fileID: 2100000, guid: 4bdeaa1e7a65aa44793167f44ba8a8d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Large Floor Tiles
+    second: {fileID: 2100000, guid: 2b2e852a2e7ab724cb65cebe63894212, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light
+    second: {fileID: 2100000, guid: 6ed74cca0c14fca4c8e227038f01fefe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light Grey Ceramic Tiles
+    second: {fileID: 2100000, guid: 2a83dc02c27505f4681a90e345be90ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light Maple Wood Floor
+    second: {fileID: 2100000, guid: 02eb6374929c5b04283a35ed81a7b8a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meadow with grass and Rocks
+    second: {fileID: 2100000, guid: 4537ee8accb788f4289ca479db795aad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalPanel05
+    second: {fileID: 2100000, guid: 212895cf0c6e5cc41a7872367dfaf98c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Natural Stone Wall
+    second: {fileID: 2100000, guid: 8ebc4cdcffd05154181adff03abcef4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Natural Wood Plank
+    second: {fileID: 2100000, guid: dc4ca221929c5d44f9faf8168e18f752, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Natural Wooden Slat Panel
+    second: {fileID: 2100000, guid: 0bdbd75e1266fc44f993242f5514a685, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nature wall with gras
+    second: {fileID: 2100000, guid: 87bd6961d6e981e4fad4523a507d472e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: New asphalt
+    second: {fileID: 2100000, guid: e98f10926cf09e9478f8c031551611c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oak Parquet Wood
+    second: {fileID: 2100000, guid: 86520941673610d4b9fd457140abca70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oak Wood
+    second: {fileID: 2100000, guid: 5bce33844406d1c42970b444c09fa9e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Painted Plaster Wall
+    second: {fileID: 2100000, guid: bf3ae072c9570b941abf64e97eb5d45d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pine Wood Planks
+    second: {fileID: 2100000, guid: ab6089865550cb34e98be9870b22f223, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plank wood
+    second: {fileID: 2100000, guid: 9dcf0c2297037264a937a55eb0615a9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic
+    second: {fileID: 2100000, guid: f2698175363c8354cbd29d1d8214bd9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Procedural Brown Leather
+    second: {fileID: 2100000, guid: 82876b83faadefd4d91a0f5550831f8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Procedural Grass
+    second: {fileID: 2100000, guid: 9029ef46d97f05145824e4fc88cf2404, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Procedural pearl blue painted plastic
+    second: {fileID: 2100000, guid: 0163fe58459ab7341925b8b6f75c4a98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Realistic ceramic with imperfections
+    second: {fileID: 2100000, guid: f55217123dee0294ea1fa3aecd6b4ef6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Reclaimed Oak Planks
+    second: {fileID: 2100000, guid: 4aea5f01ebeb3c140a126aa4c4f97bfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rough Granite Stone Wall
+    second: {fileID: 2100000, guid: cf9304d57dd9ac443bd7747e6bbb802f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scaned Stone Wall
+    second: {fileID: 2100000, guid: bd1f42d403eb3b64cad791c9ada2b7fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Silver steel
+    second: {fileID: 2100000, guid: 9a52a496b9ca625459cf741b9074c432, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone Brick Wall
+    second: {fileID: 2100000, guid: 6556c5c0b11732848b71ebee7da31945, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone Bricks
+    second: {fileID: 2100000, guid: 5a5d0e0917f9ac14586a24b59dcba216, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone Wall Natural
+    second: {fileID: 2100000, guid: 0d0387157707ef94d8068a6fb26ff70f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone tiles
+    second: {fileID: 2100000, guid: 9055e7a080e1a784d9680d349df3ed2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone wall
+    second: {fileID: 2100000, guid: 0ea4788db68ff7749a4211e2023b9c1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone wall.001
+    second: {fileID: 2100000, guid: 6fd163992ff829145898fff0760237ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stylized Grass
+    second: {fileID: 2100000, guid: c9073f170f7fff946bd4f6803360b2eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stylized Wood Planks
+    second: {fileID: 2100000, guid: d53235e6f79d3db499278913cfed9b3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sycamore Maple Satin varnished wood
+    second: {fileID: 2100000, guid: 98cf3842fc83c4f4b9a0494c2d174bec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Synthetic turf
+    second: {fileID: 2100000, guid: 712fde3c0fe969941bf926842137f434, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vertical stitched leather
+    second: {fileID: 2100000, guid: e3ce4adf56569ce49ba13900f4bc7adf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vertical wood slat
+    second: {fileID: 2100000, guid: 8f5699c0b3f74ac4988b86f0c7ac6a99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall made of large natural stones
+    second: {fileID: 2100000, guid: 66e14fae4b84b734c8ba35ef838b2a84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walnut Wood Plank Floor
+    second: {fileID: 2100000, guid: f52e4a525a593c74dbc51b5fdf9c8911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walnut wood
+    second: {fileID: 2100000, guid: a35bce75d58ede6438b25dec970dde67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White Ceramic Tiles
+    second: {fileID: 2100000, guid: de38ced306c75d04e92391fdb705f738, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White Painted Wood
+    second: {fileID: 2100000, guid: a9ca419599413434893c609177398c83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White Painted Wood.001
+    second: {fileID: 2100000, guid: 9cb5689477177c0418ad76db48762d3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White Square Tiles
+    second: {fileID: 2100000, guid: a7986a579b0560043b5349530050c6e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 179e55159effb034eb37e71dc6a1a9a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood 145
+    second: {fileID: 2100000, guid: adc180d732da82f4a9dd827b4e8cfe7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood 153
+    second: {fileID: 2100000, guid: 4b7456d5848a16746a4751b241468ecb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood Floor Faded Pine
+    second: {fileID: 2100000, guid: a6daa6b997d29854bb9f9ab2a4ce0989, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood Fluted Panel
+    second: {fileID: 2100000, guid: 3896e1b38b6cc8b4fb92acf736644ebd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood Oak Golden 01
+    second: {fileID: 2100000, guid: 75b634a6ae6e3a041852665ee24b2904, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood Parquet
+    second: {fileID: 2100000, guid: 8f1f6419a0cf191479f57c4f99a0f452, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood Planks
+    second: {fileID: 2100000, guid: c606405d5ea506949b4a4eca5586f358, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood Planks Light
+    second: {fileID: 2100000, guid: 244bff7049ccf5c48a2e112f9f61a528, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood Planks.001
+    second: {fileID: 2100000, guid: 59bf456368c201a4c8e36905d0840789, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood Smooth Planks
+    second: {fileID: 2100000, guid: 341799f1317389f42b0f684eeb0e7f32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood Strips
+    second: {fileID: 2100000, guid: 98178055792b9024a9c99c83a4e1c885, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood.001
+    second: {fileID: 2100000, guid: 2652b2000439b3b4983e5ff9c31e5b57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood.120
+    second: {fileID: 2100000, guid: f27457b0af2a07041b0fea34e875664b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wooden_planks
+    second: {fileID: 2100000, guid: a783b51c469fa884682fc2aec1ab933e, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+    searchTexturesGlobally: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    importUVs: -1
+    importVertexColors: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+    calculateBlendshapeNormalsDeltaFromImportedNormals: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

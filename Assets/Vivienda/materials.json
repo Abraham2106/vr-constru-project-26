@@ -1,0 +1,2112 @@
+{
+  "materials": [
+    {
+      "name": "Acoustic Ceiling Tile",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.06363636255264282,
+      "baseTexture": null,
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/5_AcousticCeiling325847_NormalMap_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "AR3DMat Architectural Clear Glass",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.4000000059604645,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "Beige Painted Plaster Wall",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/133_painted_plaster_wall_45_color_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": null
+    },
+    {
+      "name": "Black Ceiling",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/12_black_Ceiling_Drop_Tiles_001_Base_Color_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": null
+    },
+    {
+      "name": "Black matte metal",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/123_painted_metal_diffuse_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/127_painted_metal_normal_opengl_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Black steel",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/89_metal_black_diffuse_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/97_metal_normal_opengl_jpg_001.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Brown leather",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/84_leather04_diffuse_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/87_leather04_normal_opengl_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Brown Leather Fabric",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.4000000059604645,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "Brown Polished Oak Wood",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/17_Brown_Wood_Diffuse_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/293_Wood_Normal_2_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Brown wood",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/16_BROWN_WOOD_Color_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/19_BROWN_WOOD_NormalGL_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Ceramic Black Tiles English",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/27_Ceramic_Tiles_BaseColor_jpeg_001.jpeg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": null
+    },
+    {
+      "name": "Ceramic Gray Tile",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/1_36_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/115_normal_jpg_003.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Ceramic tiles",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.0,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/2_45_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/113_normal_jpg_001.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Ceramic Tiles (Floor Tiles)",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.4000000059604645,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "Concrete tiles",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/197_tiles07_diffuse_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/199_tiles07_normal_opengl_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Concrete tiles.001",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/202_tiles10_diffuse_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/204_tiles10_normal_opengl_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Dark Ceramic",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/207_tiling_22_basecolor-2K_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": null
+    },
+    {
+      "name": "Dark grey ceramic tiles",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.0,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/3_73_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/114_normal_jpg_002.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Frosted Glass",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.4000000059604645,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "Glass",
+      "color": [
+        0.6443073153495789,
+        0.619080126285553,
+        0.549913763999939,
+        1.0
+      ],
+      "metallic": 1.0,
+      "roughness": 0.5,
+      "baseTexture": null,
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/37_garage_floor_nor_gl_4k_jpg_001.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Glass.001",
+      "color": [
+        0.8549019694328308,
+        0.8901960849761963,
+        0.8784313797950745,
+        0.15000000596046448,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.4000000059604645,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "Grass",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.20000000298023224,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/53_grass-1_diffuse_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": null
+    },
+    {
+      "name": "Grass 01",
+      "color": [
+        0.052439138293266296,
+        0.2122303694486618,
+        0.0808408185839653,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.15000000596046448,
+      "roughness": 0.4000000059604645,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "Grass-Paving-Linear",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 1.0,
+      "baseTexture": null,
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/64_Grass-paving_Linear_normal_jpg_001.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Grass.001",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.20000000298023224,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/58_grass-8_diffuse_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": null
+    },
+    {
+      "name": "Gray Ceramic Tile",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/70_Gray_Ceramic_Floor_Tile_basecolor_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/72_Gray_Ceramic_Floor_Tile_normal_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Green grass or lawn",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "Large Floor Tiles",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/78_large_floor_tiles_02_diff_4k_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/80_large_floor_tiles_02_nor_4k_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Light",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.4000000059604645,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "Light Grey Ceramic Tiles",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.4000000059604645,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/74_grey_tiles_BaseColor_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/76_grey_tiles_Normal_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Light Maple Wood Floor",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "Meadow with grass and Rocks",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "MetalPanel05",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/101_MetalScrewlessSheet1k1Mx1M_Diffuse_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": null
+    },
+    {
+      "name": "Natural Stone Wall",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "Natural Wood Plank",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/214_Untitled_material_BaseColor_jpg_002.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/223_Untitled_material_Normal_jpg_002.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Natural Wooden Slat Panel",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/213_Untitled_material_BaseColor_jpg_001.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/222_Untitled_material_Normal_jpg_001.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Nature wall with gras",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/104_nature_wall_with_grass_Diffuse_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": null
+    },
+    {
+      "name": "New asphalt",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/7_asphalt05_diffuse_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/9_asphalt05_normal_opengl_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Oak Parquet Wood",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/285_Wood_Color_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/295_Wood_NormalGL_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Oak Wood",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/119_Oak_Wood_Color_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/121_Oak_Wood_NormalGL_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Painted Plaster Wall",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/129_painted_plaster_wall_19_color_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": null
+    },
+    {
+      "name": "Pine Wood Planks",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.4000000059604645,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "Plank wood",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/316_woodplank_48_BaseColor_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": null
+    },
+    {
+      "name": "Plastic",
+      "color": [
+        0.14514011144638062,
+        0.14514011144638062,
+        0.14514011144638062,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "Procedural Brown Leather",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.4000000059604645,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "Procedural Grass",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.4000000059604645,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "Procedural pearl blue painted plastic",
+      "color": [
+        0.008912352845072746,
+        0.0564546063542366,
+        0.16184934973716736,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "Realistic ceramic with imperfections",
+      "color": [
+        0.7577021718025208,
+        0.7577021718025208,
+        0.7577021718025208,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.059090904891490936,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "Reclaimed Oak Planks",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/149_Reclaimed_Oak_Planks_Color_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/152_Reclaimed_Oak_Planks_NormalGL_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Rough Granite Stone Wall",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/33_dry_riverbed_rock_diff_4k_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/35_dry_riverbed_rock_nor_gl_4k_exr.exr",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Scaned Stone Wall",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": null,
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/108_Normal.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          -0.33000001311302185,
+          0.7999999523162842
+        ]
+      }
+    },
+    {
+      "name": "Silver steel",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/98_metal_silver_diffuse_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/96_metal_normal_opengl_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Stone Brick Wall",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/212_Untitled_material_BaseColor_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/221_Untitled_material_Normal_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Stone Bricks",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.4000000059604645,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "Stone tiles",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/192_tiles04_diffuse_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/195_tiles04_normal_opengl_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Stone wall",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/169_stone_wall_BaseColor_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/173_stone_wall_Normal_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Stone Wall Natural",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/137_pavement-diffuse-1_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": null
+    },
+    {
+      "name": "Stone wall.001",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/170_stone_wall_BaseColor_jpg_001.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/174_stone_wall_Normal_jpg_001.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Stylized Grass",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 1.0,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/183_Stylized_HandpaintedGrass_02_basecolor_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/185_Stylized_HandpaintedGrass_02_normalogl_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Stylized Wood Planks",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "Sycamore Maple Satin varnished wood",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/187_Sycamore_Maple_Satin_varnished_wood_BaseColor_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/190_Sycamore_Maple_Satin_varnished_wood_Normal_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Synthetic turf",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/40_Grass_1_BaseColor_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/44_Grass_1_Normal_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Vertical stitched leather",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.927272617816925,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/228_vertical_channel_stitched_leather_diff_jpg.jpg",
+        "scale": [
+          2.0,
+          2.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": null
+    },
+    {
+      "name": "Vertical wood slat",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.0,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/0_141_png.png",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/118_normal_png.png",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Wall made of large natural stones",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "Walnut wood",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9409090280532837,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/234_walnut_wood_surface_diff_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": null
+    },
+    {
+      "name": "Walnut Wood Plank Floor",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "White Ceramic Tiles",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/244_White_Ceramic_Tiles_basecolor_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/246_White_Ceramic_Tiles_normal_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "White Painted Wood",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/239_White_Painted_WooD_Diffuse_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/294_Wood_Normal_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "White Painted Wood.001",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.4000000059604645,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "White Square Tiles",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/240_White_Square_Tiles_Color_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/242_White_Square_Tiles_NormalGL_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Wood",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/286_Wood_Color_jpg_001.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/296_Wood_NormalGL_jpg_001.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Wood 145",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "metallic": 0.37272727489471436,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/261_wood-145_diffuse_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": null
+    },
+    {
+      "name": "Wood 153",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "metallic": 0.37272727489471436,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/265_wood-153_diffuse_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": null
+    },
+    {
+      "name": "Wood Floor Faded Pine",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.4000000059604645,
+      "roughness": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "Wood Fluted Panel",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "Wood Oak Golden 01",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/301_Wood_veneer_01_BaseColor-2048x2048_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/303_Wood_veneer_01_Normal-2048x2048_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Wood Parquet",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/313_woodparquet_67_BaseColor-2K_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": null
+    },
+    {
+      "name": "Wood Planks",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/320_WoodPlanks02_BaseColor_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/323_WoodPlanks02_Normal_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Wood Planks Light",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.4000000059604645,
+      "roughness": 0.5,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "Wood Planks.001",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.4000000059604645,
+      "roughness": 0.5,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "Wood Smooth Planks",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.30000001192092896,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/305_wooden-planks-4_diffuse_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/307_wooden-planks-4_normal_jpg.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Wood Strips",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/281_wood-94_diffuse_jpg.jpg",
+        "scale": [
+          3.0,
+          3.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": null
+    },
+    {
+      "name": "Wood.001",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/145_Plane_Bake1_PBR_Diffuse_jpg_001.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/147_Plane_Bake1_PBR_Normal_jpg_001.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Wood.120",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/273_wood-5-dark_diffuse_jpg.jpg",
+        "scale": [
+          3.0,
+          3.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": null
+    },
+    {
+      "name": "wooden_planks",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "baseTexture": {
+        "path": "Assets/Vivienda/Textures/309_wooden_planks_diff_8k_png.jpg",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      },
+      "normalTexture": {
+        "path": "Assets/Vivienda/Textures/311_wooden_planks_nor_gl_8k_png.exr",
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "offset": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+# Agente 1 — log mallas (2026-10-18 04:28:35)
+- Lock editor adquirido (Agente1-ModeloMateriales).
+- Import FBX: ajustes ya correctos.
+- Prefab Vivienda desempaquetado (Completely) para jerarquía/colliders.
+- Orientación raíz Vivienda: identidad (Y-up OK).
+- Escala puerta `door-trustile_doors-tmir6000 30" x 80" [521723].001`: 0.97×2.13×0.21 m (objetivo ~0.9×2.1).
+- Escala puerta `door-trustile_doors-tmir6000 30" x 80" [666085].001`: 0.97×2.13×0.21 m (objetivo ~0.9×2.1).
+- Escala puerta `door-trustile_doors-tmir6000 32" x 84" 2 [521856].001`: 1.02×2.24×0.21 m (objetivo ~0.9×2.1).
+- Jerarquía: 178 renderers, Piso1=76, Piso2=84, Exterior=7.
+- Apt1=6, Apt2=5, missingMesh=0.
+- Contenedor Colliders creado (colliders en objetos fuente).
+- Placeholders: puertas=9, ventanas=2 (Marco/Hoja/Manija o Cristal).
+- Colliders: Box=158, MeshConvex=14, omitidos=0.
+- Escaleras: rampa BoxCollider `Escaleras_Rampa_PROV` (aprox. walkable).
+- Materiales: renderers=178, null=0, errorShader=0, reparados=0.
+- Captura: Assets/_Project/Docs/Reports/captures\exterior_fachada.png
+- Captura: Assets/_Project/Docs/Reports/captures\apt1_sala.png
+- Captura: Assets/_Project/Docs/Reports/captures\apt1_cocina.png
+- Captura: Assets/_Project/Docs/Reports/captures\apt2_planta.png
+- Captura: Assets/_Project/Docs/Reports/captures\escaleras.png

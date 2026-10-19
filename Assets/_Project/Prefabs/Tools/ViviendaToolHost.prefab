@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1795699959549510656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3440676464384264810}
+  m_Layer: 0
+  m_Name: RightControllerRay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3440676464384264810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795699959549510656}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.15, y: 1.4, z: 0.35}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2676594681847297649}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2297264332478425607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2676594681847297649}
+  - component: {fileID: 29983438449822431}
+  - component: {fileID: 5313788597726506859}
+  - component: {fileID: 2815480332191632126}
+  - component: {fileID: 5444879055759957897}
+  m_Layer: 0
+  m_Name: ViviendaToolHost
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2676594681847297649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2297264332478425607}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3440676464384264810}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &29983438449822431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2297264332478425607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073b018ac10601a40ad2dc5505acc4f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProyectoVR.Runtime::Vivienda.Tools.ViviendaToolHost
+  rightControllerRay: {fileID: 3440676464384264810}
+  raycastMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  measureTool: {fileID: 2815480332191632126}
+  wallPaintTool: {fileID: 5444879055759957897}
+  allowKeyboardFallback: 1
+  simulateTriggerKey: 32
+  simulateSecondaryKey: 306
+--- !u!114 &5313788597726506859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2297264332478425607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1380fec1596f0e49ac0aed024619baa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProyectoVR.Runtime::Vivienda.Tools.ViviendaToolEventBridge
+--- !u!114 &2815480332191632126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2297264332478425607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c84bcb1d3999854b9e2d88345aef6ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProyectoVR.Runtime::Vivienda.Tools.MeasureTool
+  lineMaterial: {fileID: 0}
+  lineWidth: 0.008
+  lineColor: {r: 1, g: 0.85, b: 0.1, a: 1}
+  labelScale: 0.004
+--- !u!114 &5444879055759957897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2297264332478425607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59def9d00f203d34ca9203074ed210fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProyectoVR.Runtime::Vivienda.Tools.WallPaintTool
+  palette: {fileID: 11400000, guid: 41c566338489b2b46acb4bee25971cb5, type: 2}
+  selectedColorIndex: 0

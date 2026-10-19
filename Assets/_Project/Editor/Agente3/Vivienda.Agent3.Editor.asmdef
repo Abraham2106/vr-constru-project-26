@@ -1,0 +1,20 @@
+{
+    "name": "Vivienda.Agent3.Editor",
+    "rootNamespace": "Vivienda.Project.Agent3",
+    "references": [
+        "ProyectoVR.Runtime",
+        "Unity.InputSystem",
+        "Unity.XR.Interaction.Toolkit"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

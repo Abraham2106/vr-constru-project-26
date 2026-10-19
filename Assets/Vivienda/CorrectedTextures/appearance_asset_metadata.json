@@ -1,0 +1,41 @@
+{
+  "grass_uv_affine": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      4.747221990433189,
+      1.5696762002233298,
+      0.0
+    ],
+    [
+      -1.5696762002233298,
+      4.747221990433189,
+      0.0
+    ]
+  ],
+  "grass_normal_image": "Grass_normal.jpg.001",
+  "grass_normal_strength": 0.75,
+  "maps": [
+    {
+      "material": "Stone wall.001",
+      "roughness": "stone wall_Roughness.jpg.001",
+      "file": "C:\\Users\\solan\\Documents\\Codex\\2026-10-18\\c\\work\\appearance_assets\\StoneWall_MetallicSmoothness.png"
+    },
+    {
+      "material": "MetalPanel05",
+      "roughness": "MetalScrewlessSheet1k1Mx1M Roughness.jpg",
+      "file": "C:\\Users\\solan\\Documents\\Codex\\2026-10-18\\c\\work\\appearance_assets\\MetalPanel05_MetallicSmoothness.png"
+    }
+  ],
+  "grass_roughness_range": [
+    0.4392157196998596,
+    0.6313725709915161
+  ],
+  "grass_metallic_range": [
+    0.15294118225574493,
+    0.15294118225574493
+  ]
+}
