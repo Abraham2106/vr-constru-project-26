@@ -24,7 +24,7 @@ La navegación utiliza los componentes nativos de XRI: Locomotion Mediator, XR B
 
 En escritorio: **WASD** para caminar, **botón derecho mantenido** para mirar, **E** para interactuar, **M** para abrir el menú y **Espacio** para utilizar la herramienta seleccionada.
 
-Para probar con mandos simulados, seleccionar **Vivienda → XR → Modo simulador XR** antes de Play. Para volver al recorrido con teclado y ratón, seleccionar **Modo escritorio**. El simulador oficial se excluye de las builds.
+Para probar con mandos simulados, seleccionar **Vivienda → XR → Modo simulador XR** antes de Play. **WASD** camina mediante locomoción nativa y **Esc** abre o cierra el menú de la vivienda. **Shift + IJKL** simula el joystick izquierdo; **G/T** simulan agarre/gatillo del mando derecho. **Y** despliega el selector de dispositivos y **X** muestra las acciones fuera del modo FPS. Para volver al recorrido con teclado y ratón, seleccionar **Modo escritorio**. El simulador oficial se excluye de las builds.
 
 Para probar un visor conectado al PC, seleccionar **Modo visor conectado**. La versión Android inicia XR automáticamente.
 

@@ -37,12 +37,38 @@ public static class NativeXrSetup
         JourneyGeometry.EnsureFolder(Folder + "/References");
         string path = Folder + "/Vivienda.inputactions";
         var asset = AssetDatabase.LoadAssetAtPath<InputActionAsset>(path);
-        if (asset != null) return asset;
+        if (asset != null)
+        {
+            var map = asset.FindActionMap("Locomotion", true);
+            bool changed = false;
+            for (int i = 0; i < map.bindings.Count; i++)
+            {
+                var binding = map.bindings[i];
+                if (binding.action == "Move" && binding.groups == "Desktop")
+                {
+                    binding.groups = "Desktop;Simulator";
+                    map.ChangeBinding(i).To(binding);
+                    changed = true;
+                }
+            }
+            var menuAction = asset.FindAction("UI/ToggleMenu", true);
+            if (!menuAction.bindings.Any(binding => binding.groups == "Simulator"))
+            {
+                menuAction.AddBinding("<Keyboard>/escape", groups: "Simulator");
+                changed = true;
+            }
+            if (changed)
+            {
+                File.WriteAllText(path, asset.ToJson());
+                AssetDatabase.ImportAsset(path, ImportAssetOptions.ForceSynchronousImport);
+            }
+            return AssetDatabase.LoadAssetAtPath<InputActionAsset>(path);
+        }
         asset = ScriptableObject.CreateInstance<InputActionAsset>();
         var locomotion = asset.AddActionMap("Locomotion");
         var move = locomotion.AddAction("Move", InputActionType.Value, expectedControlLayout: "Vector2");
         move.AddBinding("<XRController>{LeftHand}/primary2DAxis", groups: "XR");
-        move.AddCompositeBinding("2DVector").With("Up", "<Keyboard>/w", "Desktop").With("Down", "<Keyboard>/s", "Desktop").With("Left", "<Keyboard>/a", "Desktop").With("Right", "<Keyboard>/d", "Desktop");
+        move.AddCompositeBinding("2DVector").With("Up", "<Keyboard>/w", "Desktop;Simulator").With("Down", "<Keyboard>/s", "Desktop;Simulator").With("Left", "<Keyboard>/a", "Desktop;Simulator").With("Right", "<Keyboard>/d", "Desktop;Simulator");
         var turn = locomotion.AddAction("Turn", InputActionType.Value, expectedControlLayout: "Vector2");
         turn.AddBinding("<XRController>{RightHand}/primary2DAxis", groups: "XR");
         var ui = asset.AddActionMap("UI");
@@ -51,6 +77,7 @@ public static class NativeXrSetup
         menu.AddBinding("<XRController>{LeftHand}/menuButton", groups: "XR");
         menu.AddBinding("<Keyboard>/m", groups: "Desktop");
         menu.AddBinding("<Keyboard>/escape", groups: "Desktop");
+        menu.AddBinding("<Keyboard>/escape", groups: "Simulator");
         var tools = asset.AddActionMap("Tools");
         var trigger = tools.AddAction("Trigger", InputActionType.Button);
         trigger.AddBinding("<XRController>{RightHand}/{TriggerButton}", groups: "XR");
@@ -135,6 +162,16 @@ public static class NativeXrSetup
             provider.enabled = active;
             if (active) { provider.gameObject.SetActive(true); provider.mediator = mediator; }
             EditorUtility.SetDirty(provider);
+        }
+        var stairRamp = UnityEngine.Object.FindObjectsByType<BoxCollider>().FirstOrDefault(c => c.name == "Escaleras_Rampa_PROV");
+        if (stairRamp != null && stairRamp.enabled)
+        {
+            // A continuous collision surface avoids a head-height step on every visible tread.
+            foreach (var tread in UnityEngine.Object.FindObjectsByType<Collider>().Where(c => c.name.StartsWith("Suelo Escaleras")))
+            {
+                tread.enabled = false;
+                EditorUtility.SetDirty(tread);
+            }
         }
         move.moveSpeed = 1.4f;
         move.inAirControlModifier = 1;

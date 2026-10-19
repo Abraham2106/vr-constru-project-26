@@ -58,7 +58,7 @@ namespace ProyectoVR.UI
    MakeButton("Restaurar",mainPanel.transform,"Restaurar paredes",new Vector2(340,-125),new Vector2(300,65),()=>{PlayClick();ViviendaToolHost.Instance?.WallPaint?.RestoreAllPainted();});
    status=Text("Estado",mainPanel.transform,"Acercate a las manijas o apunta con el mando.",23,new Vector2(1000,75),new Vector2(0,-215),new Color(.7f,.86f,.9f));
    MakeButton("Continuar",mainPanel.transform,"Continuar recorrido",new Vector2(0,-285),new Vector2(900,70),Close,new Color(.08f,.45f,.49f));
-   Text("Controles",mainPanel.transform,"Y/Menu: panel | Grip: puertas | Gatillo: botones\nPC: M, WASD, E y Espacio | Mantener clic derecho: mirar",19,new Vector2(1040,55),new Vector2(0,-350),new Color(.7f,.8f,.84f));
+   Text("Controles",mainPanel.transform,"Visor: Y/Menu: panel | Grip: puertas | Gatillo: botones\nEscritorio: M/Esc, WASD, E y Espacio | Clic derecho: mirar\nSimulador: WASD camina | Esc: menu vivienda | G/T: agarre/gatillo",18,new Vector2(1040,66),new Vector2(0,-342),new Color(.7f,.8f,.84f));
    palettePanel=Rect("Paleta",root,new Vector2(1080,760),Vector2.zero).gameObject;
    Text("Title",palettePanel.transform,"ELIGE UN COLOR",38,new Vector2(1000,80),new Vector2(0,315),Color.white);
    Text("Help",palettePanel.transform,"Elige un color. Apunta a una pared y pulsa Gatillo / Espacio.",23,new Vector2(1000,75),new Vector2(0,250),Color.white);

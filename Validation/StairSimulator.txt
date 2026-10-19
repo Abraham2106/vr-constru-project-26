@@ -1,0 +1,8 @@
+Escaleras: XR Interaction Simulator, eje izquierdo mediante lector nativo; WASD mediante teclado simulado.
+PASS Subida completa por joystick del simulador (4.11, 3.00, 3.69)
+PASS Salida al descanso superior (3.45, 3.00, 3.69)
+PASS Bajada completa por joystick del simulador (4.11, 0.00, 8.91)
+PASS WASD mueve el cuerpo por locomocion nativa
+PASS WASD no desplaza el visor dentro de la capsula
+PASS Errores Play=0
+Fallos=0

@@ -1,0 +1,24 @@
+PASS Acoustic Ceiling Tile: URP Specular; RGB=F0; alpha=smoothness; mapa lineal.
+PASS Beige Painted Plaster Wall: URP Specular; RGB=F0; alpha=smoothness; mapa lineal.
+PASS Black Ceiling: URP Specular; RGB=F0; alpha=smoothness; mapa lineal.
+PASS Black steel: URP Specular; RGB=F0; alpha=smoothness; mapa lineal.
+PASS Brown Polished Oak Wood: URP Specular; RGB=F0; alpha=smoothness; mapa lineal.
+PASS Ceramic Black Tiles English: URP Specular; RGB=F0; alpha=smoothness; mapa lineal.
+PASS Ceramic Black Tiles English_172746: URP Specular; RGB=F0; alpha=smoothness; mapa lineal.
+PASS Ceramic Tiles (Floor Tiles)_172746: URP Specular; RGB=F0; alpha=smoothness; mapa lineal.
+PASS Ceramic Tiles (Floor Tiles)_174640: URP Specular; RGB=F0; alpha=smoothness; mapa lineal.
+PASS Concrete tiles.001: URP Specular; RGB=F0; alpha=smoothness; mapa lineal.
+PASS Concrete tiles: URP Specular; RGB=F0; alpha=smoothness; mapa lineal.
+PASS Glass.001: URP Specular; RGB=F0; alpha=smoothness; mapa lineal.
+PASS Gray Ceramic Tile_174640: URP Specular; RGB=F0; alpha=smoothness; mapa lineal.
+PASS MetalPanel05: URP Specular; RGB=F0; alpha=smoothness; mapa lineal.
+PASS Natural Wooden Slat Panel: URP Specular; RGB=F0; alpha=smoothness; mapa lineal.
+PASS New asphalt: URP Specular; RGB=F0; alpha=smoothness; mapa lineal.
+PASS Plastic: URP Specular; RGB=F0; alpha=smoothness; mapa lineal.
+PASS Stone wall.001: URP Specular; RGB=F0; alpha=smoothness; mapa lineal.
+PASS Walnut wood: URP Specular; RGB=F0; alpha=smoothness; mapa lineal.
+PASS Wood: URP Specular; RGB=F0; alpha=smoothness; mapa lineal.
+PASS ExteriorGround_Day: tile de 1m; UV/m=16.404; tiling=(0.06096, 0.06096)
+PASS ExteriorGround_Day: metallic/smoothness horneado; mipmaps, filtro trilineal y anisotropia 4x.
+Materiales especulares reparados=20
+Bakes existentes conservados; no se añade iluminacion a los albedos.

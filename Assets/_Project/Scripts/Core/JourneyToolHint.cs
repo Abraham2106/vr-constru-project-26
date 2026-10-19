@@ -27,8 +27,8 @@ namespace ProyectoVR {
    canvas.gameObject.SetActive(host!=null&&host.ActiveToolId!=ViviendaToolIds.None&&!VrWorldMenuController.AnyMenuVisible);
    if(!canvas.gameObject.activeSelf)return;pointer.SetActive(DesktopPreview.IsActive);
    string value;
-   if(host.ActiveToolId==ViviendaToolIds.Measure)value=host.Measure.HasPendingPoint?"Marca el punto B | Gatillo / Espacio":"Medir: marca el punto A | Gatillo / Espacio";
-   else {var paint=host.WallPaint;value="Pintar: "+(paint!=null&&paint.Palette!=null?paint.Palette.GetDisplayName(paint.SelectedColorIndex):"elige un color en el menu")+" | Gatillo / Espacio";}
+   if(host.ActiveToolId==ViviendaToolIds.Measure)value=host.Measure.HasPendingPoint?"Marca el punto B | Gatillo / Espacio (escritorio)":"Medir: marca el punto A | Gatillo / Espacio (escritorio)";
+   else {var paint=host.WallPaint;value="Pintar: "+(paint!=null&&paint.Palette!=null?paint.Palette.GetDisplayName(paint.SelectedColorIndex):"elige un color en el menu")+" | Gatillo / Espacio (escritorio)";}
    if(value!=previous){text.text=value;previous=value;}
   }
  }

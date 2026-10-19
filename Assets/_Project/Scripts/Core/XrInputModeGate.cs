@@ -25,7 +25,9 @@ namespace ProyectoVR.Core
             if (desktopMode != DesktopPreview.IsActive)
             {
                 desktopMode = DesktopPreview.IsActive;
-                actions.bindingMask = InputBinding.MaskByGroup(desktopMode.Value ? "Desktop" : "XR");
+                actions.bindingMask = desktopMode.Value ? InputBinding.MaskByGroup("Desktop")
+                    : DesktopPreview.IsSimulatorActive ? InputBinding.MaskByGroups("XR", "Simulator")
+                    : InputBinding.MaskByGroup("XR");
             }
             SetEnabled(locomotion, !VrWorldMenuController.AnyMenuVisible && (fade == null || !fade.IsFading));
             SetEnabled(desktop, DesktopPreview.IsActive);

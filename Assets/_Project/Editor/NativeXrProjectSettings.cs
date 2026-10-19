@@ -10,6 +10,7 @@ using UnityEngine.Rendering.Universal;
 using UnityEngine.XR.OpenXR;
 using UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation;
 using Unity.XR.CoreUtils;
+using UnityEngine.XR.Interaction.Toolkit.Inputs.Readers;
 using ProyectoVR;
 
 public static class NativeXrProjectSettings
@@ -30,7 +31,15 @@ public static class NativeXrProjectSettings
         var so = new SerializedObject(preview);
         so.FindProperty("mode").enumValueIndex = (int)mode;
         so.ApplyModifiedPropertiesWithoutUndo();
-        foreach (var device in Object.FindObjectsByType<XRInteractionSimulator>(FindObjectsInactive.Include)) device.gameObject.SetActive(mode == DesktopPreview.PreviewMode.XRSimulator);
+        foreach (var device in Object.FindObjectsByType<XRInteractionSimulator>(FindObjectsInactive.Include))
+        {
+            device.gameObject.SetActive(mode == DesktopPreview.PreviewMode.XRSimulator);
+            // Walk through XRI locomotion instead of translating the tracked head into colliders.
+            device.translateXInput.inputSourceMode = XRInputValueReader.InputSourceMode.Unused;
+            device.translateYInput.inputSourceMode = XRInputValueReader.InputSourceMode.Unused;
+            device.translateZInput.inputSourceMode = XRInputValueReader.InputSourceMode.Unused;
+            EditorUtility.SetDirty(device);
+        }
         var desktopSettings = XRGeneralSettingsPerBuildTarget.XRGeneralSettingsForBuildTarget(BuildTargetGroup.Standalone);
         if (desktopSettings != null)
         {

@@ -13,6 +13,7 @@ namespace ProyectoVR
     public class DesktopPreview : MonoBehaviour
     {
         public static bool IsActive { get; private set; }
+        public static bool IsSimulatorActive { get; private set; }
         public enum PreviewMode { Desktop, XRSimulator, Headset }
         [SerializeField] PreviewMode mode;
         [SerializeField] InputActionReference lookAction;
@@ -26,6 +27,7 @@ namespace ProyectoVR
             origin = GetComponent<XROrigin>();
 #if UNITY_EDITOR || UNITY_STANDALONE
             IsActive = mode == PreviewMode.Desktop;
+            IsSimulatorActive = mode == PreviewMode.XRSimulator;
             if (IsActive && origin.Camera != null)
             {
                 foreach (var simulator in FindObjectsByType<XRInteractionSimulator>(FindObjectsInactive.Include))
@@ -40,6 +42,7 @@ namespace ProyectoVR
             }
 #else
             IsActive = false;
+            IsSimulatorActive = false;
 #endif
         }
 
@@ -61,6 +64,7 @@ namespace ProyectoVR
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
             IsActive = false;
+            IsSimulatorActive = false;
         }
     }
 }

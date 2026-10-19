@@ -1,0 +1,10 @@
+{
+  "source": "Untitled.blend (saved source snapshot)",
+  "images": 324,
+  "packedImages": 324,
+  "missingUnpackedImages": [],
+  "materials": 86,
+  "unityRepair": "Restore URP Specular workflow and native map keywords for existing channel bakes; reconnect grass Metallic/Smoothness bake.",
+  "newBakeRequired": false,
+  "reason": "All source images are packed and the existing PBR bakes are present. The defect was their URP material setup."
+}
