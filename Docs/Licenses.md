@@ -1,4 +1,4 @@
-# Licencias de audio — Agente 3
+# Licencias de audio
 
 | Asset | Origen | Licencia |
 |-------|--------|----------|

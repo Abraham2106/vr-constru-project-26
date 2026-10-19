@@ -1,9 +1,0 @@
-{
-  "timestamp": "2026-10-18T04:28:56.1550785-06:00",
-  "sandboxScene": "Assets/_Project/Scenes/_Sandbox/XR.unity",
-  "rigPrefab": "Assets/_Project/Prefabs/Rig/ProyectoVR_XR_Rig.prefab",
-  "menuPrefab": "Assets/_Project/Prefabs/UI/VrWorldMenu.prefab",
-  "sandboxExists": true,
-  "rigExists": true,
-  "menuExists": true
-}

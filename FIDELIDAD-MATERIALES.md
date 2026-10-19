@@ -1,8 +1,8 @@
 # Fidelidad de materiales Blender → Unity
 
-Se completaron canales PBR de **20 sets correspondientes a 18 materiales fuente**, dentro de `Assets/Vivienda/Fidelity/`. Este alcance excluye Grass 01 —trabajado por el otro agente— y los dos materiales constantes autorizados Microcemento mate y Blanco mate. Walnut wood conserva su identidad y las 24 asignaciones autorizadas, ahora con sus canales fuente.
+Se completaron canales PBR de **20 sets correspondientes a 18 materiales fuente**, dentro de `Assets/Vivienda/Fidelity/`. Este alcance excluye Grass 01 —tratado por separado— y los dos materiales constantes autorizados Microcemento mate y Blanco mate. Walnut wood conserva su identidad y las 24 asignaciones autorizadas, ahora con sus canales fuente.
 
-Los 16 clones generales —incluidos vidrio y nogal— se aplicaron y guardaron en `Assets/Scenes/Vivienda_Prueba.unity`. Los cuatro materiales de atlas de los dos suelos quedaron creados, importados y entregados al agente responsable de UV/submeshes, para asignarlos junto con la restauración de sus dos slots. Este informe acredita materiales y canales; la comprobación posterior de esa asignación y la revisión visual global se realizan en la pasada final del proyecto. La escena principal y los materiales originales no fueron modificados por esta pasada.
+Los 16 clones generales —incluidos vidrio y nogal— se aplicaron y guardaron en `Assets/Scenes/Vivienda_Prueba.unity`. Los cuatro materiales de atlas de los dos suelos quedaron creados, importados y preparados para el ajuste de UV/submeshes, para asignarlos junto con la restauración de sus dos slots. Este informe acredita materiales y canales; la comprobación posterior de esa asignación y la revisión visual global se realizan en la pasada final del proyecto. La escena principal y los materiales originales no fueron modificados por esta pasada.
 
 ## Fuente y diagnóstico
 
@@ -75,7 +75,7 @@ Se prepararon cuatro materiales:
 | Suelo Piso 1 [174640] | 0 | Ceramic Tiles (Floor Tiles)_174640.mat |
 | Suelo Piso 1 [174640] | 1 | Gray Ceramic Tile_174640.mat |
 
-Cada atlas usa 2048 × 2048, padding de horneado de 8 píxeles y margen de islas 0.015. Se verificaron UV dentro de [0,1], no degenerados. Los JSON contienen posición y normal por loop, UV originales, UV atlas, polígonos, triangulación y material fuente. El agente de UV reconstruye los clones Unity conservando superficies y geometría; este agente no modificó los meshes Unity.
+Cada atlas usa 2048 × 2048, padding de horneado de 8 píxeles y margen de islas 0.015. Se verificaron UV dentro de [0,1], no degenerados. Los JSON contienen posición y normal por loop, UV originales, UV atlas, polígonos, triangulación y material fuente. La reconstrucción de los clones Unity a partir de las UV conserva las superficies y la geometría; esta etapa de preparación de materiales no modificó las mallas de Unity.
 
 ## Vidrio: aproximación explícita
 
@@ -87,7 +87,7 @@ El clon usa Transparent premultiplicado, alpha 0.5 inspirado en el Mix final de 
 
 - Se importaron **46 texturas nuevas requeridas**: 20 SpecGloss, 18 normales y 8 diffuse/base. Los albedos tienen sRGB activado; SpecGloss y normales se importan como datos lineales.
 - Los PNG generados son RGBA de **16 bits por canal**, verificado en la cabecera IHDR. La importación Unity está sin compresión con selección automática del formato: esto no garantiza 16 bits efectivos por canal en GPU.
-- Los albedos evaluados de estos sets tenían máximo ≤ 1; no se detectó pérdida HDR en ellos. Grass 01 tiene un tratamiento HDR separado por el otro agente.
+- Los albedos evaluados de estos sets tenían máximo ≤ 1; no se detectó pérdida HDR en ellos. Grass 01 tiene un tratamiento HDR independiente.
 - Los mapas generales son 1024² y los atlas 2048². El detalle por encima de esas resoluciones puede diferir de las imágenes fuente.
 - La conversión no mueve vértices ni reproduce desplazamiento real del material. Las ramas Displacement no se convierten en nueva geometría. El bump tangente no sustituye desplazamiento geométrico.
 - Se restauran canales y coordenadas, pero iluminación, gestión de color, entorno, refracción, BRDF y evaluación procedural del motor también influyen en la apariencia. La revisión visual final debe considerar el conjunto.
@@ -99,4 +99,3 @@ Se verificó el shader instalado mediante `Shader.Find` e `isSupported`, y se co
 La comprobación reproducible `work/fidelity/verify_channel_contract.ps1` pasó: 20 rutas de materiales distintas, 18 nombres fuente, mapas requeridos presentes, todos los materiales de destino bajo Fidelity y dos atlas con datos de pertenencia y UV válidos.
 
 La evidencia técnica queda en `work/fidelity/`: `channel_nodes.json`, `source_nodes.json`, `channels/manifest.json`, `material_channel_mapping.json`, los scripts de bake, `apply_channel_materials.cs.txt`, `apply_atlas_materials.cs.txt` y `atlas_material_application_evidence.json`. Los sets auxiliares no destinados al proyecto permanecen solo en work y no se importaron.
-
