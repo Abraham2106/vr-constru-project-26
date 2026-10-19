@@ -67,7 +67,7 @@ public static class ArchitecturalVisualQuality
             color = profile.Add<ColorAdjustments>(true);
             AssetDatabase.AddObjectToAsset(color, profile);
         }
-        color.postExposure.Override(0);
+        color.postExposure.Override(.65f);
         color.contrast.Override(4);
         color.saturation.Override(-3);
         volume.sharedProfile = profile;

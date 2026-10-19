@@ -32,8 +32,10 @@ La configuración Android utiliza ARM64, IL2CPP y OpenXR Single Pass Instanced. 
 
 La validación con un visor Meta Quest está pendiente.
 
-Consultar el [plan de calidad visual](Docs/CalidadVisual-VR.md) y su [versión PDF](Docs/CalidadVisual-VR.pdf), con referencias profesionales y mejoras propuestas.
+Consultar la [preparación visual y mantenimiento](Docs/Presentacion-Arquitectonica.md). El [informe inicial](Docs/CalidadVisual-VR.pdf) recoge las referencias y el diagnóstico previo a la implementación de iluminación indirecta y ambientación.
 
 ## Licencias
 
 Consultar [licencias de audio](Docs/Licenses.md).
+
+Vegetación: [Potted Plant 02, Poly Haven, CC0](Assets/_Project/Art/Presentation/Vegetation/ATTRIBUTION.md).

@@ -1,0 +1,2 @@
+PASS scene reload restores day lightmaps and light probes
+C# editor compilation errors=False

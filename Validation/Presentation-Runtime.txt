@@ -1,0 +1,12 @@
+PASS Day/night baked data present
+PASS Day native lightmaps assigned
+Day maps=2; Night maps=2; Receivers=250; Probes=125
+PASS Source material partitions 718428
+PASS Source material partitions 693623
+PASS Source material partitions 718694
+PASS TP_Piso1 clear of furniture collisions
+PASS TP_Piso2 clear of furniture collisions
+PASS Night native lightmaps assigned after environment event
+PASS Night reflection cubemaps assigned
+PASS Return to day restores native maps
+Play errors=0

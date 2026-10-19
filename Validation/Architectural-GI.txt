@@ -1,0 +1,7 @@
+PASS native Progressive CPU bake
+Day lightmaps=2
+Night lightmaps=2
+Receivers=250
+Light probes=125
+Directional lightmaps; 14 texels/m; 4 bounces; AO indirect 0.25m.
+Room switches remain realtime.

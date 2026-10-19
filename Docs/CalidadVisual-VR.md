@@ -1,5 +1,7 @@
 # Calidad visual para una vivienda en realidad virtual
 
+> Informe inicial, anterior a la implementación de iluminación indirecta y ambientación. Consultar el [estado actualizado](Presentacion-Arquitectonica.md).
+
 Fecha: 19 octubre 2026. Unity 6.5 / URP / OpenXR / Meta Quest.
 
 ## Objetivo
