@@ -1,0 +1,4 @@
+PASS Assets/_Project/Settings/Visualizacion/Reflections/Piso1_Dia.exr: cubemap HDR 128; bake nativo.
+PASS Assets/_Project/Settings/Visualizacion/Reflections/Piso1_Noche.exr: cubemap HDR 128; bake nativo.
+PASS Assets/_Project/Settings/Visualizacion/Reflections/Piso2_Dia.exr: cubemap HDR 128; bake nativo.
+PASS Assets/_Project/Settings/Visualizacion/Reflections/Piso2_Noche.exr: cubemap HDR 128; bake nativo.

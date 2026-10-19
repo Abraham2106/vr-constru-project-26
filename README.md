@@ -32,6 +32,8 @@ La configuración Android utiliza ARM64, IL2CPP y OpenXR Single Pass Instanced. 
 
 La validación con un visor Meta Quest está pendiente.
 
+Consultar el [plan de calidad visual](Docs/CalidadVisual-VR.md) y su [versión PDF](Docs/CalidadVisual-VR.pdf), con referencias profesionales y mejoras propuestas.
+
 ## Licencias
 
 Consultar [licencias de audio](Docs/Licenses.md).

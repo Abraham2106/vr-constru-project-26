@@ -1,0 +1,19 @@
+{
+    "colorSpace": "Linear",
+    "nearClip": 0.05000000074505806,
+    "farClip": 80.0,
+    "renderScale": 1.0,
+    "msaa": 4,
+    "reflectionProbes": 2,
+    "bakedCubemaps": 4,
+    "fixtureBindings": 12,
+    "filteredTextures": 61,
+    "postProcessing": true,
+    "boxProjection": true,
+    "fixtureEmission": true,
+    "volumeEffects": [
+        "Tonemapping",
+        "ColorAdjustments"
+    ],
+    "rendererFeatures": []
+}

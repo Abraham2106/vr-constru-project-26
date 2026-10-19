@@ -1,0 +1,6 @@
+Errores Play=0
+Reflejos dia=Piso1_Dia, Piso2_Dia
+Reflejos noche=Piso1_Noche, Piso2_Noche
+Plafones emisivos encendidos=4
+Camara=0.05..80m
+Dia/noche exterior e interior capturados.

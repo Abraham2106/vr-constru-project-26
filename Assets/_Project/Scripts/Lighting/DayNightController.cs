@@ -46,6 +46,16 @@ namespace ProyectoVR
             skyboxTint = new Color(0.25f, 0.3f, 0.45f)
         };
 
+        [Serializable]
+        public sealed class ReflectionScenario
+        {
+            public ReflectionProbe probe;
+            public Cubemap day;
+            public Cubemap night;
+        }
+
+        [SerializeField] ReflectionScenario[] reflectionScenarios = Array.Empty<ReflectionScenario>();
+
         [SerializeField] Light[] exteriorNightLights = Array.Empty<Light>();
         [SerializeField] float blendDuration = 4.5f;
 
@@ -77,6 +87,7 @@ namespace ProyectoVR
             }
             ApplySnapshot(day, 1f);
             SetExteriorNightLights(false);
+            ApplyReflections(false);
         }
 
         void OnEnable() => EnvironmentCycleEvents.OnSetNightMode += HandleEnvironmentRequest;
@@ -96,7 +107,7 @@ namespace ProyectoVR
 
         void HandleEnvironmentRequest(bool isNight) => BlendTo(isNight);
 
-        /// <summary>Invocable desde menú (Agente 2) vía EnvironmentCycleEvents o directo.</summary>
+        /// <summary>Invocable desde el menu mediante EnvironmentCycleEvents o directamente.</summary>
         public void SetDayNight(bool isNight) => BlendTo(isNight);
 
         public void StartDay() => BlendTo(false);
@@ -130,6 +141,7 @@ namespace ProyectoVR
 
             ApplySnapshot(to, 1f);
             SetExteriorNightLights(night);
+            ApplyReflections(night);
 
             if (night)
                 OnNightStarted?.Invoke();
@@ -205,6 +217,18 @@ namespace ProyectoVR
                     skyboxMaterial.SetFloat("_Exposure", s.skyboxExposure);
                 if (skyboxMaterial.HasProperty("_SkyTint"))
                     skyboxMaterial.SetColor("_SkyTint", s.skyboxTint);
+            }
+        }
+
+        void ApplyReflections(bool isNight)
+        {
+            foreach (var scenario in reflectionScenarios)
+            {
+                if (scenario == null || scenario.probe == null) continue;
+                var texture = isNight ? scenario.night : scenario.day;
+                if (texture == null) continue;
+                scenario.probe.mode = ReflectionProbeMode.Custom;
+                scenario.probe.customBakedTexture = texture;
             }
         }
 
