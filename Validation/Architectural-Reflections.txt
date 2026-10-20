@@ -2,3 +2,7 @@ PASS Assets/_Project/Settings/Visualizacion/Reflections/Piso1_Dia.exr: cubemap H
 PASS Assets/_Project/Settings/Visualizacion/Reflections/Piso1_Noche.exr: cubemap HDR 128; bake nativo.
 PASS Assets/_Project/Settings/Visualizacion/Reflections/Piso2_Dia.exr: cubemap HDR 128; bake nativo.
 PASS Assets/_Project/Settings/Visualizacion/Reflections/Piso2_Noche.exr: cubemap HDR 128; bake nativo.
+PASS Assets/_Project/Settings/Visualizacion/Reflections/Fachada1_Dia.exr: cubemap HDR 256; bake nativo.
+PASS Assets/_Project/Settings/Visualizacion/Reflections/Fachada1_Noche.exr: cubemap HDR 256; bake nativo.
+PASS Assets/_Project/Settings/Visualizacion/Reflections/Fachada2_Dia.exr: cubemap HDR 256; bake nativo.
+PASS Assets/_Project/Settings/Visualizacion/Reflections/Fachada2_Noche.exr: cubemap HDR 256; bake nativo.

@@ -1,0 +1,15 @@
+PASS Muro básico Bloques de hormigon 15 cm 2 [693623].001: 739 UV de madera trasladadas; UV2 conservadas.
+PASS Muro básico Bloques de hormigon 15 cm 2 [679792].001: 649 UV de madera trasladadas; UV2 conservadas.
+PASS Muro básico Bloques de hormigon 15 cm 2 [718428].001: 473 UV de madera trasladadas; UV2 conservadas.
+PASS Muro básico Bloques de hormigon 15 cm 2 [723328].001: 292 UV de madera trasladadas; UV2 conservadas.
+PASS Muro básico Precintas [721739].001: 307 UV de madera trasladadas; UV2 conservadas.
+PASS Muro básico Bloques de hormigon 15 cm 2 [679344].001: 153 UV de madera trasladadas; UV2 conservadas.
+PASS Muro básico Moldura de madera [703704].001: 653 UV de madera trasladadas; UV2 conservadas.
+PASS Muro básico Bloques de hormigon 15 cm 2 [165257].001: 425 UV de madera trasladadas; UV2 conservadas.
+PASS Muro básico Bloques de hormigon 15 cm 2 [718694].001: 413 UV de madera trasladadas; UV2 conservadas.
+PASS Muro básico Bloques de hormigon 15 cm 2 [169541].001: 549 UV de madera trasladadas; UV2 conservadas.
+PASS Muro básico Bloques de hormigon 15 cm 2 [160888].001: 397 UV de madera trasladadas; UV2 conservadas.
+PASS Muro básico Bloques de hormigon 15 cm 2 [693678].001: 501 UV de madera trasladadas; UV2 conservadas.
+PASS Muro básico Bloques de hormigon 15 cm 2 [159790].001: 628 UV de madera trasladadas; UV2 conservadas.
+PASS Muro básico Bloques de hormigon 15 cm 2 [680313].001: 834 UV de madera trasladadas; UV2 conservadas.
+PASS vidrio reflectante URP Lit: 1 materiales; madera marron, normal .3.

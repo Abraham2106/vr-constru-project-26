@@ -133,23 +133,25 @@ public static class ArchitecturalVisualQuality
         RenderSettings.skybox = captureSky;
         try
         {
-            for (int floor = 0; floor < 2; floor++)
+            for (int capture = 0; capture < 4; capture++)
             {
-                var name = "Reflejos Piso " + (floor + 1);
+                bool exterior = capture >= 2;
+                int floor = capture % 2;
+                var name = (exterior ? "Reflejos Fachada " : "Reflejos Piso ") + (floor + 1);
                 var child = root.transform.Find(name);
                 var target = child != null ? child.gameObject : new GameObject(name);
                 target.transform.SetParent(root.transform, false);
-                target.transform.position = new Vector3(2.6f, floor == 0 ? 1.4f : 4.45f, .7f);
+                target.transform.position = new Vector3(exterior ? .3f : 2.6f, floor == 0 ? 1.4f : 4.45f, exterior ? 5.5f : .7f);
                 var probe = target.GetComponent<ReflectionProbe>();
                 if (probe == null) probe = Undo.AddComponent<ReflectionProbe>(target);
-                var center = new Vector3(.3f, floor == 0 ? 1.4f : 4.45f, -1.7f);
+                var center = new Vector3(.3f, floor == 0 ? 1.4f : 4.45f, exterior ? 5f : -1.7f);
                 probe.center = center - target.transform.position;
-                probe.size = new Vector3(8.8f, floor == 0 ? 2.8f : 2.9f, 11);
-                probe.resolution = 128;
+                probe.size = new Vector3(8.8f, floor == 0 ? 2.8f : 2.9f, exterior ? 7f : 11);
+                probe.resolution = exterior ? 256 : 128;
                 probe.hdr = true;
-                probe.boxProjection = true;
+                probe.boxProjection = !exterior;
                 probe.blendDistance = .3f;
-                probe.importance = 10;
+                probe.importance = exterior ? 20 : 10;
                 probe.nearClipPlane = .05f;
                 probe.farClipPlane = 40;
                 probe.cullingMask = ~(1 << 5);
@@ -161,13 +163,13 @@ public static class ArchitecturalVisualQuality
                     foreach (var light in lights.Keys) light.enabled = light == sun || (isNight && light.name.StartsWith("Acceso "));
                     SetCaptureEnvironment(data.FindProperty(isNight ? "night" : "day"), sun, captureSky);
                     probe.mode = ReflectionProbeMode.Baked;
-                    var path = Folder + "/Reflections/Piso" + (floor + 1) + (isNight ? "_Noche" : "_Dia") + ".exr";
+                    var path = Folder + "/Reflections/" + (exterior ? "Fachada" : "Piso") + (floor + 1) + (isNight ? "_Noche" : "_Dia") + ".exr";
                     if (!Lightmapping.BakeReflectionProbe(probe, path)) throw new InvalidOperationException("No se pudo hornear " + path);
                     AssetDatabase.ImportAsset(path, ImportAssetOptions.ForceSynchronousImport);
                     var cube = AssetDatabase.LoadAssetAtPath<Cubemap>(path);
                     if (cube == null) throw new InvalidOperationException("Cubemap no importado: " + path);
                     (isNight ? night : day).Add(cube);
-                    report.AppendLine("PASS " + path + ": cubemap HDR 128; bake nativo.");
+                    report.AppendLine("PASS " + path + $": cubemap HDR {probe.resolution}; bake nativo.");
                 }
             }
             var scenarios = data.FindProperty("reflectionScenarios");

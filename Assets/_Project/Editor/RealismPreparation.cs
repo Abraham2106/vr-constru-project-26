@@ -105,6 +105,7 @@ public static class RealismPreparation
         ApplySourcePartitions(); ConfigureLighting();
         // Metric furniture UVs and finishes must survive a full presentation rebuild.
         FurnitureFinishCorrection.Apply();
+        FacadeFinishCorrection.Apply();
         AssetDatabase.SaveAssets(); EditorSceneManager.SaveOpenScenes();
         Debug.Log($"Presentacion: {architecture} mallas con biseles; {decoration} piezas de mobiliario/contexto. Iluminacion preparada.");
     }

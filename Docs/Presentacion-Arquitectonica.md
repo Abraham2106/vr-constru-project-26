@@ -59,3 +59,10 @@ Estas comprobaciones no certifican fotorealismo ni rendimiento en Quest. Antes d
 - [Blender: Cycles light paths](https://docs.blender.org/manual/en/4.4/render/cycles/render_settings/light_paths.html).
 
 `CalidadVisual-VR.pdf` documenta el diagnóstico y la primera mejora anterior a esta implementación. Este documento describe el estado posterior con iluminación indirecta y ambientación.
+
+
+## Acabados de fachada
+
+Las UV de madera de 14 objetos se trasladan desde `FacadeFinishes.json.gz`, exportado de Blender, sin cambiar la geometría ni las UV de iluminación. El menú **Trasladar acabados de fachada desde Blender** vuelve a aplicarlas; la preparación completa también conserva este paso. La textura mantiene su color marrón y el mapa normal usa intensidad 0,3.
+
+El vidrio emplea URP Lit transparente en flujo especular, con rugosidad equivalente 0,015 y un acabado reflectante. Dos sondas exteriores de 256 píxeles por cara capturan el entorno de día y noche, además de las sondas interiores. Las exteriores usan proyección de entorno sin caja porque su punto de captura está delante del edificio. Es una aproximación mediante cubemaps horneados; no calcula reflejos planos ni refracción de Cycles.
