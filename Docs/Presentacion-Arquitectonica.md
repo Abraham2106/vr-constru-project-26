@@ -24,6 +24,22 @@ La pintura interactiva cambia el acabado visible, mientras que los rebotes conse
 
 ## Mantenimiento
 
+### Corrección de acabados del mobiliario
+
+La revisión de cocina identificó el mismo uso de madera de contraste excesivo y escala variable en estantes, molduras interiores, mesas, cómodas y bases de cama. Los tapizados, alfombras y ropa de cama también carecían de mapas PBR de tejido en Unity. La encimera tenía un material plano.
+
+Se sustituyeron esos acabados en 62 piezas por cinco materiales nativos URP/Lit: chapa de nogal, lino crema, microcemento, alfombra y ropa de cama. Ocho frentes existentes tienen juntas de 3 mm. Los contornos del mobiliario permanecen dentro de su volumen anterior.
+
+El nuevo mapeado se calcula sobre la geometría final, incluidos los biseles. La primera auditoría detectó estiramiento en las UV interpoladas de bordes de cojines, alfombras y mesas; se reemplazó por proyección métrica por cara final, conservando las normales de sombreado. Las escalas de repetición son 1,8 m en nogal, 0,25 m en textiles y 0,5 m en microcemento. Los desfases varían por pieza para evitar copias idénticas de la misma veta.
+
+Los mapas usan albedo sRGB, normales y smoothness lineales, mipmaps, filtro trilineal y anisotropía 4. La madera es dieléctrica, con relieve fino; el tejido es mate. Los datos comprimidos y mapas viven en `Assets/_Project/Art/Presentation/Finishes/`, junto con [procedencia y licencia](../Assets/_Project/Art/Presentation/Finishes/ATTRIBUTION.md).
+
+Se corrigió además el acabado pulido de dos cielos rasos, que producía reflejos excesivos bajo las luminarias: mantienen su albedo y UV, con smoothness 0,08 y relieve reducido. Los otros dos cielos rasos ya usaban blanco mate.
+
+**Corregir acabados del mobiliario** reaplica la geometría y los materiales desde esos datos. **Auditar acabados del mobiliario** comprueba los 62 objetos, la densidad UV de las superficies visibles, UV2 independiente, mapas/canales e importadores. Guarda `Validation/Furniture-Finish-Audit.txt`; el registro de aplicación está en `Validation/Furniture-Finishes.txt`. La preparación general reaplica esta corrección para que una reconstrucción no recupere los acabados anteriores. Después hay que hornear GI y reflejos.
+
+Las capturas `Captures/Muebles_Dia_Cocina.png` y `Muebles_Noche_Cocina.png` muestran la cocina en Unity; `Presentacion_Dia_Interior.png` permite revisar el sofá y las mesas. La auditoría técnica no sustituye su inspección visual ni garantiza rendimiento en el visor.
+
 1. Salir de Play y guardar la escena principal.
 2. Para reconstruir las mallas y sus UV desde la entrega, usar **Vivienda → Graficos → Preparar presentacion arquitectonica**.
 3. Usar **Completar vegetacion y materiales** para configurar la vegetación PBR de 1K.

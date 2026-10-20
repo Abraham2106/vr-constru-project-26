@@ -103,6 +103,8 @@ public static class RealismPreparation
             EditorUtility.SetDirty(mesh); EditorUtility.SetDirty(filter); EditorUtility.SetDirty(renderer);
         }
         ApplySourcePartitions(); ConfigureLighting();
+        // Metric furniture UVs and finishes must survive a full presentation rebuild.
+        FurnitureFinishCorrection.Apply();
         AssetDatabase.SaveAssets(); EditorSceneManager.SaveOpenScenes();
         Debug.Log($"Presentacion: {architecture} mallas con biseles; {decoration} piezas de mobiliario/contexto. Iluminacion preparada.");
     }

@@ -1,0 +1,64 @@
+Source: Blender presentation copy; metric face UVs; independent native lightmap UV2.
+Walnut repeat=1.8m; textiles=0.25m; microcement=0.5m; metallic=0; front reveals=3mm.
+PASS Muro básico Mueble de cocina 2 [715498].001 => Furniture_Walnut; tile=1.8m; reveal=True; triangles=188
+PASS Muro básico Mueble de cocina 2 [715464].001 => Furniture_Walnut; tile=1.8m; reveal=True; triangles=188
+PASS Suelo Mueble de cocina [717475].001 => Furniture_Walnut; tile=1.8m; reveal=False; triangles=108
+PASS Muro básico Mueble de cocina 2 [715354].001 => Furniture_Walnut; tile=1.8m; reveal=True; triangles=188
+PASS Muro básico Mueble de cocina 2 [717935].001 => Furniture_Walnut; tile=1.8m; reveal=True; triangles=188
+PASS Suelo Mueble de cocina [717712].001 => Furniture_Walnut; tile=1.8m; reveal=False; triangles=108
+PASS Suelo Mueble de cocina [717509].001 => Furniture_Walnut; tile=1.8m; reveal=False; triangles=108
+PASS Muro básico Mueble de cocina 2 [714663].001 => Furniture_Walnut; tile=1.8m; reveal=True; triangles=204
+PASS Muro básico Moldura de madera [713509].001 => Furniture_Walnut; tile=1.8m; reveal=False; triangles=144
+PASS Muro básico Moldura de madera [712390].001 => Furniture_Walnut; tile=1.8m; reveal=False; triangles=120
+PASS Muro básico Sobre de cocina, microcemento [711841].001 => Furniture_Microcement; tile=0.5m; reveal=False; triangles=132
+PASS Suelo Mueble de cocina [717433].001 => Furniture_Walnut; tile=1.8m; reveal=False; triangles=108
+PASS Muro básico Mueble de cocina 2 [715530].001 => Furniture_Walnut; tile=1.8m; reveal=True; triangles=188
+PASS Suelo Mueble de cocina [717077].001 => Furniture_Walnut; tile=1.8m; reveal=False; triangles=164
+PASS Muro básico Moldura de madera [716758].001 => Furniture_Walnut; tile=1.8m; reveal=False; triangles=120
+PASS Muro básico Moldura de madera [712459].001 => Furniture_Walnut; tile=1.8m; reveal=False; triangles=108
+PASS Muro básico Mueble de cocina 2 [718006].001 => Furniture_Walnut; tile=1.8m; reveal=True; triangles=188
+PASS Suelo Mueble de cocina [717769].001 => Furniture_Walnut; tile=1.8m; reveal=False; triangles=108
+PASS Suelo Mueble de cocina [717595].001 => Furniture_Walnut; tile=1.8m; reveal=False; triangles=108
+PASS Suelo Mueble de cocina [717492].001 => Furniture_Walnut; tile=1.8m; reveal=False; triangles=108
+PASS Muro básico Mueble de cocina 2 [715562].001 => Furniture_Walnut; tile=1.8m; reveal=True; triangles=188
+PASS Muro básico Moldura de madera [712648].001 => Furniture_Walnut; tile=1.8m; reveal=False; triangles=108
+PASS Muro básico Moldura de madera [713641].001 => Furniture_Walnut; tile=1.8m; reveal=False; triangles=120
+PASS Suelo Mueble de cocina [712790].001 => Furniture_Walnut; tile=1.8m; reveal=False; triangles=176
+PASS Muro básico Moldura de madera [712283].001 => Furniture_Walnut; tile=1.8m; reveal=False; triangles=120
+PASS Suelo Sobre de cocina [711214].001 => Furniture_Microcement; tile=0.5m; reveal=False; triangles=220
+PASS P1_SofaBase => Furniture_Linen; tile=0.25m; reveal=False; triangles=188
+PASS P1_SofaBack => Furniture_Linen; tile=0.25m; reveal=False; triangles=188
+PASS P1_SofaArm => Furniture_Linen; tile=0.25m; reveal=False; triangles=188
+PASS P1_SofaArm.001 => Furniture_Linen; tile=0.25m; reveal=False; triangles=188
+PASS P1_Seat => Furniture_Linen; tile=0.25m; reveal=False; triangles=188
+PASS P1_BackCushion => Furniture_Linen; tile=0.25m; reveal=False; triangles=188
+PASS P1_Seat.001 => Furniture_Linen; tile=0.25m; reveal=False; triangles=188
+PASS P1_BackCushion.001 => Furniture_Linen; tile=0.25m; reveal=False; triangles=188
+PASS P1_Rug => Furniture_Rug; tile=0.25m; reveal=False; triangles=188
+PASS P1_CoffeeTop => Furniture_Walnut; tile=1.8m; reveal=False; triangles=188
+PASS P1_Console => Furniture_Walnut; tile=1.8m; reveal=False; triangles=188
+PASS P1_BedBase => Furniture_Walnut; tile=1.8m; reveal=False; triangles=188
+PASS P1_Mattress => Furniture_Bedding; tile=0.25m; reveal=False; triangles=188
+PASS P1_Duvet => Furniture_Linen; tile=0.25m; reveal=False; triangles=188
+PASS P1_Headboard => Furniture_Linen; tile=0.25m; reveal=False; triangles=188
+PASS P1_Pillow => Furniture_Bedding; tile=0.25m; reveal=False; triangles=188
+PASS P1_Pillow.001 => Furniture_Bedding; tile=0.25m; reveal=False; triangles=188
+PASS P1_Bedside => Furniture_Walnut; tile=1.8m; reveal=False; triangles=188
+PASS P2_SofaBase => Furniture_Linen; tile=0.25m; reveal=False; triangles=188
+PASS P2_SofaBack => Furniture_Linen; tile=0.25m; reveal=False; triangles=188
+PASS P2_SofaArm => Furniture_Linen; tile=0.25m; reveal=False; triangles=188
+PASS P2_SofaArm.001 => Furniture_Linen; tile=0.25m; reveal=False; triangles=188
+PASS P2_Seat => Furniture_Linen; tile=0.25m; reveal=False; triangles=188
+PASS P2_BackCushion => Furniture_Linen; tile=0.25m; reveal=False; triangles=188
+PASS P2_Seat.001 => Furniture_Linen; tile=0.25m; reveal=False; triangles=188
+PASS P2_BackCushion.001 => Furniture_Linen; tile=0.25m; reveal=False; triangles=188
+PASS P2_Rug => Furniture_Rug; tile=0.25m; reveal=False; triangles=188
+PASS P2_CoffeeTop => Furniture_Walnut; tile=1.8m; reveal=False; triangles=188
+PASS P2_Console => Furniture_Walnut; tile=1.8m; reveal=False; triangles=188
+PASS P2_BedBase => Furniture_Walnut; tile=1.8m; reveal=False; triangles=188
+PASS P2_Mattress => Furniture_Bedding; tile=0.25m; reveal=False; triangles=188
+PASS P2_Duvet => Furniture_Linen; tile=0.25m; reveal=False; triangles=188
+PASS P2_Headboard => Furniture_Linen; tile=0.25m; reveal=False; triangles=188
+PASS P2_Pillow => Furniture_Bedding; tile=0.25m; reveal=False; triangles=188
+PASS P2_Pillow.001 => Furniture_Bedding; tile=0.25m; reveal=False; triangles=188
+PASS P2_Bedside => Furniture_Walnut; tile=1.8m; reveal=False; triangles=188

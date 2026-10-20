@@ -70,6 +70,7 @@ public static class PresentationValidation
                 }
                 Shot("Presentacion_Dia_Fachada", false);
                 Shot("Presentacion_Dia_Interior", true);
+                Shot("Muebles_Dia_Cocina", true);
                 foreach (var room in UnityEngine.Object.FindObjectsByType<RoomLightGroup>())
                     if (room.name.Contains("Sala") || room.name.Contains("Cocina")) room.SetLightsOn(true);
                 DayNightController.Instance.StartNight(); next = Time.time + 4;
@@ -78,6 +79,7 @@ public static class PresentationValidation
                 Check(baked.IsNight && LightmapSettings.lightmaps[0].lightmapColor == baked.night.color[0], "Night native lightmaps assigned after environment event");
                 Check(UnityEngine.Object.FindObjectsByType<ReflectionProbe>().All(p => p.customBakedTexture != null && p.customBakedTexture.name.Contains("Noche")), "Night reflection cubemaps assigned");
                 Shot("Presentacion_Noche_Fachada", false); Shot("Presentacion_Noche_Interior", true);
+                Shot("Muebles_Noche_Cocina", true);
                 DayNightController.Instance.StartDay(); next = Time.time + 4;
                 break;
             default:
@@ -97,6 +99,11 @@ public static class PresentationValidation
         camera.cullingMask = ~(1 << 5);
         var position = interior ? new Vector3(2.5f, 1.55f, 2.35f) : new Vector3(-9, 4.6f, 22);
         var target = interior ? new Vector3(3.6f, 1.15f, -.4f) : new Vector3(1.5f, 3, 2.5f);
+        if (name.Contains("Cocina"))
+        {
+            position = new Vector3(2.2f, 4.5f, .35f); target = new Vector3(4.05f, 4.75f, -3.15f);
+            camera.focalLength = 24;
+        }
         camera.transform.SetPositionAndRotation(position, Quaternion.LookRotation(target - position));
         var data = camera.GetUniversalAdditionalCameraData(); data.renderPostProcessing = true; data.allowXRRendering = false;
         camera.enabled = false;

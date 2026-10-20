@@ -1,0 +1,64 @@
+PASS Muro básico Mueble de cocina 2 [715498].001: tile=1.8m; surfaces=8; max metric UV error=0.00 %
+PASS Muro básico Mueble de cocina 2 [715464].001: tile=1.8m; surfaces=8; max metric UV error=0.00 %
+PASS Suelo Mueble de cocina [717475].001: tile=1.8m; surfaces=12; max metric UV error=0.00 %
+PASS Muro básico Mueble de cocina 2 [715354].001: tile=1.8m; surfaces=8; max metric UV error=0.00 %
+PASS Muro básico Mueble de cocina 2 [717935].001: tile=1.8m; surfaces=8; max metric UV error=0.00 %
+PASS Suelo Mueble de cocina [717712].001: tile=1.8m; surfaces=12; max metric UV error=0.00 %
+PASS Suelo Mueble de cocina [717509].001: tile=1.8m; surfaces=12; max metric UV error=0.00 %
+PASS Muro básico Mueble de cocina 2 [714663].001: tile=1.8m; surfaces=10; max metric UV error=0.00 %
+PASS Muro básico Moldura de madera [713509].001: tile=1.8m; surfaces=12; max metric UV error=0.00 %
+PASS Muro básico Moldura de madera [712390].001: tile=1.8m; surfaces=14; max metric UV error=0.00 %
+PASS Muro básico Sobre de cocina, microcemento [711841].001: tile=0.5m; surfaces=16; max metric UV error=0.00 %
+PASS Suelo Mueble de cocina [717433].001: tile=1.8m; surfaces=12; max metric UV error=0.00 %
+PASS Muro básico Mueble de cocina 2 [715530].001: tile=1.8m; surfaces=8; max metric UV error=0.00 %
+PASS Suelo Mueble de cocina [717077].001: tile=1.8m; surfaces=20; max metric UV error=0.00 %
+PASS Muro básico Moldura de madera [716758].001: tile=1.8m; surfaces=10; max metric UV error=0.00 %
+PASS Muro básico Moldura de madera [712459].001: tile=1.8m; surfaces=12; max metric UV error=0.00 %
+PASS Muro básico Mueble de cocina 2 [718006].001: tile=1.8m; surfaces=8; max metric UV error=0.00 %
+PASS Suelo Mueble de cocina [717769].001: tile=1.8m; surfaces=12; max metric UV error=0.01 %
+PASS Suelo Mueble de cocina [717595].001: tile=1.8m; surfaces=12; max metric UV error=0.00 %
+PASS Suelo Mueble de cocina [717492].001: tile=1.8m; surfaces=12; max metric UV error=0.00 %
+PASS Muro básico Mueble de cocina 2 [715562].001: tile=1.8m; surfaces=8; max metric UV error=0.00 %
+PASS Muro básico Moldura de madera [712648].001: tile=1.8m; surfaces=12; max metric UV error=0.01 %
+PASS Muro básico Moldura de madera [713641].001: tile=1.8m; surfaces=9; max metric UV error=0.00 %
+PASS Suelo Mueble de cocina [712790].001: tile=1.8m; surfaces=24; max metric UV error=0.00 %
+PASS Muro básico Moldura de madera [712283].001: tile=1.8m; surfaces=10; max metric UV error=0.00 %
+PASS Suelo Sobre de cocina [711214].001: tile=0.5m; surfaces=32; max metric UV error=0.05 %
+PASS P1_SofaBase: tile=0.25m; surfaces=84; max metric UV error=0.00 %
+PASS P1_SofaBack: tile=0.25m; surfaces=60; max metric UV error=0.00 %
+PASS P1_SofaArm: tile=0.25m; surfaces=60; max metric UV error=0.00 %
+PASS P1_SofaArm.001: tile=0.25m; surfaces=60; max metric UV error=0.01 %
+PASS P1_Seat: tile=0.25m; surfaces=60; max metric UV error=0.00 %
+PASS P1_BackCushion: tile=0.25m; surfaces=60; max metric UV error=0.00 %
+PASS P1_Seat.001: tile=0.25m; surfaces=60; max metric UV error=0.00 %
+PASS P1_BackCushion.001: tile=0.25m; surfaces=60; max metric UV error=0.00 %
+PASS P1_Rug: tile=0.25m; surfaces=36; max metric UV error=0.01 %
+PASS P1_CoffeeTop: tile=1.8m; surfaces=52; max metric UV error=0.03 %
+PASS P1_Console: tile=1.8m; surfaces=36; max metric UV error=0.00 %
+PASS P1_BedBase: tile=1.8m; surfaces=60; max metric UV error=0.00 %
+PASS P1_Mattress: tile=0.25m; surfaces=60; max metric UV error=0.00 %
+PASS P1_Duvet: tile=0.25m; surfaces=60; max metric UV error=0.00 %
+PASS P1_Headboard: tile=0.25m; surfaces=60; max metric UV error=0.01 %
+PASS P1_Pillow: tile=0.25m; surfaces=52; max metric UV error=0.00 %
+PASS P1_Pillow.001: tile=0.25m; surfaces=52; max metric UV error=0.00 %
+PASS P1_Bedside: tile=1.8m; surfaces=36; max metric UV error=0.00 %
+PASS P2_SofaBase: tile=0.25m; surfaces=84; max metric UV error=0.00 %
+PASS P2_SofaBack: tile=0.25m; surfaces=60; max metric UV error=0.00 %
+PASS P2_SofaArm: tile=0.25m; surfaces=60; max metric UV error=0.00 %
+PASS P2_SofaArm.001: tile=0.25m; surfaces=60; max metric UV error=0.01 %
+PASS P2_Seat: tile=0.25m; surfaces=60; max metric UV error=0.00 %
+PASS P2_BackCushion: tile=0.25m; surfaces=60; max metric UV error=0.00 %
+PASS P2_Seat.001: tile=0.25m; surfaces=60; max metric UV error=0.00 %
+PASS P2_BackCushion.001: tile=0.25m; surfaces=60; max metric UV error=0.00 %
+PASS P2_Rug: tile=0.25m; surfaces=36; max metric UV error=0.00 %
+PASS P2_CoffeeTop: tile=1.8m; surfaces=52; max metric UV error=0.03 %
+PASS P2_Console: tile=1.8m; surfaces=36; max metric UV error=0.00 %
+PASS P2_BedBase: tile=1.8m; surfaces=60; max metric UV error=0.00 %
+PASS P2_Mattress: tile=0.25m; surfaces=60; max metric UV error=0.00 %
+PASS P2_Duvet: tile=0.25m; surfaces=60; max metric UV error=0.00 %
+PASS P2_Headboard: tile=0.25m; surfaces=60; max metric UV error=0.00 %
+PASS P2_Pillow: tile=0.25m; surfaces=52; max metric UV error=0.00 %
+PASS P2_Pillow.001: tile=0.25m; surfaces=52; max metric UV error=0.00 %
+PASS P2_Bedside: tile=1.8m; surfaces=36; max metric UV error=0.00 %
+Scene renderers with missing material slots=0
+Furniture audited=62; errors=0
