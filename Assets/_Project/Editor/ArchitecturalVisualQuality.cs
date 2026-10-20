@@ -199,6 +199,7 @@ public static class ArchitecturalVisualQuality
         EditorSceneManager.SaveOpenScenes();
         Directory.CreateDirectory("Validation");
         File.WriteAllText("Validation/Architectural-Reflections.txt", report.ToString());
+        MirrorGlazingCorrection.Apply();
         Debug.Log(report.ToString());
     }
 

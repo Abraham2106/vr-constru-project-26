@@ -66,3 +66,10 @@ Estas comprobaciones no certifican fotorealismo ni rendimiento en Quest. Antes d
 Las UV de madera de 14 objetos se trasladan desde `FacadeFinishes.json.gz`, exportado de Blender, sin cambiar la geometría ni las UV de iluminación. El menú **Trasladar acabados de fachada desde Blender** vuelve a aplicarlas; la preparación completa también conserva este paso. La textura mantiene su color marrón y el mapa normal usa intensidad 0,3.
 
 El vidrio emplea URP Lit transparente en flujo especular, con rugosidad equivalente 0,015 y un acabado reflectante. Dos sondas exteriores de 256 píxeles por cara capturan el entorno de día y noche, además de las sondas interiores. Las exteriores usan proyección de entorno sin caja porque su punto de captura está delante del edificio. Es una aproximación mediante cubemaps horneados; no calcula reflejos planos ni refracción de Cycles.
+
+
+## Vidrio espejado de referencia
+
+El menu **Aplicar vidrio espejado de referencia** reproduce el acabado exterior verde/dorado de la referencia de Blender mediante URP Lit y el mismo entorno `forest.exr`. Los 22 paneles conservan su geometria y colliders: las caras exteriores usan material espejado y las interiores material transparente. Dos sondas Custom pequenas con anclajes explicitos limitan este entorno a los vidrios; el resto de la arquitectura conserva sus sondas originales. El controlador cambia esas sondas a las capturas nocturnas al pasar a noche.
+
+Este acabado refleja un entorno de referencia fijo, no todos los objetos actuales de la escena. No utiliza ray tracing ni un shader personalizado. `Validation/Mirror-Glazing.txt` registra la aplicacion; `Captures/Vidrio_Interior_Dia.png` permite comprobar la vista hacia fuera. Procedencia del entorno en `Assets/_Project/Art/Presentation/Reflections/ATTRIBUTION.md`.

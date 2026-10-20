@@ -1,0 +1,2 @@
+PASS 22 vidrios: exterior espejado; interior transparente; geometria y colliders conservados.
+PASS entorno Blender Forest importado como cubemap especular nativo.

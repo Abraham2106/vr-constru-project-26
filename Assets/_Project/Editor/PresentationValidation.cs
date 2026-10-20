@@ -70,6 +70,7 @@ public static class PresentationValidation
                 }
                 Shot("Presentacion_Dia_Fachada", false);
                 Shot("Fachada_Acabados_Dia", false);
+                Shot("Vidrio_Interior_Dia", true);
                 Shot("Presentacion_Dia_Interior", true);
                 Shot("Muebles_Dia_Cocina", true);
                 foreach (var room in UnityEngine.Object.FindObjectsByType<RoomLightGroup>())
@@ -108,6 +109,10 @@ public static class PresentationValidation
         if (name.StartsWith("Fachada_Acabados"))
         {
             position = new Vector3(-8, 6, 10); target = new Vector3(0, 3.7f, .25f); camera.focalLength = 48;
+        }
+        if (name.StartsWith("Vidrio_Interior"))
+        {
+            position=new Vector3(1,4.45f,1);target=new Vector3(1,4.45f,6);camera.focalLength=28;
         }
         camera.transform.SetPositionAndRotation(position, Quaternion.LookRotation(target - position));
         var data = camera.GetUniversalAdditionalCameraData(); data.renderPostProcessing = true; data.allowXRRendering = false;

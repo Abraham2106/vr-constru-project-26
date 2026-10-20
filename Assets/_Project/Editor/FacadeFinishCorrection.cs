@@ -94,6 +94,7 @@ public static class FacadeFinishCorrection
         }
         foreach (var probe in UnityEngine.Object.FindObjectsByType<ReflectionProbe>())
             if (probe.name.StartsWith("Reflejos Fachada")) { probe.boxProjection=false; probe.center=new Vector3(0,0,-.5f); probe.size=new Vector3(8.8f,probe.size.y,7); EditorUtility.SetDirty(probe); }
+        MirrorGlazingCorrection.Apply();
         report.Add("PASS vidrio reflectante URP Lit: "+glassCount+" materiales; madera marron, normal .3.");
         Directory.CreateDirectory("Validation");File.WriteAllLines("Validation/Facade-Finishes.txt",report);
         AssetDatabase.SaveAssets();EditorSceneManager.MarkSceneDirty(UnityEngine.SceneManagement.SceneManager.GetActiveScene());EditorSceneManager.SaveOpenScenes();
