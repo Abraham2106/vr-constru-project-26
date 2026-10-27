@@ -1,0 +1,2 @@
+PASS Assets/Vivienda/Fidelity/Materials/Glass.001.mat shader=Universal Render Pipeline/Lit alpha=0.055 spec=RGBA(0.040, 0.040, 0.040, 1.000) smooth=0.96
+PASS Assets/_Project/Art/Presentation/Reflections/Glass_Interior_Clear.mat shader=Universal Render Pipeline/Lit alpha=0.025 spec=RGBA(0.040, 0.040, 0.040, 1.000) smooth=0.96

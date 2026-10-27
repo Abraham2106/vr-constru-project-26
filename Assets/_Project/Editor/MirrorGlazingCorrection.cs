@@ -108,15 +108,18 @@ public static class MirrorGlazingCorrection
         material.SetTexture("_BaseMap",null);material.SetTexture("_SpecGlossMap",null);material.SetTexture("_BumpMap",null);
         material.DisableKeyword("_METALLICSPECGLOSSMAP");material.DisableKeyword("_NORMALMAP");material.EnableKeyword("_SPECULAR_SETUP");
         material.DisableKeyword("_ALPHATEST_ON");material.DisableKeyword("_ALPHAMODULATE_ON");
-        if(inside){material.EnableKeyword("_SURFACE_TYPE_TRANSPARENT");material.EnableKeyword("_ALPHAPREMULTIPLY_ON");}
-        else{material.DisableKeyword("_SURFACE_TYPE_TRANSPARENT");material.DisableKeyword("_ALPHAPREMULTIPLY_ON");}
-        material.SetFloat("_Surface",inside?1:0);material.SetFloat("_Blend",1);material.SetFloat("_WorkflowMode",0);material.SetFloat("_Metallic",0);
-        material.SetFloat("_Smoothness",inside?.985f:.965f);material.SetFloat("_SmoothnessTextureChannel",0);material.SetFloat("_Cull",2);
-        material.SetColor("_SpecColor",inside?new Color(.043f,.043f,.043f,1):new Color(.65f,.64f,.55f,1));
-        material.SetColor("_BaseColor",inside?new Color(.96f,.98f,1,.08f):new Color(.008f,.009f,.006f,1));
-        material.SetFloat("_SrcBlend",1);material.SetFloat("_DstBlend",inside?10:0);material.SetFloat("_SrcBlendAlpha",1);material.SetFloat("_DstBlendAlpha",inside?10:0);
-        material.SetFloat("_ZWrite",inside?0:1);material.SetFloat("_EnvironmentReflections",1);material.SetFloat("_SpecularHighlights",1);
-        material.SetOverrideTag("RenderType",inside?"Transparent":"Opaque");material.renderQueue=inside?3000:2000;
-        material.SetShaderPassEnabled("ShadowCaster",false);material.SetShaderPassEnabled("DepthOnly",!inside);EditorUtility.SetDirty(material);
+        // Both sides are dielectric transparent glass; preserve existing pane meshes and probes.
+        material.EnableKeyword("_SURFACE_TYPE_TRANSPARENT");material.EnableKeyword("_ALPHAPREMULTIPLY_ON");
+        material.SetFloat("_Surface",1);material.SetFloat("_Blend",0);material.SetFloat("_WorkflowMode",0);material.SetFloat("_Metallic",0);
+        material.SetFloat("_Smoothness",.96f);material.SetFloat("_SmoothnessTextureChannel",0);material.SetFloat("_Cull",2);
+        material.SetColor("_SpecColor",new Color(.04f,.04f,.04f,1));
+        material.SetColor("_BaseColor",new Color(.96f,.98f,1,inside?.025f:.055f));
+        material.SetFloat("_BlendModePreserveSpecular",1);
+        material.SetFloat("_SrcBlend",1);material.SetFloat("_DstBlend",10);material.SetFloat("_SrcBlendAlpha",1);material.SetFloat("_DstBlendAlpha",10);
+        material.SetFloat("_ZWrite",0);material.SetFloat("_EnvironmentReflections",1);material.SetFloat("_SpecularHighlights",1);
+        material.SetOverrideTag("RenderType","Transparent");material.renderQueue=3000;
+        material.SetShaderPassEnabled("ShadowCaster",false);material.SetShaderPassEnabled("DepthOnly",false);EditorUtility.SetDirty(material);
     }
 }
+
+
