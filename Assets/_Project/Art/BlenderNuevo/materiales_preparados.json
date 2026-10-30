@@ -1,0 +1,678 @@
+{
+  "unique": [
+    {
+      "id": "68df538ba732",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/13dedcd86873_BlackPlaster_BaseColor.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/4bbddebeb5a8_BlackPlaster_Normal.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_68df538ba732.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "ca26157a3189",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/88efe6239252_metal01a_diffuse.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/a46d73675c50_metal01_normal_opengl.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_ca26157a3189.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "8722e5331482",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/578e1aed0108_black_stone_floor_BaseColor.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/e923de2d39b7_black_stone_floor_Normal.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_8722e5331482.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "cacf9cffe3a3",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/c3290544922d_wood03_diffuse.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/00d67c629d5d_wood03_normal_opengl.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_cacf9cffe3a3.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "db29baeb2193",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/43016df5756e_84.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/7184dccdaab6_normal.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_db29baeb2193.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "8c24f4af1fb8",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/33dc3523971f_PaintedPlaster017_4K-JPG_Color.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/2e89e224b222_PaintedPlaster017_4K-JPG_NormalGL.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_8c24f4af1fb8.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        2.9999992847442627,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "c8c5842f00be",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_c8c5842f00be.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        0.39999955892562866,
+        0.2999996840953827
+      ],
+      "offset": [
+        -0.09999999403953552,
+        0.0
+      ]
+    },
+    {
+      "id": "037f4f01ba66",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_037f4f01ba66.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        0.39999955892562866,
+        0.2999996840953827
+      ],
+      "offset": [
+        0.19999998807907104,
+        0.29999998211860657
+      ]
+    },
+    {
+      "id": "9dc0a2a81a5a",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_9dc0a2a81a5a.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        0.39999955892562866,
+        0.2999996840953827
+      ],
+      "offset": [
+        0.09099999070167542,
+        0.0
+      ]
+    },
+    {
+      "id": "9368112da26c",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_9368112da26c.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        0.39999955892562866,
+        0.2999996840953827
+      ],
+      "offset": [
+        -0.009000003337860107,
+        0.0
+      ]
+    },
+    {
+      "id": "a7c1ba6cc4ce",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_a7c1ba6cc4ce.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        0.49999967217445374,
+        0.9999997615814209
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "2c541aa26011",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_2c541aa26011.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        -2.8999996185302734,
+        -2.4000000953674316
+      ],
+      "offset": [
+        -0.04600000008940697,
+        0.0
+      ]
+    },
+    {
+      "id": "e78815a514a3",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_e78815a514a3.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        0.29999956488609314,
+        0.2999996840953827
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "94c8e5c9d49e",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_94c8e5c9d49e.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        0.29999956488609314,
+        0.2999996840953827
+      ],
+      "offset": [
+        0.19999998807907104,
+        0.0
+      ]
+    },
+    {
+      "id": "a2e207f1c3f5",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_a2e207f1c3f5.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        1.100000023841858,
+        0.9999997615814209
+      ],
+      "offset": [
+        -0.21899999678134918,
+        0.3999999761581421
+      ]
+    },
+    {
+      "id": "5a36cd62a2f8",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_5a36cd62a2f8.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        1.0999997854232788,
+        0.9999997615814209
+      ],
+      "offset": [
+        0.09999999403953552,
+        -0.020999999716877937
+      ]
+    },
+    {
+      "id": "dd53dccad9c2",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_dd53dccad9c2.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        0.3999996781349182,
+        0.2999996840953827
+      ],
+      "offset": [
+        0.0,
+        0.04500000178813934
+      ]
+    },
+    {
+      "id": "6c00d9575416",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_6c00d9575416.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        0.3999996781349182,
+        0.2999996840953827
+      ],
+      "offset": [
+        0.09999999403953552,
+        0.04500000178813934
+      ]
+    },
+    {
+      "id": "8ea14b294a35",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/4cafdcfa7b74_Concrete020_4K-JPG_Color.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/9090b5318308_Concrete020_4K-JPG_NormalGL.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_8ea14b294a35.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        0.6999999284744263,
+        0.6999999284744263
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "d380b38fe15e",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/8c2109254d14_BaseColor.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/506e4922793d_Normal.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_d380b38fe15e.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "73b1ab3b22c0",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/5ab25b0db83a_66.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/86060dea77d5_normal.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_73b1ab3b22c0.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        2.0,
+        2.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "70a1c4a4f0ec",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/7f116abf1df2_Marble002_4K-JPG_Color.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/a5659557963f_Marble002_4K-JPG_NormalGL.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_70a1c4a4f0ec.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        0.2999999225139618,
+        0.2999999225139618
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "aad139a7106e",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/6e244c97d2b3_asphalt05_diffuse.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/b5420eb412a6_asphalt05_normal_opengl.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_aad139a7106e.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "e4005378b7ae",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/b15c049298dd_Paint004_4K-JPG_Color.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/2c243c4fbc78_Paint004_4K-JPG_NormalGL.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_e4005378b7ae.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "e9658b89add4",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/b15c049298dd_Paint004_4K-JPG_Color.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/2c243c4fbc78_Paint004_4K-JPG_NormalGL.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_e9658b89add4.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        2.499999761581421,
+        2.000000238418579
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "4c12492b73b7",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/b15c049298dd_Paint004_4K-JPG_Color.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/2c243c4fbc78_Paint004_4K-JPG_NormalGL.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_4c12492b73b7.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        1.5000001192092896,
+        1.5000001192092896
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "8e0058efa6e0",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/c0b2ed2a1fd6_56.png",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/eaeea2b8c7cd_normal.png",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_8e0058efa6e0.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        0.3999996781349182,
+        0.7999997138977051
+      ],
+      "offset": [
+        -0.2070000022649765,
+        0.0
+      ]
+    },
+    {
+      "id": "1d5e9e0d4c41",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/c0b2ed2a1fd6_56.png",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/eaeea2b8c7cd_normal.png",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_1d5e9e0d4c41.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        0.19999969005584717,
+        0.3999996781349182
+      ],
+      "offset": [
+        -0.2070000022649765,
+        0.0
+      ]
+    },
+    {
+      "id": "47ba2edad8db",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/8f0a427f856d_54.png",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/41e030f201da_normal.png",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_47ba2edad8db.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        2.0,
+        2.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "3bdfc1550a67",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/96880f14b88a_stone_wall_BaseColor.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/adfa0f4f720f_stone_wall_Normal.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_3bdfc1550a67.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "ae40bc3c41dd",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/83b398d94564_85.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/8cd5569f3422_normal.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_ae40bc3c41dd.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        0.5999996662139893,
+        0.5999995470046997
+      ],
+      "offset": [
+        0.0,
+        0.19999998807907104
+      ]
+    },
+    {
+      "id": "fc7aefca91bb",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/83b398d94564_85.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/8cd5569f3422_normal.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_fc7aefca91bb.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        0.19999969005584717,
+        0.19999957084655762
+      ],
+      "offset": [
+        0.0,
+        0.25
+      ]
+    },
+    {
+      "id": "20c5ca5397d7",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/648ffd4ac7f6_141.png",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/64255b86e048_normal.png",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_20c5ca5397d7.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "aad3b1ba0620",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/4b0999d81555_Concrete014_4K-JPG_Color.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/9c0ec6f8d252_Concrete014_4K-JPG_NormalGL.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_aad3b1ba0620.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "cb767ed34471",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/55298d3eafd8_Wood089_4K-JPG_Color.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/a7b8bd6ca34d_Wood089_4K-JPG_NormalGL.jpg",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_cb767ed34471.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "8a338e4b6dc7",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/f556b9f9de03_japanese_stone_wall_diff_8k.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/2b943ae3b782_japanese_stone_wall_nor_gl_8k.exr",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_8a338e4b6dc7.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "85811fe51428",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/915b1c3152ed_medieval_blocks_03_diff_8k.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/7edf13b0138b_medieval_blocks_03_nor_gl_8k.exr",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_85811fe51428.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        0.4999995529651642,
+        0.49999967217445374
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "54ff1601102b",
+      "base": "Assets/_Project/Art/BlenderNuevo/Textures/915b1c3152ed_medieval_blocks_03_diff_8k.jpg",
+      "normal": "Assets/_Project/Art/BlenderNuevo/Textures/7edf13b0138b_medieval_blocks_03_nor_gl_8k.exr",
+      "ms": "Assets/_Project/Art/BlenderNuevo/Textures/ms_54ff1601102b.png",
+      "metallic": 0,
+      "smoothness": 0.5,
+      "scale": [
+        2.0,
+        2.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "mapping": {
+    "AR3DMat PBR Black Plaster casa": "68df538ba732",
+    "Black metal": "ca26157a3189",
+    "Black stone floor": "8722e5331482",
+    "Black wood": "cacf9cffe3a3",
+    "Brown teak laminate casa": "db29baeb2193",
+    "Concrete": "8c24f4af1fb8",
+    "Concrete look porcelain tile casa": "c8c5842f00be",
+    "Concrete look porcelain tile casa.001": "037f4f01ba66",
+    "Concrete look porcelain tile casa.002": "9dc0a2a81a5a",
+    "Concrete look porcelain tile casa.003": "9368112da26c",
+    "Concrete look porcelain tile.001 casa": "a7c1ba6cc4ce",
+    "Concrete look porcelain tile.002 casa": "2c541aa26011",
+    "Concrete look porcelain tile.003 casa": "e78815a514a3",
+    "Concrete look porcelain tile.004 casa": "94c8e5c9d49e",
+    "Concrete look porcelain tile.005 casa": "c8c5842f00be",
+    "Concrete look porcelain tile.006 casa": "a2e207f1c3f5",
+    "Concrete look porcelain tile.007 casa": "5a36cd62a2f8",
+    "Concrete look porcelain tile.008 casa": "dd53dccad9c2",
+    "Concrete look porcelain tile.009": "6c00d9575416",
+    "Concrete look porcelain tile.010 casa": "dd53dccad9c2",
+    "Concrete.001": "8c24f4af1fb8",
+    "Dark Grey Concrete casa": "8ea14b294a35",
+    "Dark Walnut Wood PBR 4K": "d380b38fe15e",
+    "Decorative plaster": "73b1ab3b22c0",
+    "Decorative plaster casa": "73b1ab3b22c0",
+    "Decorative plaster.001": "73b1ab3b22c0",
+    "Grey Veined Marble casa": "70a1c4a4f0ec",
+    "New asphalt casa": "aad139a7106e",
+    "Off White Painted Plaster casa": "e4005378b7ae",
+    "Off White Painted Plaster.001": "e9658b89add4",
+    "Off White Painted Plaster.001 casa": "4c12492b73b7",
+    "Off White Painted Plaster.002": "e9658b89add4",
+    "Porcelain tiles casa": "8e0058efa6e0",
+    "Porcelain tiles casa.002": "1d5e9e0d4c41",
+    "Porcelain tiles.001 casa": "47ba2edad8db",
+    "Stone wall.001": "3bdfc1550a67",
+    "Stone-effect porcelain tile casa": "ae40bc3c41dd",
+    "Stone-effect porcelain tile casa.001": "fc7aefca91bb",
+    "Vertical wood slat": "20c5ca5397d7",
+    "Weathered Concrete casa": "aad3b1ba0620",
+    "Wood casa": "cb767ed34471",
+    "japanese_stone_wall casa 2": "8a338e4b6dc7",
+    "medieval_blocks_03 casa": "85811fe51428",
+    "medieval_blocks_03 casa.001": "54ff1601102b"
+  },
+  "unsupported": [
+    "Black Painted Metal CASA",
+    "Black Painted Plaster Wall",
+    "Black matte metal",
+    "Black plastic",
+    "Black steel casa",
+    "Brushed black metal brass",
+    "Decorative plaster casa.001",
+    "Glass.001 casa",
+    "Grass 01 casa",
+    "MetalPanel05 casa",
+    "Plain White Flat casa",
+    "Stone tiles por si acaso",
+    "Wood Floor Golden Oak.001 casa",
+    "Wood Floor Golden Oak.003 casa",
+    "Wood Golden Oak casa",
+    "Wood Golden Oak casa.001",
+    "Wood Golden Oak.001 casa",
+    "Wood Golden Oak.001 casa.001"
+  ]
+}
