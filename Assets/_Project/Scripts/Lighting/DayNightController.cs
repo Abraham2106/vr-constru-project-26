@@ -32,6 +32,7 @@ namespace ProyectoVR
 
         [SerializeField] Light directionalLight;
         [SerializeField] Material skyboxMaterial;
+        [SerializeField] Material sunsetSkybox;
         [SerializeField] LightingSnapshot day = new();
         [SerializeField] LightingSnapshot night = new()
         {
@@ -98,7 +99,8 @@ namespace ProyectoVR
         {
             if (_sourceSkybox != null)
             {
-                if (RenderSettings.skybox == skyboxMaterial) RenderSettings.skybox = _sourceSkybox;
+                if (RenderSettings.skybox == skyboxMaterial || RenderSettings.skybox == sunsetSkybox)
+                    RenderSettings.skybox = _sourceSkybox;
                 Destroy(skyboxMaterial);
             }
             if (Instance == this)
@@ -140,6 +142,8 @@ namespace ProyectoVR
             }
 
             ApplySnapshot(to, 1f);
+            if (skyboxMaterial != null)
+                RenderSettings.skybox = night && sunsetSkybox != null ? sunsetSkybox : skyboxMaterial;
             SetExteriorNightLights(night);
             ApplyReflections(night);
 

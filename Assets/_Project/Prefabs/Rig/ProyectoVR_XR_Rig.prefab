@@ -378,17 +378,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1767192434, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
   m_PrefabInstance: {fileID: 7684238452101615925}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8860848471384473241 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1178791450436251564, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-  m_PrefabInstance: {fileID: 7684238452101615925}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9039991891158073112}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0cb9aa70a22847b5925ee5f067c10a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &9039991891158073112 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
@@ -434,7 +423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d720bfbd31effba44a3475918ee704c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProyectoVR.Runtime::ProyectoVR.Core.XrLocomotionTeleportService
-  m_Origin: {fileID: 8860848471384473241}
+  m_Provider: {fileID: 0}
   m_Fade: {fileID: 2556721756817063826}
   m_Registry: {fileID: 0}
 --- !u!114 &2556721756817063826
@@ -464,9 +453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ProyectoVR.Runtime::ProyectoVR.UI.VrMenuToggleInput
   m_Menu: {fileID: 0}
-  m_MenuActions: {fileID: -944628639613478452, guid: 03c9c4bee998a8a4d8c2e2eb5ae16ab8, type: 3}
-  m_ActionMapName: XR Menu
-  m_ToggleActionName: ToggleMenu
+  m_ToggleAction: {fileID: 0}
 --- !u!114 &7387242255154728542
 MonoBehaviour:
   m_ObjectHideFlags: 0

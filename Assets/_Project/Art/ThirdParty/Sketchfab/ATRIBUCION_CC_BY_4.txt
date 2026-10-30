@@ -1,0 +1,8 @@
+# Recursos Sketchfab: atribución CC BY 4.0
+
+- Bathroom Sink — kEam (@keam.wf), https://sketchfab.com/3d-models/bathroom-sink-low-poly-game-ready-45a6ab5e5a1a40b8913ab14314734ce8
+- Game-Ready: Washing Machine — Melon Polygons, https://sketchfab.com/3d-models/game-ready-washing-machine-6043c99592764c54b42f0af4a5d89f0c
+- Game Ready - Double Bed — Allan-Jay Branscombe, https://sketchfab.com/3d-models/game-ready-double-bed-eeafb24592f249f08f9576c2511272d8
+- Kitchen — AEN (@aenikl), https://sketchfab.com/3d-models/kitchen-83492c3bf9b5496aa16306098b188a41
+
+Licencia de los cuatro modelos: https://creativecommons.org/licenses/by/4.0/ . Se han reducido texturas a 2K, adaptado mapas y materiales a Unity URP y colocado instancias en la escena. La cama se convirtió a FBX y se ajustó su escala; en la cocina se desactivó el módulo alto para adaptarla al espacio.

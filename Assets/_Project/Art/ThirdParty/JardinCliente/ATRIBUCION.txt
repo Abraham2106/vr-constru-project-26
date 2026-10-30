@@ -1,0 +1,5 @@
+Assets aportados por el usuario (29 octubre 2026): grass-01.osm.zip, fern-pot.osm.zip, 3d-fern-01.osm.zip, hedge.osm.zip, it-704-integrator-step-light-led-stair-light.osm.zip.
+Modificaciones: conversión FBX para pasto, helecho, seto y luminaria; reducción geométrica del helecho, seto y luminaria; combinación de mallas de maceta; materiales URP y texturas de máximo 2048.
+Seto: Emmanuel Puybaret / eTeks y Scopia Visual Interfaces Systems, CC BY 3.0, ver licencia original en work/jardin_cliente/hedge/source/hedge-obj/LICENSE.TXT. https://creativecommons.org/licenses/by/3.0/
+Los demás ZIP no incluyen información verificable de autor o licencia; conservar datos de origen antes de distribuir.
+Árboles: free vegetation asset pack, rubberduck, CC0, https://opengameart.org/content/free-vegetation-asset-pack.

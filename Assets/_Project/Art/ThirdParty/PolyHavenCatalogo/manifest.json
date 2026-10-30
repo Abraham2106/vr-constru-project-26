@@ -1,0 +1,280 @@
+[
+  {
+    "id": "modern_wooden_cabinet",
+    "source": "https://polyhaven.com/a/modern_wooden_cabinet",
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license",
+    "files": [
+      {
+        "path": "work\\assets_catalogo\\poly\\modern_wooden_cabinet\\modern_wooden_cabinet_1k.fbx",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/modern_wooden_cabinet/modern_wooden_cabinet_1k.fbx",
+        "bytes": 799676,
+        "md5": "f313bfb6a107dc766289effa0b757b65"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\modern_wooden_cabinet\\textures\\modern_wooden_cabinet_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_wooden_cabinet/modern_wooden_cabinet_diff_1k.jpg",
+        "bytes": 670353,
+        "md5": "9c7e897741dd9aea6382f04e710d739b"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\modern_wooden_cabinet\\textures\\modern_wooden_cabinet_nor_gl_1k.exr",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modern_wooden_cabinet/modern_wooden_cabinet_nor_gl_1k.exr",
+        "bytes": 926115,
+        "md5": "2a6981ee98ea4017f485850122c41d9a"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\modern_wooden_cabinet\\textures\\modern_wooden_cabinet_rough_1k.exr",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modern_wooden_cabinet/modern_wooden_cabinet_rough_1k.exr",
+        "bytes": 995220,
+        "md5": "5e919db42c2bc9dfeb9b7725b1a2320d"
+      }
+    ],
+    "authors": {
+      "Patrik Pangerl": "All"
+    },
+    "name": "Modern Wooden Cabinet",
+    "status": "downloaded"
+  },
+  {
+    "id": "modern_coffee_table_01",
+    "source": "https://polyhaven.com/a/modern_coffee_table_01",
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license",
+    "files": [
+      {
+        "path": "work\\assets_catalogo\\poly\\modern_coffee_table_01\\modern_coffee_table_01_1k.fbx",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/modern_coffee_table_01/modern_coffee_table_01_1k.fbx",
+        "bytes": 158780,
+        "md5": "c95c72d2090041842e39485c3cdd91b5"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\modern_coffee_table_01\\textures\\modern_coffee_table_01_rough_1k.exr",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modern_coffee_table_01/modern_coffee_table_01_rough_1k.exr",
+        "bytes": 874137,
+        "md5": "0b0d6100d116c9f091e5fe7e8b7d2929"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\modern_coffee_table_01\\textures\\modern_coffee_table_01_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_coffee_table_01/modern_coffee_table_01_diff_1k.jpg",
+        "bytes": 410569,
+        "md5": "356014e027b59c21b3c99ac112e645f9"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\modern_coffee_table_01\\textures\\modern_coffee_table_01_nor_gl_1k.exr",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modern_coffee_table_01/modern_coffee_table_01_nor_gl_1k.exr",
+        "bytes": 836417,
+        "md5": "94ac0091b8b50d2396a5a7330ecc1937"
+      }
+    ],
+    "authors": {
+      "Amin": "All"
+    },
+    "name": "Modern Coffee Table 01",
+    "status": "downloaded"
+  },
+  {
+    "id": "fern_02",
+    "source": "https://polyhaven.com/a/fern_02",
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license",
+    "files": [
+      {
+        "path": "work\\assets_catalogo\\poly\\fern_02\\fern_02_1k.fbx",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/fern_02/fern_02_1k.fbx",
+        "bytes": 223596,
+        "md5": "65fd395dca9867cfa5e4d91e3fcc38df"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\fern_02\\textures\\fern_02_rough_1k.exr",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/fern_02/fern_02_rough_1k.exr",
+        "bytes": 267009,
+        "md5": "1e937f3f3db87e520601f8e94363a5dc"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\fern_02\\textures\\fern_02_alpha_1k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fern_02/fern_02_alpha_1k.png",
+        "bytes": 114589,
+        "md5": "1421e5e36946c23a7ddcc907de89025c"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\fern_02\\textures\\fern_02_nor_gl_1k.exr",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/fern_02/fern_02_nor_gl_1k.exr",
+        "bytes": 801563,
+        "md5": "c4c2dc925e3ecdb86a6a123a21acfc5b"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\fern_02\\textures\\fern_02_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fern_02/fern_02_diff_1k.jpg",
+        "bytes": 315705,
+        "md5": "82c18a6cfd5ae91c37c0e078f591181c"
+      }
+    ],
+    "authors": {
+      "Rob Tuytel": "scanning",
+      "Rico Cilliers": "modeling"
+    },
+    "name": "Fern 02",
+    "status": "downloaded"
+  },
+  {
+    "id": "wicker_basket_01",
+    "source": "https://polyhaven.com/a/wicker_basket_01",
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license",
+    "files": [
+      {
+        "path": "work\\assets_catalogo\\poly\\wicker_basket_01\\wicker_basket_01_1k.fbx",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/wicker_basket_01/wicker_basket_01_1k.fbx",
+        "bytes": 703484,
+        "md5": "72d88094a41563c22dbfca200f1cc981"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\wicker_basket_01\\textures\\wicker_basket_01_nor_gl_1k.exr",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/wicker_basket_01/wicker_basket_01_nor_gl_1k.exr",
+        "bytes": 1231603,
+        "md5": "7d7e92085f44dacded72209380200c4e"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\wicker_basket_01\\textures\\wicker_basket_01_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wicker_basket_01/wicker_basket_01_diff_1k.jpg",
+        "bytes": 679110,
+        "md5": "54c05d9c5e4f92930cbbf67e4770fc61"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\wicker_basket_01\\textures\\wicker_basket_01_rough_1k.exr",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/wicker_basket_01/wicker_basket_01_rough_1k.exr",
+        "bytes": 1027184,
+        "md5": "f2f8433e54063bda5edf8e7928e3e989"
+      }
+    ],
+    "authors": {
+      "Kuutti Siitonen": "All"
+    },
+    "name": "Wicker Basket 01",
+    "status": "downloaded"
+  },
+  {
+    "id": "planter_pot_clay",
+    "source": "https://polyhaven.com/a/planter_pot_clay",
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license",
+    "files": [
+      {
+        "path": "work\\assets_catalogo\\poly\\planter_pot_clay\\planter_pot_clay_1k.fbx",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/planter_pot_clay/planter_pot_clay_1k.fbx",
+        "bytes": 130252,
+        "md5": "eaf86b88b597006754997bb2c4b1dbd8"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\planter_pot_clay\\textures\\planter_pot_clay_rough_1k.exr",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/planter_pot_clay/planter_pot_clay_rough_1k.exr",
+        "bytes": 956226,
+        "md5": "9ae329da68b70b8f96cf996422251d8d"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\planter_pot_clay\\textures\\planter_pot_clay_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/planter_pot_clay/planter_pot_clay_diff_1k.jpg",
+        "bytes": 596319,
+        "md5": "6823eb18ca73c8cdcb3cbc04704c443b"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\planter_pot_clay\\textures\\planter_pot_clay_nor_gl_1k.exr",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/planter_pot_clay/planter_pot_clay_nor_gl_1k.exr",
+        "bytes": 997457,
+        "md5": "2becbadcd9b94196d2236d179369001a"
+      }
+    ],
+    "authors": {
+      "Amal Kumar": "All"
+    },
+    "name": "Planter Pot Clay",
+    "status": "downloaded"
+  },
+  {
+    "id": "wooden_display_shelves_01",
+    "source": "https://polyhaven.com/a/wooden_display_shelves_01",
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license",
+    "files": [
+      {
+        "path": "work\\assets_catalogo\\poly\\wooden_display_shelves_01\\wooden_display_shelves_01_1k.fbx",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/wooden_display_shelves_01/wooden_display_shelves_01_1k.fbx",
+        "bytes": 122540,
+        "md5": "46fbef666f9548648faef9d82d209eee"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\wooden_display_shelves_01\\textures\\wooden_display_shelves_01_metal_1k.exr",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/wooden_display_shelves_01/wooden_display_shelves_01_metal_1k.exr",
+        "bytes": 5056,
+        "md5": "51854459630498e7e1025d260af42bd6"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\wooden_display_shelves_01\\textures\\wooden_display_shelves_01_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_display_shelves_01/wooden_display_shelves_01_diff_1k.jpg",
+        "bytes": 139254,
+        "md5": "b3f7519052957a3f0199e5fcd742a0b6"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\wooden_display_shelves_01\\textures\\wooden_display_shelves_01_nor_gl_1k.exr",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/wooden_display_shelves_01/wooden_display_shelves_01_nor_gl_1k.exr",
+        "bytes": 632053,
+        "md5": "b4340b193da215b3c967e989e99f91a2"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\wooden_display_shelves_01\\textures\\wooden_display_shelves_01_rough_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_display_shelves_01/wooden_display_shelves_01_rough_1k.jpg",
+        "bytes": 158293,
+        "md5": "bc99a6f244c3a2a1b9e669c1be1cc722"
+      }
+    ],
+    "authors": {
+      "James Ray Cock": "All"
+    },
+    "name": "Wooden Display Shelves 01",
+    "status": "downloaded"
+  },
+  {
+    "id": "wooden_table_02",
+    "source": "https://polyhaven.com/a/wooden_table_02",
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license",
+    "files": [
+      {
+        "path": "work\\assets_catalogo\\poly\\wooden_table_02\\wooden_table_02_1k.fbx",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/wooden_table_02/wooden_table_02_1k.fbx",
+        "bytes": 28284,
+        "md5": "ce8625d9dff124b89577c64d2c6a0bce"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\wooden_table_02\\textures\\wooden_table_02_nor_gl_1k.exr",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/wooden_table_02/wooden_table_02_nor_gl_1k.exr",
+        "bytes": 1219046,
+        "md5": "164c29534070072476e0a2fa28936603"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\wooden_table_02\\textures\\wooden_table_02_rough_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_table_02/wooden_table_02_rough_1k.jpg",
+        "bytes": 183748,
+        "md5": "9000e4d8a3ca985764448e1657dd157b"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\wooden_table_02\\textures\\wooden_table_02_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_table_02/wooden_table_02_diff_1k.jpg",
+        "bytes": 178379,
+        "md5": "07075a87918208594260c86c727e4396"
+      },
+      {
+        "path": "work\\assets_catalogo\\poly\\wooden_table_02\\textures\\wooden_table_02_metal_1k.exr",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/wooden_table_02/wooden_table_02_metal_1k.exr",
+        "bytes": 4784,
+        "md5": "ce2308912ad2755a5567d91d94ae4740"
+      }
+    ],
+    "authors": {
+      "Serhii Khromov": "All"
+    },
+    "name": "Wooden Table 02",
+    "status": "downloaded"
+  }
+]
