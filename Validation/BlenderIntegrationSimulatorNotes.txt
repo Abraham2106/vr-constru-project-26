@@ -1,0 +1,4 @@
+Full interior walk passed on both floors using native ContinuousMoveProvider and W keyboard events, with doors opened. 64/61 route waypoints, six rooms and return to living room per floor.
+Simulated HMD/capsule height during this run: 1.36144 m, capsule radius 0.3 m. Physical headset height/clearance remains conditional on device testing.
+The native XR SDK logged inability to query haptic capabilities for the two XRSimulatedController devices (error -1, continuing with one channel). No physical haptic feedback is claimed or emulated by this integration.
+No static-batch/lightmap reassignment errors reappeared after removing the trial optimization.

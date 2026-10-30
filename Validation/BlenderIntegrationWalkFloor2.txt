@@ -1,0 +1,10 @@
+Native simulator ContinuousMoveProvider; W keyboard input; all doors opened for traversal. Floor=2
+Capsule-based interior route planned; radius=0.3 height=1.36144 waypoints=61
+PASS Sala camera=(2.41, 4.36, 1.33) originY=2.999999
+PASS Cocina camera=(2.59, 4.36, -1.53) originY=2.999999
+PASS Lavanderia camera=(3.28, 4.36, -5.14) originY=2.999999
+PASS Bano camera=(1.17, 4.36, -2.64) originY=2.999999
+PASS Dormitorio 2 camera=(-0.70, 4.36, -3.23) originY=2.999999
+PASS Dormitorio 1 camera=(-0.53, 4.36, 1.80) originY=2.999999
+PASS Sala regreso camera=(2.40, 4.36, 1.33) originY=2.999999
+PASS recorrido completo piso 2

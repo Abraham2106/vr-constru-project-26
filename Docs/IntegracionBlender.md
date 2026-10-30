@@ -54,6 +54,7 @@ El metal negro procedural se adapta con los colores y la rugosidad del original 
 | Superficies | No se detectaron triangulos opacos exactamente coincidentes con igual normal entre las piezas nuevas y las existentes: 13.102 triangulos examinados, tolerancia 0,1 mm. Este detector no demuestra ausencia de todo solape parcial; se complementa con las vistas interiores y exteriores. `BlenderIntegrationCoincidentFaces.txt`. |
 | Iluminacion | 131 renderers nuevos estaticos tienen ambos lightmaps; 22 renderers de puertas/paneles usan Light Probes. Dos atlas direccionales y 125 probes por escenario; 12 cubemaps actualizados. Ciclo dia-atardecer-dia restaura mapas, sol y los seis reflejos. `BlenderIntegrationCycle.txt`, `BlenderIntegrationBake.report.txt`, `BlenderIntegrationReflections.txt`. |
 | Escaleras | Ascenso y descenso con W del teclado simulado, procesado por el ContinuousMoveProvider nativo. Termina en Y=3 y Y=0 respectivamente, sin caida. `BlenderIntegrationStairs.txt`. |
+| Recorrido interior | Desplazamiento real con W y ContinuousMoveProvider por sala, cocina, lavanderia, bano y ambos dormitorios, con regreso a la sala, en ambos pisos (64/61 puntos de ruta). Puertas abiertas; sin caidas ni pasos bloqueados. Altura simulada de 1,361 m y radio de capsula 0,3 m. `BlenderIntegrationWalkFloor1.txt`, `BlenderIntegrationWalkFloor2.txt`. |
 | Puertas y luces | Seleccion mediante XRInteractionManager/NearFarInteractor: 11 hojas abren y cierran; los 12 interruptores alternan y restauran su grupo. `BlenderIntegrationDoors.txt`, `BlenderIntegrationSwitches.txt`. Los 12 interruptores tienen al menos un rayo de aproximacion sin obstruccion desde 0,8 m (`BlenderIntegrationSwitchVisibility.txt`). |
 | Menu y herramientas | Los tres TP alcanzan su destino. Medicion de 1 m/deshacer y pintura sobre malla nueva/restaurar comprobadas por API de la aplicacion. No acredita precision del gatillo de un visor fisico. `BlenderIntegrationTeleport.txt`, `BlenderIntegrationTools.txt`. |
 | Regresion | Overrides del rig, TP, 416 objetos serializados del vecindario y mobiliario existente conservados. Jardin conserva transformaciones/materiales; URP anade datos nativos a cuatro luces existentes, sin cambiar sus propiedades Light. 82 archivos del vecindario verificados contra Git, incluidos hashes LFS. `BlenderIntegrationProtectedObjects.json`, `BlenderIntegrationRegression.json`. |
@@ -62,6 +63,8 @@ El metal negro procedural se adapta con los colores y la rugosidad del original 
 ## Puerta de entrega
 
 La escena principal `Vivienda_Prueba.unity` y la rama `main` no se han sustituido. Falta la aprobacion visual de la escena de prueba para promoverla, como exige el plan acordado. Tambien quedan condicionados a disponer de un visor el perfil de GPU/memoria en Quest y la prueba fisica de mandos; el simulador no certifica esos resultados.
+
+El SDK informa que los dos mandos simulados no exponen capacidades hapticas; no se acredita vibracion fisica (`BlenderIntegrationSimulatorNotes.txt`).
 
 La procedencia de los recursos y las licencias conocidas se registran en `Assets/_Project/Art/BlenderNuevo/ORIGEN_Y_LICENCIAS.md`. El cliente no adjunto el detalle de autores/licencias de todas las texturas; no se presume CC0 ni permiso de redistribucion. No se descargaron assets adicionales.
 
