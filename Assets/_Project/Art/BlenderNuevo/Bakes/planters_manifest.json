@@ -1,0 +1,13 @@
+{
+  "source_material": "Grass 01 casa",
+  "objects": [
+    "Suelo Zacate [757827].001",
+    "Suelo Zacate [758007].001",
+    "Suelo Zacate [760649].001",
+    "Suelo Zacate [760736].001"
+  ],
+  "albedo": "planter_grass.png",
+  "size": 1024,
+  "triangles": 64,
+  "method": "Cycles diffuse color only; no direct/indirect illumination baked into albedo"
+}
