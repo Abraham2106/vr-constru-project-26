@@ -50,6 +50,8 @@ public static class BlenderMaterialLibrary
             m.enableInstancing = true;
             EditorUtility.SetDirty(m);
         }
+        foreach (var guid in AssetDatabase.FindAssets("t:Texture2D", new[] { Root + "/Bakes" }))
+            ConfigureTexture(AssetDatabase.GUIDToAssetPath(guid), false, true);
         AssetDatabase.SaveAssets();
         Debug.Log($"Biblioteca Blender: {registry.unique.Length} materiales reconstruidos.");
     }
@@ -62,12 +64,13 @@ public static class BlenderMaterialLibrary
         var t = AssetImporter.GetAtPath(path) as TextureImporter;
         if (!t) throw new FileNotFoundException("Textura no importada", path);
         var type = normal ? TextureImporterType.NormalMap : TextureImporterType.Default;
+        int androidSize = normal || !srgb ? 1024 : 2048;
         var android = t.GetPlatformTextureSettings("Android");
         bool changed = t.textureType != type || t.sRGBTexture != srgb || t.maxTextureSize != 2048 ||
-            !android.overridden || android.maxTextureSize != 2048 || android.format != TextureImporterFormat.ASTC_6x6;
+            !android.overridden || android.maxTextureSize != androidSize || android.format != TextureImporterFormat.ASTC_6x6;
         if (!changed) return;
         t.textureType = type; t.sRGBTexture = srgb; t.maxTextureSize = 2048;
-        android.overridden = true; android.maxTextureSize = 2048; android.format = TextureImporterFormat.ASTC_6x6;
+        android.overridden = true; android.maxTextureSize = androidSize; android.format = TextureImporterFormat.ASTC_6x6;
         t.SetPlatformTextureSettings(android);
         t.SaveAndReimport();
     }
