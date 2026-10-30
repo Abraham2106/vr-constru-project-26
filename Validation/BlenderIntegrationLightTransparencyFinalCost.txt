@@ -1,0 +1,7 @@
+UTC 2026-10-30T21:15:46.8401680Z
+Unity Editor Game view; house and neighborhood. Fixed exterior camera .2/1.39/15, facing -Z.
+Five cases, 30 unique rendered warmup frames + 90 unique samples each.
+Room groups=12 pure transparent house renderers=22
+Room switch mode includes fixture emission. Mixed-material meshes and neighbors excluded from transparency toggle.
+Frame times use Editor Time.unscaledDeltaTime; not isolated GPU cost or Quest stereo performance.
+Original room/renderer/camera state restored; no scene or asset save.

@@ -1,0 +1,45 @@
+{
+  "transforms": {
+    "checked": 962,
+    "changed": []
+  },
+  "ui_transforms": {
+    "checked": 12,
+    "changed": []
+  },
+  "meshfilters": {
+    "checked": 675,
+    "changed": []
+  },
+  "meshcolliders": {
+    "checked": 145,
+    "changed": []
+  },
+  "boxcolliders": {
+    "checked": 381,
+    "changed": []
+  },
+  "capsulecolliders": {
+    "checked": 12,
+    "changed": []
+  },
+  "rigidbodies": {
+    "checked": 11,
+    "changed": []
+  },
+  "renderer_material_array_changes": [],
+  "rig_prefab_overrides_unchanged": true,
+  "other_prefab_override_changes": [],
+  "added_native_components": [
+    "178429799",
+    "305354416",
+    "743358900",
+    "759236890",
+    "988753359",
+    "1081078771",
+    "1342209948",
+    "1457091236",
+    "1652794291",
+    "2016773089"
+  ]
+}

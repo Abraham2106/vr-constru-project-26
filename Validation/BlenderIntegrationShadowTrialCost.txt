@@ -1,0 +1,8 @@
+UTC 2026-10-30T12:15:49.4697471Z
+Unity Editor Game view, house + existing neighborhood, fixed exterior camera .2/1.39/15 facing -Z.
+Five cases: 30 unique rendered warmup frames, then 90 unique rendered samples per case.
+Room light groups=12; pure transparent house renderers=22
+Lights mode also changes the fixture emission through the existing room controller.
+Transparent-only house renderers disabled transiently for the diagnostic; mixed opaque/transparent meshes and neighbors excluded.
+Frame times are Editor Time.unscaledDeltaTime; not isolated GPU cost, not stereoscopic Quest performance.
+Original room, renderer and camera states restored; no asset or scene save performed.

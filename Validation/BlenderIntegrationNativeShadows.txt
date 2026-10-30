@@ -1,0 +1,5 @@
+PASS native URP: additional shadows + soft Low + Rendering Layers
+PASS house renderer mask=Default|HouseInteriorCasters count=321
+PASS room lights default illumination preserved, custom caster layer=2, Low256, explicit bias; count=12
+PASS sun bias=0.01/0.03
+Android APIs=Vulkan

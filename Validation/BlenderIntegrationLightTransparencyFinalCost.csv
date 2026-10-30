@@ -1,0 +1,6 @@
+case,samples,mean_draw_calls,mean_setpass,mean_triangles,mean_shadow_casters,median_frame_ms,p95_frame_ms
+lights_on_glass_on,90,2663.00,75.00,900160.00,1960.00,10.274,12.456
+lights_off_glass_on,90,1269.00,50.00,795125.00,566.00,7.601,10.016
+lights_off_glass_off,90,1225.00,45.00,794065.00,566.00,6.999,9.642
+lights_on_glass_off,90,2619.00,70.00,899100.00,1960.00,8.501,9.918
+repeat_lights_on_glass_on,90,2663.00,75.00,900160.00,1960.00,9.054,10.896

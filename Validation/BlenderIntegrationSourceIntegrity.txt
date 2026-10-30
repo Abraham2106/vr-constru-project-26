@@ -2,3 +2,6 @@ PASS client working copy SHA256 c94a05ca1eb2acf9364a5a0aa7563509ce9e18f29703fa95
 PASS all 82 tracked neighbor asset files match HEAD, including LFS content SHA256 values.
 PASS original main scene is not modified in integration branch.
 PASS source Blender original is not saved by export, bake or render scripts.
+
+2026-10-30 final lighting review: working copy SHA256 rechecked and still equals c94a05ca1eb2acf9364a5a0aa7563509ce9e18f29703fa9586d3729934307b7a.
+The original Downloads/faaaah.blend path is no longer present at this check. No current hash is claimed for that absent path. The unchanged copy remains in work/faaaah_integracion_copia.blend for reexport; this lighting change does not write Blender files.
