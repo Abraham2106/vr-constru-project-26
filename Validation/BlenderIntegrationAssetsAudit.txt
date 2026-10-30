@@ -1,0 +1,10 @@
+UTC 2026-10-30T10:31:59.5746417Z
+Visible house renderers=321
+New-source/override renderers=153
+House triangles=22779
+House distinct materials=39 textures=62
+Texture native memory bytes (Editor)=400616525
+Scope: house, not neighborhood; memory includes Editor copies, not an Android build.
+PASS source static renderers with both scenario lightmaps=131
+PASS source dynamic/interactive renderers using Light Probes=22
+Lighting validation errors=0

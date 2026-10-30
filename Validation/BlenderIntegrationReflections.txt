@@ -1,0 +1,12 @@
+PASS Reflejos Piso 1 Assets/_Project/Art/BlenderNuevo/Lighting/Reflections/Probe_0_Dia.exr 128px
+PASS Reflejos Piso 2 Assets/_Project/Art/BlenderNuevo/Lighting/Reflections/Probe_1_Dia.exr 128px
+PASS Reflejos Fachada 1 Assets/_Project/Art/BlenderNuevo/Lighting/Reflections/Probe_2_Dia.exr 256px
+PASS Reflejos Fachada 2 Assets/_Project/Art/BlenderNuevo/Lighting/Reflections/Probe_3_Dia.exr 256px
+PASS Vidrio espejo Piso 1 Assets/_Project/Art/BlenderNuevo/Lighting/Reflections/Probe_4_Dia.exr 128px
+PASS Vidrio espejo Piso 2 Assets/_Project/Art/BlenderNuevo/Lighting/Reflections/Probe_5_Dia.exr 128px
+PASS Reflejos Piso 1 Assets/_Project/Art/BlenderNuevo/Lighting/Reflections/Probe_0_Noche.exr 128px
+PASS Reflejos Piso 2 Assets/_Project/Art/BlenderNuevo/Lighting/Reflections/Probe_1_Noche.exr 128px
+PASS Reflejos Fachada 1 Assets/_Project/Art/BlenderNuevo/Lighting/Reflections/Probe_2_Noche.exr 256px
+PASS Reflejos Fachada 2 Assets/_Project/Art/BlenderNuevo/Lighting/Reflections/Probe_3_Noche.exr 256px
+PASS Vidrio espejo Piso 1 Assets/_Project/Art/BlenderNuevo/Lighting/Reflections/Probe_4_Noche.exr 128px
+PASS Vidrio espejo Piso 2 Assets/_Project/Art/BlenderNuevo/Lighting/Reflections/Probe_5_Noche.exr 128px

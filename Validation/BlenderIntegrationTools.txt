@@ -1,0 +1,1 @@
+PASS menu visibility, activate measurement, 1m segment, undo, activate wall paint, paint new mesh, restore original material property block. Tool actions driven via the application APIs; physical headset trigger accuracy not measured.

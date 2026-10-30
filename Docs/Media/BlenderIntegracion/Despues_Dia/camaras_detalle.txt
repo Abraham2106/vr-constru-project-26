@@ -1,0 +1,2 @@
+escalera camera=(7.00, 1.60, 12.00) target=(4.00, 1.80, 6.00)
+balcon_detalle camera=(-0.50, 4.65, 5.60) target=(1.10, 5.95, 3.40)

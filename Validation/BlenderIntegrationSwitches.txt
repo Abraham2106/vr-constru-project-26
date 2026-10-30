@@ -1,0 +1,12 @@
+PASS XRI select-enter/exit: Apartamento 1 - Lavanderia
+PASS XRI select-enter/exit: Apartamento 1 - Dormitorio 1
+PASS XRI select-enter/exit: Apartamento 1 - Dormitorio 2
+PASS XRI select-enter/exit: Apartamento 1 - Cocina
+PASS XRI select-enter/exit: Apartamento 2 - Lavanderia
+PASS XRI select-enter/exit: Apartamento 2 - Cocina
+PASS XRI select-enter/exit: Apartamento 2 - Dormitorio 2
+PASS XRI select-enter/exit: Apartamento 2 - Dormitorio 1
+PASS XRI select-enter/exit: Apartamento 1 - Sala
+PASS XRI select-enter/exit: Apartamento 1 - Baño
+PASS XRI select-enter/exit: Apartamento 2 - Sala
+PASS XRI select-enter/exit: Apartamento 2 - Baño

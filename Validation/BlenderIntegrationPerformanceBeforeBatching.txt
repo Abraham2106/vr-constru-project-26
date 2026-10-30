@@ -1,0 +1,9 @@
+Scope: Desktop Unity Editor Game view, 120 Editor updates after 30 warmup updates; scene includes neighborhood.
+UTC 2026-10-30T10:39:23.2684455Z
+Camera=(0.20, 1.39, 15.00)
+drawCalls mean=1269 peak=1269
+SetPass mean=51
+rendered triangles mean=795125
+shadow casters mean=566
+Time.unscaledDeltaTime mean ms=7.34371414873749
+Not a Quest performance result; editor rendering and tooling overhead are included.

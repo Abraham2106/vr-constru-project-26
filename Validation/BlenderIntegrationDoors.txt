@@ -1,0 +1,13 @@
+PASS abierto Puerta_Auto_02_PLACEHOLDER angle=90
+PASS abierto Puerta_Auto_06_PLACEHOLDER angle=80
+PASS abierto Puerta_Auto_04_PLACEHOLDER angle=105
+PASS abierto Puerta_Auto_05_PLACEHOLDER angle=105
+PASS abierto Ventana_Auto_01_PLACEHOLDER angle=105
+PASS abierto Puerta_Auto_09_PLACEHOLDER angle=105
+PASS abierto Puerta_Auto_03_PLACEHOLDER angle=90
+PASS abierto Puerta_Auto_01_PLACEHOLDER angle=80
+PASS abierto Puerta_Auto_07_PLACEHOLDER angle=90
+PASS abierto Puerta_Auto_08_PLACEHOLDER angle=90
+PASS abierto Ventana_Auto_02_PLACEHOLDER angle=105
+
+PASS cierre de las 11 hojas

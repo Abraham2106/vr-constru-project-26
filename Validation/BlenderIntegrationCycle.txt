@@ -1,0 +1,5 @@
+UTC 2026-10-30T11:23:41.1346182Z
+PASS day/sunset/day after removing trial static batches: lightmaps and six cubemaps restored.
+PASS sun intensity=1.35 Euler=(30.00, 215.00, 0.00)
+PASS LightProbe coefficients=3375
+Visible house static-batched renderers=0

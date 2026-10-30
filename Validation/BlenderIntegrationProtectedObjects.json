@@ -1,0 +1,68 @@
+[
+  {
+    "root": "Vecindario_Placeholder",
+    "existing_serialized_objects_checked": 416,
+    "changed_objects": [],
+    "status": "PASS"
+  },
+  {
+    "root": "Jardin_Cliente",
+    "existing_serialized_objects_checked": 408,
+    "changed_objects": [
+      "513995231",
+      "667487468",
+      "1919005129",
+      "1578811273"
+    ],
+    "status": "EXPECTED_NATIVE_URP_LIGHT_METADATA",
+    "reason": "Four existing garden accent lights received the native UniversalAdditionalLightData component during URP rendering/baking. Their original transforms, Light properties and all other existing garden components are unchanged.",
+    "added_script_guid": "474bcb49853aa07438625e644c072ee6",
+    "added_component_ids": [
+      "513995234",
+      "667487471",
+      "1919005132",
+      "1578811276"
+    ]
+  },
+  {
+    "root": "TP_Exterior",
+    "existing_serialized_objects_checked": 2,
+    "changed_objects": [],
+    "status": "PASS"
+  },
+  {
+    "root": "TP_Piso1",
+    "existing_serialized_objects_checked": 2,
+    "changed_objects": [],
+    "status": "PASS"
+  },
+  {
+    "root": "TP_Piso2",
+    "existing_serialized_objects_checked": 2,
+    "changed_objects": [],
+    "status": "PASS"
+  },
+  {
+    "root": "Sketchfab_Camas",
+    "existing_serialized_objects_checked": 8,
+    "changed_objects": [],
+    "status": "PASS"
+  },
+  {
+    "root": "Sketchfab_Lavado",
+    "existing_serialized_objects_checked": 14,
+    "changed_objects": [],
+    "status": "PASS"
+  },
+  {
+    "root": "Sketchfab_Cocina_Piso_1",
+    "existing_serialized_objects_checked": 4,
+    "changed_objects": [],
+    "status": "PASS"
+  },
+  {
+    "root": "ProyectoVR_XR_Rig",
+    "prefab_id": "4150405671924639380",
+    "status": "PASS"
+  }
+]

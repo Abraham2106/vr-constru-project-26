@@ -1,0 +1,3 @@
+New source meshes checked=131
+Normal and UV failures=0
+Scope: valid normal arrays and finite UV0/UV2, not a proof of all face orientation or all visual seams.

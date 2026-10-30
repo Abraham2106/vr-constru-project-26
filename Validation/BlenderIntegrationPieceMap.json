@@ -1,0 +1,3755 @@
+{
+  "source_meshes": 253,
+  "matching_names": 168,
+  "new_names": 85,
+  "scope": "main house only; preserve approved XR/glass/ceiling/furniture",
+  "decisions": {
+    "integrado_malla_fuente": 131,
+    "integrado_acabado_con_interaccion_existente": 11,
+    "conservado_vidrio_transparente_aprobado": 22,
+    "conservado_marco_negro_existente": 49,
+    "conservada_cubierta_y_cielo_negro_aprobados": 6,
+    "conservado_entorno_fuera_del_alcance": 1,
+    "conservado_cielo_blanco_fuente_sin_material": 1,
+    "excluido_armario_conflicto_con_mobiliario_o_puerta": 16,
+    "conservada_puerta_interactiva_existente_666355": 1,
+    "vidrio_ya_cubierto_por_698760_marcos_nuevos_integrados": 2,
+    "conservada_baranda_vidrio_y_paso_escalera_existentes": 13
+  },
+  "pieces": [
+    {
+      "source_object": "Muro básico Bloques de hormigon 15 cm 2 [159790].001",
+      "source_materials": [
+        "Decorative plaster casa",
+        "Wood casa",
+        "Off White Painted Plaster.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Bloques de hormigon 15 cm 2 [159790].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_73b1ab3b22c0.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_4c12492b73b7.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_cb767ed34471.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Bloques de hormigon 15 cm 4 [160365].001",
+      "source_materials": [
+        "AR3DMat PBR Black Plaster casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Bloques de hormigon 15 cm 4 [160365].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_68df538ba732.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Bloques de hormigon 15 cm 2 [160888].001",
+      "source_materials": [
+        "Dark Grey Concrete casa",
+        "Off White Painted Plaster.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Bloques de hormigon 15 cm 2 [160888].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_8ea14b294a35.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_4c12492b73b7.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Bloques de hormigon 15 cm 2 [161761].001",
+      "source_materials": [
+        "Off White Painted Plaster.001 casa",
+        "Concrete look porcelain tile casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Bloques de hormigon 15 cm 2 [161761].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_c8c5842f00be.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_4c12492b73b7.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Bloques de hormigon 15 cm 2 [162208].001",
+      "source_materials": [
+        "Off White Painted Plaster.001 casa",
+        "Concrete look porcelain tile casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Bloques de hormigon 15 cm 2 [162208].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_c8c5842f00be.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Bloques de hormigon 15 cm 3 [163338].001",
+      "source_materials": [
+        "Off White Painted Plaster.001 casa",
+        "AR3DMat PBR Black Plaster casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Bloques de hormigon 15 cm 3 [163338].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_4c12492b73b7.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_68df538ba732.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Bloques de hormigon 15 cm 2 [165257].001",
+      "source_materials": [
+        "Decorative plaster casa",
+        "Wood casa",
+        "Off White Painted Plaster.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Bloques de hormigon 15 cm 2 [165257].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_73b1ab3b22c0.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_4c12492b73b7.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_cb767ed34471.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Bloques de hormigon 15 cm 2 [169541].001",
+      "source_materials": [
+        "Decorative plaster casa",
+        "Off White Painted Plaster.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Bloques de hormigon 15 cm 2 [169541].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_4c12492b73b7.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_73b1ab3b22c0.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Bloques de hormigon 15 cm 3 [170163].001",
+      "source_materials": [
+        "Off White Painted Plaster.001 casa",
+        "AR3DMat PBR Black Plaster casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Bloques de hormigon 15 cm 3 [170163].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_4c12492b73b7.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_68df538ba732.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Hormigón 160 mm con chapa grecada 50 mm 2 [172746].001",
+      "source_materials": [
+        "Porcelain tiles casa.002",
+        "Concrete look porcelain tile casa.001"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Suelo Hormigón 160 mm con chapa grecada 50 mm 2 [172746].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_1d5e9e0d4c41.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_037f4f01ba66.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Piso 1 [174640].001",
+      "source_materials": [
+        "Porcelain tiles casa.002",
+        "Dark Grey Concrete casa",
+        "Decorative plaster casa",
+        "medieval_blocks_03 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Suelo Piso 1 [174640].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_1d5e9e0d4c41.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_85811fe51428.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_8ea14b294a35.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_73b1ab3b22c0.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Bloques de hormigon 15 cm 2 [198115].001",
+      "source_materials": [
+        "Off White Painted Plaster.001 casa",
+        "Concrete look porcelain tile casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Bloques de hormigon 15 cm 2 [198115].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_4c12492b73b7.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_c8c5842f00be.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Piso 3 [198164].001",
+      "source_materials": [
+        "Concrete look porcelain tile casa.001",
+        "Decorative plaster casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Suelo Piso 3 [198164].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_037f4f01ba66.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_73b1ab3b22c0.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "door-trustile_doors-tmir6000 32\" x 84\" [521548].001",
+      "source_materials": [
+        "AR3DMat PBR Black Plaster casa",
+        "Wood casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "door-trustile_doors-tmir6000 32\" x 84\" [521548].001",
+      "mesh_asset": "Assets/_Project/Art/Models/Journey/Puerta_Auto_03_PLACEHOLDER_Leaf.asset",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_68df538ba732.mat"
+      ],
+      "decision": "integrado_acabado_con_interaccion_existente"
+    },
+    {
+      "source_object": "door-trustile_doors-tmir6000 30\" x 80\" [521723].001",
+      "source_materials": [
+        "AR3DMat PBR Black Plaster casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "door-trustile_doors-tmir6000 30\" x 80\" [521723].001",
+      "mesh_asset": "Assets/_Project/Art/Models/Journey/Puerta_Auto_01_PLACEHOLDER_Leaf.asset",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_68df538ba732.mat"
+      ],
+      "decision": "integrado_acabado_con_interaccion_existente"
+    },
+    {
+      "source_object": "door-trustile_doors-tmir6000 32\" x 84\" 2 [521856].001",
+      "source_materials": [
+        "AR3DMat PBR Black Plaster casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "door-trustile_doors-tmir6000 32\" x 84\" 2 [521856].001",
+      "mesh_asset": "Assets/_Project/Art/Models/Journey/Puerta_Auto_02_PLACEHOLDER_Leaf.asset",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_68df538ba732.mat"
+      ],
+      "decision": "integrado_acabado_con_interaccion_existente"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [663520].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Muro cortina [663520].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Glazing_Muro_básico_Muro_cortina__663520__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Glass.001.mat",
+        "Assets/_Project/Art/Presentation/Reflections/Glass_Interior_Clear.mat"
+      ],
+      "decision": "conservado_vidrio_transparente_aprobado"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm de madera [663693].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm de madera [663693].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_de_madera__663693__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm de madera [663696].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm de madera [663696].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_de_madera__663696__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm de madera [663699].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm de madera [663699].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_de_madera__663699__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm de madera [663704].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm de madera [663704].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_de_madera__663704__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [663734].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Muro cortina [663734].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Glazing_Muro_básico_Muro_cortina__663734__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Glass.001.mat",
+        "Assets/_Project/Art/Presentation/Reflections/Glass_Interior_Clear.mat"
+      ],
+      "decision": "conservado_vidrio_transparente_aprobado"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm de madera [663735].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm de madera [663735].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_de_madera__663735__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm de madera [663736].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm de madera [663736].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_de_madera__663736__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Muro básico Bloques de hormigon 15 cm 2 [665873].001",
+      "source_materials": [
+        "Off White Painted Plaster.001 casa",
+        "Concrete look porcelain tile casa.002"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Bloques de hormigon 15 cm 2 [665873].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_4c12492b73b7.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_9dc0a2a81a5a.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Bloques de hormigon 15 cm 2 [665939].001",
+      "source_materials": [
+        "Off White Painted Plaster.001 casa",
+        "Concrete look porcelain tile casa.002"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Bloques de hormigon 15 cm 2 [665939].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_4c12492b73b7.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_9dc0a2a81a5a.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Bloques de hormigon 15 cm 2 [666029].001",
+      "source_materials": [
+        "Off White Painted Plaster.001 casa",
+        "Concrete look porcelain tile casa.002"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Bloques de hormigon 15 cm 2 [666029].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_4c12492b73b7.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_9dc0a2a81a5a.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "door-trustile_doors-tmir6000 30\" x 80\" [666085].001",
+      "source_materials": [
+        "AR3DMat PBR Black Plaster casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "door-trustile_doors-tmir6000 30\" x 80\" [666085].001",
+      "mesh_asset": "Assets/_Project/Art/Models/Journey/Puerta_Auto_06_PLACEHOLDER_Leaf.asset",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_68df538ba732.mat"
+      ],
+      "decision": "integrado_acabado_con_interaccion_existente"
+    },
+    {
+      "source_object": "door-trustile_doors-tmir6000 32\" x 84\" [666355].001",
+      "source_materials": [
+        "AR3DMat PBR Black Plaster casa",
+        "Wood casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "door-trustile_doors-tmir6000 32\" x 84\" [666355].001",
+      "mesh_asset": "Assets/_Project/Art/Models/Journey/Puerta_Auto_07_PLACEHOLDER_Leaf.asset",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_68df538ba732.mat"
+      ],
+      "decision": "integrado_acabado_con_interaccion_existente"
+    },
+    {
+      "source_object": "door-trustile_doors-tmir6000 32\" x 84\" [666523].001",
+      "source_materials": [
+        "AR3DMat PBR Black Plaster casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "door-trustile_doors-tmir6000 32\" x 84\" [666523].001",
+      "mesh_asset": "Assets/_Project/Art/Models/Journey/Puerta_Auto_08_PLACEHOLDER_Leaf.asset",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_68df538ba732.mat"
+      ],
+      "decision": "integrado_acabado_con_interaccion_existente"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [673193].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Muro cortina [673193].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Glazing_Muro_básico_Muro_cortina__673193__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Glass.001.mat",
+        "Assets/_Project/Art/Presentation/Reflections/Glass_Interior_Clear.mat"
+      ],
+      "decision": "conservado_vidrio_transparente_aprobado"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm de madera [673194].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm de madera [673194].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_de_madera__673194__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm de madera [673195].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm de madera [673195].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_de_madera__673195__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm de madera [673196].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm de madera [673196].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_de_madera__673196__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm de madera [673197].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm de madera [673197].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_de_madera__673197__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [673200].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Muro cortina [673200].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Glazing_Muro_básico_Muro_cortina__673200__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Glass.001.mat",
+        "Assets/_Project/Art/Presentation/Reflections/Glass_Interior_Clear.mat"
+      ],
+      "decision": "conservado_vidrio_transparente_aprobado"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm de madera [673201].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm de madera [673201].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_de_madera__673201__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm de madera [673202].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm de madera [673202].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_de_madera__673202__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm de madera [673203].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm de madera [673203].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_de_madera__673203__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [677541].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Muro cortina [677541].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Glazing_Muro_básico_Muro_cortina__677541__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Glass.001.mat",
+        "Assets/_Project/Art/Presentation/Reflections/Glass_Interior_Clear.mat"
+      ],
+      "decision": "conservado_vidrio_transparente_aprobado"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm de madera [677746].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm de madera [677746].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_de_madera__677746__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm de madera [677747].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm de madera [677747].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_de_madera__677747__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm de madera [677748].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm de madera [677748].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_de_madera__677748__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm de madera [677749].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm de madera [677749].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_de_madera__677749__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Muro básico Genérico - 15cm concreto expuesto [678379].001",
+      "source_materials": [
+        "medieval_blocks_03 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Genérico - 15cm concreto expuesto [678379].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_85811fe51428.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Bloques de hormigon 15 cm 4 [679206].001",
+      "source_materials": [
+        "AR3DMat PBR Black Plaster casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Bloques de hormigon 15 cm 4 [679206].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_68df538ba732.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Bloques de hormigon 15 cm 2 [679344].001",
+      "source_materials": [
+        "Dark Grey Concrete casa",
+        "Black Painted Metal CASA",
+        "Off White Painted Plaster.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Bloques de hormigon 15 cm 2 [679344].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_8ea14b294a35.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/BlackPaintedMetal_approx.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_4c12492b73b7.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Bloques de hormigon 15 cm 2 [679792].001",
+      "source_materials": [
+        "Decorative plaster casa",
+        "Dark Grey Concrete casa",
+        "Off White Painted Plaster.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Bloques de hormigon 15 cm 2 [679792].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_4c12492b73b7.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_73b1ab3b22c0.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_8ea14b294a35.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Bloques de hormigon 15 cm 2 [680313].001",
+      "source_materials": [
+        "Decorative plaster casa",
+        "Off White Painted Plaster.001 casa",
+        "Concrete look porcelain tile casa.003"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Bloques de hormigon 15 cm 2 [680313].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_4c12492b73b7.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_73b1ab3b22c0.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_9368112da26c.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Precintas [681239].001",
+      "source_materials": [
+        "Decorative plaster casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Precintas [681239].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Exterior.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_73b1ab3b22c0.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Escaleras [681787].001",
+      "source_materials": [
+        "Stone-effect porcelain tile casa.001"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Suelo Escaleras [681787].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Exterior.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_fc7aefca91bb.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Escaleras [681916].001",
+      "source_materials": [
+        "Stone-effect porcelain tile casa.001"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Escaleras [681916].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Exterior.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_fc7aefca91bb.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Escaleras [681930].001",
+      "source_materials": [
+        "Stone-effect porcelain tile casa.001"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Escaleras [681930].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Exterior.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_fc7aefca91bb.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Escaleras [681944].001",
+      "source_materials": [
+        "Stone-effect porcelain tile casa.001"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Escaleras [681944].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Exterior.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_fc7aefca91bb.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Escaleras [681958].001",
+      "source_materials": [
+        "Stone-effect porcelain tile casa.001"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Escaleras [681958].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Exterior.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_fc7aefca91bb.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Escaleras [681972].001",
+      "source_materials": [
+        "Stone-effect porcelain tile casa.001"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Escaleras [681972].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Exterior.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_fc7aefca91bb.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Escaleras [681986].001",
+      "source_materials": [
+        "Stone-effect porcelain tile casa.001"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Escaleras [681986].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Exterior.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_fc7aefca91bb.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Escaleras [682002].001",
+      "source_materials": [
+        "Stone-effect porcelain tile casa.001"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Escaleras [682002].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Exterior.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_fc7aefca91bb.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Escaleras [682016].001",
+      "source_materials": [
+        "Stone-effect porcelain tile casa.001"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Escaleras [682016].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Exterior.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_fc7aefca91bb.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Escaleras [682030].001",
+      "source_materials": [
+        "Stone-effect porcelain tile casa.001"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Escaleras [682030].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Exterior.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_fc7aefca91bb.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Escaleras [682044].001",
+      "source_materials": [
+        "Stone-effect porcelain tile casa.001"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Escaleras [682044].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Exterior.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_fc7aefca91bb.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Escaleras [682064].001",
+      "source_materials": [
+        "Stone-effect porcelain tile casa.001"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Escaleras [682064].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Exterior.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_fc7aefca91bb.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Escaleras [682771].001",
+      "source_materials": [
+        "Stone-effect porcelain tile casa.001"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Escaleras [682771].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Exterior.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_fc7aefca91bb.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Escaleras [682785].001",
+      "source_materials": [
+        "Stone-effect porcelain tile casa.001"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Escaleras [682785].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Exterior.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_fc7aefca91bb.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Genérico 150 mm [683825].001",
+      "source_materials": [
+        "MetalPanel05 casa",
+        "Wood Golden Oak.001 casa.001"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Suelo Genérico 150 mm [683825].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Suelo_Genérico_150_mm__683825__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/MetalPanel05.mat"
+      ],
+      "decision": "conservada_cubierta_y_cielo_negro_aprobados"
+    },
+    {
+      "source_object": "Simple-A ras 1.00 x 2.20 m [684823].001",
+      "source_materials": [
+        "Wood casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Simple-A ras 1.00 x 2.20 m [684823].001 [Cristal_Fused]",
+      "mesh_asset": "Assets/_Project/Art/Models/Journey/Ventana_Auto_02_PLACEHOLDER_Leaf.asset",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_cb767ed34471.mat"
+      ],
+      "decision": "integrado_acabado_con_interaccion_existente"
+    },
+    {
+      "source_object": "Suelo Cielo Raso [686576].001",
+      "source_materials": [
+        "Black Painted Metal CASA",
+        "Wood Golden Oak casa.001",
+        "Black Painted Plaster Wall"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Suelo Cielo Raso [686576].001",
+      "mesh_asset": "Assets/_Project/Art/BalconCliente/Cielo_Superior_Exterior_Negro.asset",
+      "unity_materials": [
+        "Assets/_Project/Art/Presentation/Finishes/Materials/Ceiling_Acoustic_Matte.mat",
+        "Assets/Vivienda/Fidelity/Materials/MetalPanel05.mat"
+      ],
+      "decision": "conservada_cubierta_y_cielo_negro_aprobados"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm de madera [687602].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm de madera [687602].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_de_madera__687602__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [688408].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Muro cortina [688408].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Glazing_Muro_básico_Muro_cortina__688408__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Glass.001.mat",
+        "Assets/_Project/Art/Presentation/Reflections/Glass_Interior_Clear.mat"
+      ],
+      "decision": "conservado_vidrio_transparente_aprobado"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm de madera [688809].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm de madera [688809].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_de_madera__688809__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm de madera [688810].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm de madera [688810].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_de_madera__688810__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm de madera [688811].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm de madera [688811].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_de_madera__688811__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm de madera [688812].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm de madera [688812].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_de_madera__688812__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Simple-A ras 1.00 x 2.20 m [688854].001",
+      "source_materials": [
+        "Wood casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Simple-A ras 1.00 x 2.20 m [688854].001 [Cristal_Fused]",
+      "mesh_asset": "Assets/_Project/Art/Models/Journey/Ventana_Auto_01_PLACEHOLDER_Leaf.asset",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_cb767ed34471.mat"
+      ],
+      "decision": "integrado_acabado_con_interaccion_existente"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [689413].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Muro cortina [689413].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Glazing_Muro_básico_Muro_cortina__689413__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Glass.001.mat",
+        "Assets/_Project/Art/Presentation/Reflections/Glass_Interior_Clear.mat"
+      ],
+      "decision": "conservado_vidrio_transparente_aprobado"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [690503].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Muro cortina [690503].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Glazing_Muro_básico_Muro_cortina__690503__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Glass.001.mat",
+        "Assets/_Project/Art/Presentation/Reflections/Glass_Interior_Clear.mat"
+      ],
+      "decision": "conservado_vidrio_transparente_aprobado"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [690601].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Muro cortina [690601].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Glazing_Muro_básico_Muro_cortina__690601__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Glass.001.mat",
+        "Assets/_Project/Art/Presentation/Reflections/Glass_Interior_Clear.mat"
+      ],
+      "decision": "conservado_vidrio_transparente_aprobado"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [690668].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Muro cortina [690668].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Glazing_Muro_básico_Muro_cortina__690668__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Glass.001.mat",
+        "Assets/_Project/Art/Presentation/Reflections/Glass_Interior_Clear.mat"
+      ],
+      "decision": "conservado_vidrio_transparente_aprobado"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [690783].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [690783].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__690783__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [690786].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [690786].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__690786__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [690787].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [690787].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__690787__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [690788].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [690788].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__690788__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [690789].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [690789].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__690789__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [690796].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [690796].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__690796__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [690802].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [690802].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__690802__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [690805].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [690805].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__690805__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [690807].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [690807].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__690807__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [692257].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Muro cortina [692257].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Glazing_Muro_básico_Muro_cortina__692257__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Glass.001.mat",
+        "Assets/_Project/Art/Presentation/Reflections/Glass_Interior_Clear.mat"
+      ],
+      "decision": "conservado_vidrio_transparente_aprobado"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [693154].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Muro cortina [693154].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Glazing_Muro_básico_Muro_cortina__693154__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Glass.001.mat",
+        "Assets/_Project/Art/Presentation/Reflections/Glass_Interior_Clear.mat"
+      ],
+      "decision": "conservado_vidrio_transparente_aprobado"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [693249].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Muro cortina [693249].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Glazing_Muro_básico_Muro_cortina__693249__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Glass.001.mat",
+        "Assets/_Project/Art/Presentation/Reflections/Glass_Interior_Clear.mat"
+      ],
+      "decision": "conservado_vidrio_transparente_aprobado"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [693281].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Muro cortina [693281].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Glazing_Muro_básico_Muro_cortina__693281__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Glass.001.mat",
+        "Assets/_Project/Art/Presentation/Reflections/Glass_Interior_Clear.mat"
+      ],
+      "decision": "conservado_vidrio_transparente_aprobado"
+    },
+    {
+      "source_object": "Muro básico Bloques de hormigon 15 cm 2 [693623].001",
+      "source_materials": [
+        "Decorative plaster casa",
+        "Off White Painted Plaster.001 casa",
+        "Concrete look porcelain tile casa.002"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Bloques de hormigon 15 cm 2 [693623].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_73b1ab3b22c0.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_4c12492b73b7.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_9dc0a2a81a5a.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Bloques de hormigon 15 cm 2 [693678].001",
+      "source_materials": [
+        "Decorative plaster casa",
+        "Dark Grey Concrete casa",
+        "Off White Painted Plaster.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Bloques de hormigon 15 cm 2 [693678].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_73b1ab3b22c0.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_4c12492b73b7.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_8ea14b294a35.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Zacate [693790]",
+      "source_materials": [
+        "Grass 01 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Zacate [693790]",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Suelo_Zacate__693790_.asset",
+      "unity_materials": [
+        "Assets/_Project/Art/Materials/Environment/ExteriorGround_Day.mat"
+      ],
+      "decision": "conservado_entorno_fuera_del_alcance"
+    },
+    {
+      "source_object": "Suelo Losa de concreto [694685].001",
+      "source_materials": [
+        "Stone-effect porcelain tile casa.001",
+        "medieval_blocks_03 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Suelo Losa de concreto [694685].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_fc7aefca91bb.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_85811fe51428.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Losa de concreto [694751].001",
+      "source_materials": [
+        "New asphalt casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Losa de concreto [694751].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad139a7106e.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Cielo Raso [695194].001",
+      "source_materials": [
+        "Wood Golden Oak.001 casa.001"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Suelo Cielo Raso [695194].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Suelo_Cielo_Raso__695194__001.asset",
+      "unity_materials": [
+        "Assets/_Project/Art/Presentation/Finishes/Materials/Ceiling_Dark_Matte.mat"
+      ],
+      "decision": "conservada_cubierta_y_cielo_negro_aprobados"
+    },
+    {
+      "source_object": "door-trustile_doors-tmir6000 32\" x 84\" [695748].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "door-trustile_doors-tmir6000 32\" x 84\" [695748].001",
+      "mesh_asset": "Assets/_Project/Art/Models/Journey/Puerta_Auto_04_PLACEHOLDER_Leaf.asset",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_acabado_con_interaccion_existente"
+    },
+    {
+      "source_object": "door-trustile_doors-tmir6000 32\" x 84\" [695850].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "door-trustile_doors-tmir6000 32\" x 84\" [695850].001",
+      "mesh_asset": "Assets/_Project/Art/Models/Journey/Puerta_Auto_09_PLACEHOLDER_Leaf.asset",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_acabado_con_interaccion_existente"
+    },
+    {
+      "source_object": "Suelo Cielo Raso [696129].001",
+      "source_materials": [],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Cielo Raso [696129].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/MeshOverrides/LavanderiaSuperior.asset",
+      "unity_materials": [
+        "",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_1d5e9e0d4c41.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Cielo Raso [696170].001",
+      "source_materials": [],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Suelo Cielo Raso [696170].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Suelo_Cielo_Raso__696170__001.asset",
+      "unity_materials": [
+        ""
+      ],
+      "decision": "conservado_cielo_blanco_fuente_sin_material"
+    },
+    {
+      "source_object": "door-trustile_doors-tmir6000 32\" x 84\" [696442].001",
+      "source_materials": [
+        "AR3DMat PBR Black Plaster casa",
+        "Wood casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "door-trustile_doors-tmir6000 32\" x 84\" [696442].001",
+      "mesh_asset": "Assets/_Project/Art/Models/Journey/Puerta_Auto_05_PLACEHOLDER_Leaf.asset",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_68df538ba732.mat"
+      ],
+      "decision": "integrado_acabado_con_interaccion_existente"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [697748].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Muro cortina [697748].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Glazing_Muro_básico_Muro_cortina__697748__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Glass.001.mat",
+        "Assets/_Project/Art/Presentation/Reflections/Glass_Interior_Clear.mat"
+      ],
+      "decision": "conservado_vidrio_transparente_aprobado"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [697859].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Muro cortina [697859].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Glazing_Muro_básico_Muro_cortina__697859__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Glass.001.mat",
+        "Assets/_Project/Art/Presentation/Reflections/Glass_Interior_Clear.mat"
+      ],
+      "decision": "conservado_vidrio_transparente_aprobado"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [697933].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Muro cortina [697933].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Glazing_Muro_básico_Muro_cortina__697933__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Glass.001.mat",
+        "Assets/_Project/Art/Presentation/Reflections/Glass_Interior_Clear.mat"
+      ],
+      "decision": "conservado_vidrio_transparente_aprobado"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [698185].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Muro cortina [698185].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Glazing_Muro_básico_Muro_cortina__698185__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Glass.001.mat",
+        "Assets/_Project/Art/Presentation/Reflections/Glass_Interior_Clear.mat"
+      ],
+      "decision": "conservado_vidrio_transparente_aprobado"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [698331].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Muro cortina [698331].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Glazing_Muro_básico_Muro_cortina__698331__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Glass.001.mat",
+        "Assets/_Project/Art/Presentation/Reflections/Glass_Interior_Clear.mat"
+      ],
+      "decision": "conservado_vidrio_transparente_aprobado"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [698350].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [698350].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__698350__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [698351].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [698351].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__698351__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [698352].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [698352].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__698352__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [698353].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [698353].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__698353__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [698354].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [698354].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__698354__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [698355].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [698355].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__698355__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [698356].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [698356].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__698356__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [698363].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [698363].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__698363__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [698364].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [698364].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__698364__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [698365].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [698365].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__698365__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [698366].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [698366].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__698366__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [698370].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [698370].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__698370__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [698371].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [698371].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__698371__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [698372].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [698372].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__698372__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [698373].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [698373].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__698373__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [698374].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [698374].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__698374__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [698375].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [698375].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__698375__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [698376].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [698376].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Montante_rectangular_50_x_150mm_2__698376__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "conservado_marco_negro_existente"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [698523].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Muro cortina [698523].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Glazing_Muro_básico_Muro_cortina__698523__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Glass.001.mat",
+        "Assets/_Project/Art/Presentation/Reflections/Glass_Interior_Clear.mat"
+      ],
+      "decision": "conservado_vidrio_transparente_aprobado"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [698644].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Muro cortina [698644].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Glazing_Muro_básico_Muro_cortina__698644__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Glass.001.mat",
+        "Assets/_Project/Art/Presentation/Reflections/Glass_Interior_Clear.mat"
+      ],
+      "decision": "conservado_vidrio_transparente_aprobado"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [698760].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Muro cortina [698760].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Glazing_Muro_básico_Muro_cortina__698760__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Glass.001.mat",
+        "Assets/_Project/Art/Presentation/Reflections/Glass_Interior_Clear.mat"
+      ],
+      "decision": "conservado_vidrio_transparente_aprobado"
+    },
+    {
+      "source_object": "Suelo Sobre de cocina [711214].001",
+      "source_materials": [
+        "Grey Veined Marble casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Sobre de cocina [711214].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_70a1c4a4f0ec.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Sobre de cocina, microcemento [711841].001",
+      "source_materials": [
+        "Grey Veined Marble casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Sobre de cocina, microcemento [711841].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_70a1c4a4f0ec.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera [712283].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Moldura de madera [712283].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera [712390].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Moldura de madera [712390].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera [712459].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Moldura de madera [712459].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera [712648].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Moldura de madera [712648].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Mueble de cocina [712790].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Mueble de cocina [712790].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera [713509].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Moldura de madera [713509].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera [713641].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Moldura de madera [713641].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Mueble de cocina 2 [714663].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Mueble de cocina 2 [714663].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Mueble de cocina 2 [715354].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Mueble de cocina 2 [715354].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Mueble de cocina 2 [715464].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Mueble de cocina 2 [715464].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Mueble de cocina 2 [715498].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Mueble de cocina 2 [715498].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Mueble de cocina 2 [715530].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Mueble de cocina 2 [715530].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Mueble de cocina 2 [715562].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Mueble de cocina 2 [715562].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera [716758].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Moldura de madera [716758].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Mueble de cocina [717077].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Mueble de cocina [717077].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Mueble de cocina [717433].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Mueble de cocina [717433].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Mueble de cocina [717475].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Mueble de cocina [717475].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Mueble de cocina [717492].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Mueble de cocina [717492].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Mueble de cocina [717509].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Mueble de cocina [717509].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Mueble de cocina [717595].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Mueble de cocina [717595].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Mueble de cocina [717712].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Mueble de cocina [717712].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Mueble de cocina [717769].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Suelo Mueble de cocina [717769].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_db29baeb2193.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Mueble de cocina 2 [717935].001",
+      "source_materials": [
+        "Grey Veined Marble casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Mueble de cocina 2 [717935].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_70a1c4a4f0ec.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Mueble de cocina 2 [718006].001",
+      "source_materials": [
+        "Grey Veined Marble casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Mueble de cocina 2 [718006].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_70a1c4a4f0ec.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Bloques de hormigon 15 cm 2 [718428].001",
+      "source_materials": [
+        "Dark Grey Concrete casa",
+        "Off White Painted Plaster.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Bloques de hormigon 15 cm 2 [718428].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_8ea14b294a35.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_4c12492b73b7.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Bloques de hormigon 15 cm 2 [718694].001",
+      "source_materials": [
+        "Dark Grey Concrete casa",
+        "Black Painted Metal CASA",
+        "Off White Painted Plaster.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Bloques de hormigon 15 cm 2 [718694].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_8ea14b294a35.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/BlackPaintedMetal_approx.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_4c12492b73b7.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Cubierta básica Techo Lamina de junta alzada [719020].001",
+      "source_materials": [
+        "MetalPanel05 casa",
+        "Black Painted Metal CASA"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Cubierta básica Techo Lamina de junta alzada [719020].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Cubierta_básica_Techo_Lamina_de_junta_alzada__719020__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/MetalPanel05.mat"
+      ],
+      "decision": "conservada_cubierta_y_cielo_negro_aprobados"
+    },
+    {
+      "source_object": "Muro básico Precintas [721578].001",
+      "source_materials": [
+        "Black Painted Metal CASA"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Precintas [721578].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Muro_básico_Precintas__721578__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/MetalPanel05.mat"
+      ],
+      "decision": "conservada_cubierta_y_cielo_negro_aprobados"
+    },
+    {
+      "source_object": "Muro básico Precintas [721739].001",
+      "source_materials": [
+        "Black Painted Metal CASA"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Precintas [721739].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Exterior.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/BlackPaintedMetal_approx.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Cubierta básica Techo Lamina de junta alzada [722575].001",
+      "source_materials": [
+        "MetalPanel05 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Cubierta básica Techo Lamina de junta alzada [722575].001",
+      "mesh_asset": "Assets/_Project/Art/Presentation/Meshes/Lightmap_Cubierta_básica_Techo_Lamina_de_junta_alzada__722575__001.asset",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/MetalPanel05.mat"
+      ],
+      "decision": "conservada_cubierta_y_cielo_negro_aprobados"
+    },
+    {
+      "source_object": "Muro básico Bloques de hormigon 15 cm 2 [723328].001",
+      "source_materials": [
+        "Decorative plaster casa",
+        "Off White Painted Plaster.001 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Bloques de hormigon 15 cm 2 [723328].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_4c12492b73b7.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_73b1ab3b22c0.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera [730602].001",
+      "source_materials": [
+        "Wood Floor Golden Oak.003 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Moldura de madera [730602].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_MoldurasBaked.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/BakedWood_00.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera [733936].001",
+      "source_materials": [
+        "Wood Floor Golden Oak.003 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Moldura de madera [733936].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_MoldurasBaked.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/BakedWood_01.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera [735187].001",
+      "source_materials": [
+        "Wood Floor Golden Oak.003 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Moldura de madera [735187].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_MoldurasBaked.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/BakedWood_02.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Losa de concreto [737674]",
+      "source_materials": [
+        "Stone-effect porcelain tile casa.001"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Suelo Losa de concreto [737674]",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_fc7aefca91bb.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera [737754]",
+      "source_materials": [
+        "Wood Floor Golden Oak.003 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": false,
+      "unity_object": "Muro básico Moldura de madera [737754]",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_MoldurasBaked.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/BakedWood_03.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera [738668]",
+      "source_materials": [
+        "Wood Floor Golden Oak.003 casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Muro básico Moldura de madera [738668]",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_MoldurasBaked.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/BakedWood_04.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Piso 2 [741048]",
+      "source_materials": [
+        "Stone-effect porcelain tile casa.001",
+        "Decorative plaster casa"
+      ],
+      "new_object": false,
+      "geometry_changed": true,
+      "uv_changed": true,
+      "unity_object": "Suelo Piso 2 [741048]",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_fc7aefca91bb.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_73b1ab3b22c0.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera 2 [741091].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "excluido_armario_conflicto_con_mobiliario_o_puerta"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera 2 [741092].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "excluido_armario_conflicto_con_mobiliario_o_puerta"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera 2 [741093].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "excluido_armario_conflicto_con_mobiliario_o_puerta"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera [741094].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "excluido_armario_conflicto_con_mobiliario_o_puerta"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera [741096].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "excluido_armario_conflicto_con_mobiliario_o_puerta"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera [741098].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "excluido_armario_conflicto_con_mobiliario_o_puerta"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera [741100].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "excluido_armario_conflicto_con_mobiliario_o_puerta"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera 2 [741101].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "excluido_armario_conflicto_con_mobiliario_o_puerta"
+    },
+    {
+      "source_object": "door-trustile_doors-tmir6000 32\" x 84\" [741168].001",
+      "source_materials": [
+        "AR3DMat PBR Black Plaster casa",
+        "Wood casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "conservada_puerta_interactiva_existente_666355"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [741171].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "vidrio_ya_cubierto_por_698760_marcos_nuevos_integrados"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [741172].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [741172].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso2.fbx",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [741173].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [741173].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso2.fbx",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [741174].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [741174].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso2.fbx",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [741175].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [741175].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso2.fbx",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Mueble de cocina 2 [741184].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "excluido_armario_conflicto_con_mobiliario_o_puerta"
+    },
+    {
+      "source_object": "Muro básico Mueble de cocina 2 [741186].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "excluido_armario_conflicto_con_mobiliario_o_puerta"
+    },
+    {
+      "source_object": "Muro básico Mueble de cocina 2 [741188].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "excluido_armario_conflicto_con_mobiliario_o_puerta"
+    },
+    {
+      "source_object": "Muro básico Mueble de cocina 2 [741190].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "excluido_armario_conflicto_con_mobiliario_o_puerta"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera 2 [741191].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "excluido_armario_conflicto_con_mobiliario_o_puerta"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera 2 [741193].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "excluido_armario_conflicto_con_mobiliario_o_puerta"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera 2 [741195].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "excluido_armario_conflicto_con_mobiliario_o_puerta"
+    },
+    {
+      "source_object": "Muro básico Muro cortina [741920].001",
+      "source_materials": [
+        "Glass.001 casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "vidrio_ya_cubierto_por_698760_marcos_nuevos_integrados"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [741921].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [741921].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso2.fbx",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [741922].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [741922].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso2.fbx",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [741944].001",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [741944].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso2.fbx",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera 2 [743055].001",
+      "source_materials": [
+        "Brown teak laminate casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "excluido_armario_conflicto_con_mobiliario_o_puerta"
+    },
+    {
+      "source_object": "Muro básico Genérico - 15cm concreto expuesto [743935].001",
+      "source_materials": [
+        "medieval_blocks_03 casa",
+        "Black Painted Metal CASA"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Genérico - 15cm concreto expuesto [743935].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_85811fe51428.mat",
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/BlackPaintedMetal_approx.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Genérico - 15cm concreto expuesto [744020].001",
+      "source_materials": [
+        "medieval_blocks_03 casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Genérico - 15cm concreto expuesto [744020].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_85811fe51428.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Genérico - 15cm concreto expuesto [744075].001",
+      "source_materials": [
+        "medieval_blocks_03 casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Genérico - 15cm concreto expuesto [744075].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_85811fe51428.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Genérico - 15cm concreto expuesto [744120].001",
+      "source_materials": [
+        "medieval_blocks_03 casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Genérico - 15cm concreto expuesto [744120].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_85811fe51428.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Genérico - 15cm concreto expuesto [745629].001",
+      "source_materials": [
+        "medieval_blocks_03 casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Genérico - 15cm concreto expuesto [745629].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_85811fe51428.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Genérico - 5cm concreto expuesto 2 [747865].001",
+      "source_materials": [
+        "medieval_blocks_03 casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Genérico - 5cm concreto expuesto 2 [747865].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_85811fe51428.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera [749127].001",
+      "source_materials": [
+        "Wood Floor Golden Oak.003 casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Moldura de madera [749127].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_MoldurasBaked.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/BakedWood_05.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera [749489].001",
+      "source_materials": [
+        "Wood Floor Golden Oak.003 casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Moldura de madera [749489].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_MoldurasBaked.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/BakedWood_06.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Moldura de madera [749530].001",
+      "source_materials": [
+        "Wood Floor Golden Oak.003 casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Moldura de madera [749530].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_MoldurasBaked.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/BakedWood_07.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Genérico - 5cm concreto expuesto 2 [749949].001",
+      "source_materials": [
+        "medieval_blocks_03 casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Genérico - 5cm concreto expuesto 2 [749949].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_85811fe51428.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Pared Exterior DE Piedra Patio [757786].001",
+      "source_materials": [
+        "Weathered Concrete casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Pared Exterior DE Piedra Patio [757786].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad3b1ba0620.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Pared Exterior DE Piedra Patio [757787].001",
+      "source_materials": [
+        "Weathered Concrete casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Pared Exterior DE Piedra Patio [757787].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad3b1ba0620.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Mazeta [757791].001",
+      "source_materials": [
+        "Weathered Concrete casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Suelo Mazeta [757791].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad3b1ba0620.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Pared Exterior DE Piedra Patio [757796].001",
+      "source_materials": [
+        "Weathered Concrete casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Pared Exterior DE Piedra Patio [757796].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad3b1ba0620.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Moldura Maceta2 Moldura Maceta [757824].001",
+      "source_materials": [
+        "Weathered Concrete casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Moldura Maceta2 Moldura Maceta [757824].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad3b1ba0620.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Zacate [757827].001",
+      "source_materials": [
+        "Grass 01 casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Suelo Zacate [757827].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_JardinerasBaked.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/PlanterGrass_Baked.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Mazeta [757999].001",
+      "source_materials": [
+        "Weathered Concrete casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Suelo Mazeta [757999].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad3b1ba0620.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Pared Exterior DE Piedra Patio [758004].001",
+      "source_materials": [
+        "Weathered Concrete casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Pared Exterior DE Piedra Patio [758004].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad3b1ba0620.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Zacate [758007].001",
+      "source_materials": [
+        "Grass 01 casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Suelo Zacate [758007].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_JardinerasBaked.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/PlanterGrass_Baked.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Pared Exterior DE Piedra Patio [758148].001",
+      "source_materials": [
+        "Weathered Concrete casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Pared Exterior DE Piedra Patio [758148].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad3b1ba0620.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Pared Exterior DE Piedra Patio [758199].001",
+      "source_materials": [
+        "Weathered Concrete casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Pared Exterior DE Piedra Patio [758199].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad3b1ba0620.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Moldura Maceta3 Moldura Maceta [758251].001",
+      "source_materials": [
+        "Weathered Concrete casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Moldura Maceta3 Moldura Maceta [758251].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad3b1ba0620.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Pared Exterior DE Piedra Patio [759656].001",
+      "source_materials": [
+        "Weathered Concrete casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Pared Exterior DE Piedra Patio [759656].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad3b1ba0620.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Pared Exterior DE Piedra Patio [760341].001",
+      "source_materials": [
+        "Weathered Concrete casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Pared Exterior DE Piedra Patio [760341].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad3b1ba0620.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Pared Exterior DE Piedra Patio [760646].001",
+      "source_materials": [
+        "AR3DMat PBR Black Plaster casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Pared Exterior DE Piedra Patio [760646].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_68df538ba732.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Zacate [760649].001",
+      "source_materials": [
+        "Grass 01 casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Suelo Zacate [760649].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_JardinerasBaked.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/PlanterGrass_Baked.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Pared Exterior DE Piedra Patio [760654].001",
+      "source_materials": [
+        "Weathered Concrete casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Pared Exterior DE Piedra Patio [760654].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad3b1ba0620.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Pared Exterior DE Piedra Patio [760655].001",
+      "source_materials": [
+        "Weathered Concrete casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Pared Exterior DE Piedra Patio [760655].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad3b1ba0620.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Pared Exterior DE Piedra Patio [760656].001",
+      "source_materials": [
+        "Weathered Concrete casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Pared Exterior DE Piedra Patio [760656].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad3b1ba0620.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Pared Exterior DE Piedra Patio [760697].001",
+      "source_materials": [
+        "Weathered Concrete casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Pared Exterior DE Piedra Patio [760697].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad3b1ba0620.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Mazeta [760700].001",
+      "source_materials": [
+        "Weathered Concrete casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Suelo Mazeta [760700].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad3b1ba0620.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Pared Exterior DE Piedra Patio [760705].001",
+      "source_materials": [
+        "Weathered Concrete casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Pared Exterior DE Piedra Patio [760705].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad3b1ba0620.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Moldura Maceta4 Moldura Maceta [760733].001",
+      "source_materials": [
+        "Weathered Concrete casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Moldura Maceta4 Moldura Maceta [760733].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad3b1ba0620.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Zacate [760736].001",
+      "source_materials": [
+        "Grass 01 casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Suelo Zacate [760736].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_JardinerasBaked.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/PlanterGrass_Baked.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Pared Exterior DE Piedra Patio [760797].001",
+      "source_materials": [
+        "Weathered Concrete casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Pared Exterior DE Piedra Patio [760797].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad3b1ba0620.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Muro básico Pared Exterior DE Piedra Patio [761905].001",
+      "source_materials": [
+        "Weathered Concrete casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Muro básico Pared Exterior DE Piedra Patio [761905].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad3b1ba0620.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Moldura Maceta5 Moldura Maceta [762002].001",
+      "source_materials": [
+        "Weathered Concrete casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Moldura Maceta5 Moldura Maceta [762002].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad3b1ba0620.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Suelo Mazeta [762013].001",
+      "source_materials": [
+        "Weathered Concrete casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Suelo Mazeta [762013].001",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso1.fbx",
+      "unity_materials": [
+        "Assets/_Project/Art/BlenderNuevo/Materials/Importados/M_aad3b1ba0620.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [765116]",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [765116]",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso2.fbx",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [765119]",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [765119]",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso2.fbx",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [765123]",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [765123]",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso2.fbx",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [765126]",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [765126]",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso2.fbx",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [765127]",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [765127]",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso2.fbx",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [765130]",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [765130]",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso2.fbx",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [765134]",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [765134]",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso2.fbx",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [765137]",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "unity_object": "Montante rectangular 50 x 150mm 2 [765137]",
+      "mesh_asset": "Assets/_Project/Art/BlenderNuevo/Models/ViviendaNuevo_Piso2.fbx",
+      "unity_materials": [
+        "Assets/Vivienda/Fidelity/Materials/Black steel.mat"
+      ],
+      "decision": "integrado_malla_fuente"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [765845]",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "conservada_baranda_vidrio_y_paso_escalera_existentes"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [765848]",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "conservada_baranda_vidrio_y_paso_escalera_existentes"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [765852]",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "conservada_baranda_vidrio_y_paso_escalera_existentes"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [765854]",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "conservada_baranda_vidrio_y_paso_escalera_existentes"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [765856]",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "conservada_baranda_vidrio_y_paso_escalera_existentes"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [765859]",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "conservada_baranda_vidrio_y_paso_escalera_existentes"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [765860]",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "conservada_baranda_vidrio_y_paso_escalera_existentes"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [765861]",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "conservada_baranda_vidrio_y_paso_escalera_existentes"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [765862]",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "conservada_baranda_vidrio_y_paso_escalera_existentes"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [765874]",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "conservada_baranda_vidrio_y_paso_escalera_existentes"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [765875]",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "conservada_baranda_vidrio_y_paso_escalera_existentes"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [765876]",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "conservada_baranda_vidrio_y_paso_escalera_existentes"
+    },
+    {
+      "source_object": "Montante rectangular 50 x 150mm 2 [765877]",
+      "source_materials": [
+        "Black steel casa"
+      ],
+      "new_object": true,
+      "geometry_changed": false,
+      "uv_changed": false,
+      "decision": "conservada_baranda_vidrio_y_paso_escalera_existentes"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+Removed BatchingStatic from 131 new source renderers: scenario UVs must remain assignable.
+Day/night differing atlas bindings=0
+Native URP SRP Batcher enabled=True
+Trial static batching reduced draw calls 1269 -> 1149 but did not improve measured frame time, and logged unsupported lightmap scale/offset writes. Trial rejected.

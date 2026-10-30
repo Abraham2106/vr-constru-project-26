@@ -1,0 +1,4 @@
+PASS client working copy SHA256 c94a05ca1eb2acf9364a5a0aa7563509ce9e18f29703fa9586d3729934307b7a matches manifest.source_sha256.
+PASS all 82 tracked neighbor asset files match HEAD, including LFS content SHA256 values.
+PASS original main scene is not modified in integration branch.
+PASS source Blender original is not saved by export, bake or render scripts.

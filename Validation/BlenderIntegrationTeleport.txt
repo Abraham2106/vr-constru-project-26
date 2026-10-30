@@ -1,0 +1,3 @@
+PASS menu TP Piso1: (3.00, 0.00, 0.70)
+PASS menu TP Piso2: (3.00, 3.00, 0.70)
+PASS menu TP Exterior: (0.20, 0.00, 9.80)

@@ -1,0 +1,13 @@
+PASS Apartamento 2 - Cocina unobstructed test ray origin=(2.05, 4.20, -1.95) switch=(2.05, 4.20, -2.75)
+PASS Apartamento 1 - Cocina unobstructed test ray origin=(2.05, 1.20, -1.95) switch=(2.05, 1.20, -2.75)
+PASS Apartamento 2 - Dormitorio 2 unobstructed test ray origin=(0.32, 4.20, -1.68) switch=(0.32, 4.20, -2.48)
+PASS Apartamento 2 - Sala unobstructed test ray origin=(3.31, 4.20, 1.83) switch=(3.31, 4.20, 2.63)
+PASS Apartamento 2 - Dormitorio 1 unobstructed test ray origin=(0.20, 4.20, -0.19) switch=(0.20, 4.20, -0.99)
+PASS Apartamento 1 - Dormitorio 2 unobstructed test ray origin=(0.32, 1.20, -1.68) switch=(0.32, 1.20, -2.48)
+PASS Apartamento 2 - Baño unobstructed test ray origin=(1.65, 4.20, -3.13) switch=(1.65, 4.20, -2.33)
+PASS Apartamento 1 - Baño unobstructed test ray origin=(1.65, 1.20, -3.13) switch=(1.65, 1.20, -2.33)
+PASS Apartamento 1 - Sala unobstructed test ray origin=(3.31, 1.20, 1.83) switch=(3.31, 1.20, 2.63)
+PASS Apartamento 1 - Lavanderia unobstructed test ray origin=(3.30, 1.20, -5.43) switch=(3.30, 1.20, -4.63)
+PASS Apartamento 2 - Lavanderia unobstructed test ray origin=(3.30, 4.20, -5.43) switch=(3.30, 4.20, -4.63)
+PASS Apartamento 1 - Dormitorio 1 unobstructed test ray origin=(0.20, 1.20, -0.19) switch=(0.20, 1.20, -0.99)
+Scope: at least one unobstructed horizontal approach ray at 0.8m per switch, with real scene colliders; not a physical headset test.

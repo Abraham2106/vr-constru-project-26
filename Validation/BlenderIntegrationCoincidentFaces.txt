@@ -1,0 +1,3 @@
+Scope: exact coincident triangles, same winding/normal, opaque visible house meshes; quantization 0.1mm.
+Checked triangles=13102
+New-source duplicate triangle matches=0

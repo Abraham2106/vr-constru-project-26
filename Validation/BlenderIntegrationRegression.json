@@ -1,0 +1,84 @@
+[
+  {
+    "root": "ProyectoVR_XR_Rig",
+    "status": "PASS",
+    "ids": [
+      4150405671924639380
+    ],
+    "scope": "Exact serialized prefab overrides, including movement actions and transforms"
+  },
+  {
+    "root": "TP_Exterior",
+    "status": "PASS",
+    "transforms": 1,
+    "differences": []
+  },
+  {
+    "root": "TP_Piso1",
+    "status": "PASS",
+    "transforms": 1,
+    "differences": []
+  },
+  {
+    "root": "TP_Piso2",
+    "status": "PASS",
+    "transforms": 1,
+    "differences": []
+  },
+  {
+    "root": "Vecindario_Placeholder",
+    "status": "PASS",
+    "transforms": 105,
+    "differences": []
+  },
+  {
+    "root": "Jardin_Cliente",
+    "status": "PASS",
+    "transforms": 120,
+    "differences": []
+  },
+  {
+    "root": "Sketchfab_Camas",
+    "status": "PASS",
+    "transforms": 3,
+    "differences": [],
+    "all_existing_prefab_instances_unchanged": true,
+    "prefab_instance_changes": []
+  },
+  {
+    "root": "Sketchfab_Lavado",
+    "status": "PASS",
+    "transforms": 5,
+    "differences": [],
+    "all_existing_prefab_instances_unchanged": true,
+    "prefab_instance_changes": []
+  },
+  {
+    "root": "Sketchfab_Cocina_Piso_1",
+    "status": "PASS",
+    "transforms": 1,
+    "differences": [],
+    "all_existing_prefab_instances_unchanged": true,
+    "prefab_instance_changes": []
+  },
+  {
+    "root": "Habitaciones interactivas",
+    "status": "EXPECTED_LIGHT_CHANGES",
+    "transforms": 85,
+    "differences": [
+      "178429798 m_LocalRotation",
+      "305354415 m_LocalRotation",
+      "743358899 m_LocalRotation",
+      "759236889 m_LocalRotation",
+      "988753358 m_LocalRotation",
+      "1081078770 m_LocalRotation",
+      "1318027644 m_LocalRotation",
+      "1342209947 m_LocalRotation",
+      "1457091235 m_LocalRotation",
+      "1652794290 m_LocalRotation",
+      "1667577266 m_LocalRotation",
+      "2016773088 m_LocalRotation"
+    ],
+    "scope": "12 room-light rotations changed for downward spot lighting; other tested fields unchanged"
+  }
+]

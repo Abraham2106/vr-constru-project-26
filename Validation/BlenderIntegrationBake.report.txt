@@ -1,0 +1,11 @@
+MAP Assets/_Project/Art/BlenderNuevo/Lighting/Dia/0_Color.exr GUID=f45fb646fbc866540825de83f5c4a811
+MAP Assets/_Project/Art/BlenderNuevo/Lighting/Dia/0_Direction.png GUID=a796a61cd8ee3da4a936b2a7482b766d
+MAP Assets/_Project/Art/BlenderNuevo/Lighting/Dia/1_Color.exr GUID=0a9f7f47e589ab44cbc0a51f9f336c82
+MAP Assets/_Project/Art/BlenderNuevo/Lighting/Dia/1_Direction.png GUID=6e488b625a837794db50f7e8ab4990b5
+DAY maps=2 receivers=303 probes=125
+MAP Assets/_Project/Art/BlenderNuevo/Lighting/Noche/0_Color.exr GUID=376e0fb70a1fffb4c8c9da5e0247a6c2
+MAP Assets/_Project/Art/BlenderNuevo/Lighting/Noche/0_Direction.png GUID=5c21bf4df37d7f745a32d54aab894197
+MAP Assets/_Project/Art/BlenderNuevo/Lighting/Noche/1_Color.exr GUID=65b6d60963285e44f8c21055ee37cf3f
+MAP Assets/_Project/Art/BlenderNuevo/Lighting/Noche/1_Direction.png GUID=1cfb6b38780b77a40ab15abb3937471b
+NIGHT maps=2 receivers=303 probes=125
+PASS environment restored; original sky material was never modified.
