@@ -1,9 +1,10 @@
 # Integracion del Blender nuevo
 
-Estado: escena de prueba en revision; no promovida a la escena principal.
+Estado: integracion aprobada por el usuario y trasladada a la escena principal el 30 de octubre de 2026.
 Base: `4f4ba04`, etiqueta `checkpoint-base-2026-10-29`.
 Rama: `integracion/blender-vivienda`.
-Escena: `Assets/Scenes/Vivienda_Integracion_Blender.unity`.
+Escena principal: `Assets/Scenes/Vivienda_Prueba.unity`.
+Escena de revision conservada: `Assets/Scenes/Vivienda_Integracion_Blender.unity`.
 
 ## Criterio de integracion
 
@@ -62,7 +63,9 @@ El metal negro procedural se adapta con los colores y la rugosidad del original 
 
 ## Puerta de entrega
 
-La escena principal `Vivienda_Prueba.unity` y la rama `main` no se han sustituido. Falta la aprobacion visual de la escena de prueba para promoverla, como exige el plan acordado. Tambien quedan condicionados a disponer de un visor el perfil de GPU/memoria en Quest y la prueba fisica de mandos; el simulador no certifica esos resultados.
+El usuario aprobo el traslado de la version revisada (`0425fab`) el 30 de octubre de 2026. Se guardo mediante EditorSceneManager en `Vivienda_Prueba.unity`, conservando su GUID `18e57d8402a0d2f43bdc0b3a68ea39e1` y su entrada habilitada en la configuracion de build. La escena principal y la de revision son identicas byte a byte; comparten los mapas, probes y materiales aprobados, sin duplicar estos assets. La escena principal se reabrio y se comprobo en Play: ciclo dia-atardecer-dia, 303 receptores, 125 probes, seis reflejos, 12 interruptores por seleccion XRI, menu y componentes nativos de locomocion. Informes: `BlenderIntegrationPromotion.json`, `BlenderIntegrationPromotionLightingCycle.txt` y `BlenderIntegrationPromotionXR.txt`.
+
+La entrega queda en el worktree y rama `integracion/blender-vivienda`, con la escena principal abierta. La rama Git `main` conserva el checkpoint base; no se ha solicitado publicacion o merge en esta aprobacion. El perfil de GPU/memoria en Quest y la prueba fisica de mandos quedan condicionados a disponer del visor; el simulador no certifica esos resultados.
 
 El SDK informa que los dos mandos simulados no exponen capacidades hapticas; no se acredita vibracion fisica (`BlenderIntegrationSimulatorNotes.txt`).
 

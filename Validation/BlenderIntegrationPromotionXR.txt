@@ -1,0 +1,11 @@
+PASS scene=Assets/Scenes/Vivienda_Prueba.unity; 12 interruptores con seleccion XRI abren/cierra su circuito y restauran estado.
+PASS menu abre/cierra; XROrigin, HMD y CharacterController presentes.
+LocomotionMediator enabled=True
+XRBodyTransformer enabled=True
+DynamicMoveProvider enabled=False
+GrabMoveProvider enabled=False
+GrabMoveProvider enabled=False
+TwoHandedGrabMoveProvider enabled=False
+TeleportationProvider enabled=True
+ContinuousMoveProvider enabled=True
+UTC 2026-10-30T22:18:45.4464314Z

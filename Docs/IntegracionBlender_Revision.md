@@ -1,7 +1,7 @@
 # Revision visual de la integracion
 
-Escena: `Assets/Scenes/Vivienda_Integracion_Blender.unity`, rama `integracion/blender-vivienda`.
-La escena principal y `main` conservan la version base. Esta pagina presenta el resultado de prueba que debe aprobarse antes de promoverlo.
+Version aprobada el 30 de octubre de 2026 y trasladada a `Assets/Scenes/Vivienda_Prueba.unity`, rama `integracion/blender-vivienda`.
+La escena `Vivienda_Integracion_Blender.unity` conserva la revision aprobada. Ambas escenas contienen el mismo resultado; la rama Git `main` conserva el checkpoint base.
 
 Las vistas actuales incluyen sombras adicionales nativas URP, suavizado Low y MSAA 4x. Se corrigio la filtracion de luz junto al techo ajustando el bias local del sol. La geometria, los materiales y las colisiones de esta revision se conservan; el cambio respecto a la revision anterior es de iluminacion.
 

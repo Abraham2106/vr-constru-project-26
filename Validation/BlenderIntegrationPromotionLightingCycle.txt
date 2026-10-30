@@ -1,0 +1,3 @@
+2026-10-30T22:15:26.4563863Z PASS dia: 2 mapas direccionales; 303 receptores; 125 probes; 6 reflejos; 12 luces conmutables; sin static batching.
+2026-10-30T22:16:53.7709064Z PASS atardecer: 2 mapas direccionales; 303 receptores; 125 probes; 6 reflejos; 12 luces conmutables; sin static batching.
+2026-10-30T22:18:39.2393799Z PASS dia: 2 mapas direccionales; 303 receptores; 125 probes; 6 reflejos; 12 luces conmutables; sin static batching.

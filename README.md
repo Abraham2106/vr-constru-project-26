@@ -34,6 +34,8 @@ La validación con un visor Meta Quest está pendiente.
 
 Consultar la [preparación visual y mantenimiento](Docs/Presentacion-Arquitectonica.md). El [informe inicial](Docs/CalidadVisual-VR.pdf) recoge las referencias y el diagnóstico previo a la implementación de iluminación indirecta y ambientación.
 
+La escena principal incorpora los acabados revisados del Blender del cliente. La [guía de integración y reexportación](Docs/IntegracionBlender.md) registra materiales, iluminación y mantenimiento; la [revisión visual](Docs/IntegracionBlender_Revision.md) incluye las capturas comparativas.
+
 ## Licencias
 
 Consultar [licencias de audio](Docs/Licenses.md).

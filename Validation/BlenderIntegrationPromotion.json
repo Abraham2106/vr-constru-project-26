@@ -1,0 +1,22 @@
+{
+  "timestamp_utc": "2026-10-30T22:19:43.014397+00:00",
+  "approval": {
+    "date_local": "2026-10-30",
+    "timezone": "America/Costa_Rica",
+    "user_message": "aprobado continua",
+    "approved_revision": "0425fab"
+  },
+  "branch": "integracion/blender-vivienda",
+  "main_scene": "Assets/Scenes/Vivienda_Prueba.unity",
+  "review_scene": "Assets/Scenes/Vivienda_Integracion_Blender.unity",
+  "main_scene_guid": "18e57d8402a0d2f43bdc0b3a68ea39e1",
+  "identical_bytes": true,
+  "sha256": "8c3624241bff2aad84ba5937abcaabe65c3fc1352c79d648df8e346a64ee39c4",
+  "build_entry_enabled_and_guid_preserved": true,
+  "runtime_evidence": [
+    "BlenderIntegrationPromotionLightingCycle.txt",
+    "BlenderIntegrationPromotionXR.txt"
+  ],
+  "device_scope": "XR Interaction Simulator and Unity Editor; physical Quest remains conditional on availability",
+  "git_scope": "Main scene promoted in the integration worktree. Git main checkpoint retained; no merge or push in this step."
+}
