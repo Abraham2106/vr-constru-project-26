@@ -1,0 +1,58 @@
+[
+  {
+    "object": "Muro básico Moldura de madera [730602].001",
+    "image": "Assets/_Project/Art/BlenderNuevo/Bakes/wood_00.png",
+    "material": "BakedWood_0",
+    "vertices": 232,
+    "faces": 348
+  },
+  {
+    "object": "Muro básico Moldura de madera [733936].001",
+    "image": "Assets/_Project/Art/BlenderNuevo/Bakes/wood_01.png",
+    "material": "BakedWood_1",
+    "vertices": 120,
+    "faces": 180
+  },
+  {
+    "object": "Muro básico Moldura de madera [735187].001",
+    "image": "Assets/_Project/Art/BlenderNuevo/Bakes/wood_02.png",
+    "material": "BakedWood_2",
+    "vertices": 253,
+    "faces": 382
+  },
+  {
+    "object": "Muro básico Moldura de madera [737754]",
+    "image": "Assets/_Project/Art/BlenderNuevo/Bakes/wood_03.png",
+    "material": "BakedWood_3",
+    "vertices": 240,
+    "faces": 360
+  },
+  {
+    "object": "Muro básico Moldura de madera [738668]",
+    "image": "Assets/_Project/Art/BlenderNuevo/Bakes/wood_04.png",
+    "material": "BakedWood_4",
+    "vertices": 160,
+    "faces": 240
+  },
+  {
+    "object": "Muro básico Moldura de madera [749127].001",
+    "image": "Assets/_Project/Art/BlenderNuevo/Bakes/wood_05.png",
+    "material": "BakedWood_5",
+    "vertices": 124,
+    "faces": 188
+  },
+  {
+    "object": "Muro básico Moldura de madera [749489].001",
+    "image": "Assets/_Project/Art/BlenderNuevo/Bakes/wood_06.png",
+    "material": "BakedWood_6",
+    "vertices": 124,
+    "faces": 188
+  },
+  {
+    "object": "Muro básico Moldura de madera [749530].001",
+    "image": "Assets/_Project/Art/BlenderNuevo/Bakes/wood_07.png",
+    "material": "BakedWood_7",
+    "vertices": 48,
+    "faces": 72
+  }
+]

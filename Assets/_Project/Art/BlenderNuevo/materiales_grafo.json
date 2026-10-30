@@ -1,0 +1,3197 @@
+{
+  "materials": [
+    {
+      "name": "AR3DMat PBR Black Plaster casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/13dedcd86873_BlackPlaster_BaseColor.jpg",
+        "sha256": "13dedcd86873c641e6568701196799a539e50674954cfd54e7f2a1be8f83d4e3",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "BlackPlaster_BaseColor.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/4bbddebeb5a8_BlackPlaster_Normal.jpg",
+        "sha256": "4bbddebeb5a82e266ed251fcc4974073ee728e3063372d54c55558fadfe15676",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "BlackPlaster_Normal.jpg",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/97946882b678_BlackPlaster_Roughness.jpg",
+        "sha256": "97946882b6786b8455fba64401c0325b26b63518713411f7b9de7e2e7c95d7d8",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "BlackPlaster_Roughness.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Black Painted Metal CASA",
+      "supported": false,
+      "reason": "No direct principled shader"
+    },
+    {
+      "name": "Black Painted Plaster Wall",
+      "supported": false,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/b57cd4aec264_painted_plaster_wall_46_color.jpg",
+        "sha256": "b57cd4aec2646a3469b0b002cb167ed608ebad3a6e78447f7d848dc599dab4c0",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "painted_plaster_wall_46_color.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": null,
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/f78f049c522a_painted_plaster_wall_46_roughness.jpg",
+        "sha256": "f78f049c522add7ec0072a1a804af7a00d73b8dbbfa5b0e33bcd470c578f8054",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "painted_plaster_wall_46_roughness.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Black matte metal",
+      "supported": false,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/a467a416ec1e_painted_metal_diffuse.jpg",
+        "sha256": "a467a416ec1e150eaab37e8912aabd5194562a8b627f4f8bc57a6477a21885a6",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "painted_metal_diffuse.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/bb58d57f0337_painted_metal_normal_opengl.jpg",
+        "sha256": "bb58d57f033768c37f3b6e24b25dd4165f7967fb6f51ac90886162222b2909f2",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "painted_metal_normal_opengl.jpg",
+        "color_space": "Non-Color"
+      },
+      "rough": null,
+      "metallic_map": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/4bc1cccde333_painted_metal_metallic.jpg",
+        "sha256": "4bc1cccde33370f7449d6f15559cb4f107dbdd90b00494580d1fd23c1f07f612",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "painted_metal_metallic.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic": null,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Black metal",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/88efe6239252_metal01a_diffuse.jpg",
+        "sha256": "88efe6239252562221b7873f4261d2614e4cfc28005cd16665a0122d5454b34c",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "metal01a_diffuse.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/a46d73675c50_metal01_normal_opengl.jpg",
+        "sha256": "a46d73675c50fb057d3f177b7043b2917482bafb4da32dbfb7d7c3355cd0a4de",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "metal01_normal_opengl.jpg",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/738f327468f7_metal01_roughness.jpg",
+        "sha256": "738f327468f7676889b21807798295348ec94d5756c80eae7dda8fbd28a0021b",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "metal01_roughness.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/fbcac5b82d27_metal01_metallic.jpg",
+        "sha256": "fbcac5b82d276fd459c940dc531890920ae706e359d877a06b946e6498b53a2e",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "metal01_metallic.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic": null,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Black plastic",
+      "supported": false,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/b5e2431bf430_plastic15_diffuse.jpg",
+        "sha256": "b5e2431bf4304c3731cc7b8c3c0311c0b28e95e8af87b7e4762202951ac17ff4",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "plastic15_diffuse.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/1038fce40b19_plastic15_normal_opengl.jpg",
+        "sha256": "1038fce40b19baa9b0b31484cbfd27bd5b29a199cac9fc1467b9cdc2af77ccfb",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "plastic15_normal_opengl.jpg",
+        "color_space": "Non-Color"
+      },
+      "rough": null,
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Black steel casa",
+      "supported": false,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/4745438a1e82_metal_black_diffuse.jpg",
+        "sha256": "4745438a1e82c644d4de7687b0c17b5ea16701aaa1b120846e6d7f5ed9d7efde",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "metal_black_diffuse.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/7a36ce6e3124_metal_normal_opengl.jpg",
+        "sha256": "7a36ce6e3124767fb6b1480d4183ea7fe885aec42737fbe5ba5bfbf3e3aab6c3",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "metal_normal_opengl.jpg.001",
+        "color_space": "Non-Color"
+      },
+      "rough": null,
+      "metallic_map": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/1689049f8d0d_metal_metallic.jpg",
+        "sha256": "1689049f8d0d5676fe0b09b0e56bded412b359aa119db620112d706e7dd88280",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "metal_metallic.jpg.001",
+        "color_space": "Non-Color"
+      },
+      "metallic": null,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Black stone floor",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/578e1aed0108_black_stone_floor_BaseColor.jpg",
+        "sha256": "578e1aed010863849f50a78550db4e6176c0e40398434e5757adadba93f69a23",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "black stone floor_BaseColor.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/e923de2d39b7_black_stone_floor_Normal.jpg",
+        "sha256": "e923de2d39b733f61d14a1f4de9815225ec319036eb3100c64ac0af5ac4a3522",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "black stone floor_Normal.jpg",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/63556d2896f3_black_stone_floor_Roughness.jpg",
+        "sha256": "63556d2896f3d899f0f4c5bbb954c5d86d7295873f85269ffb8f3515d87070bf",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "black stone floor_Roughness.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/f65bb6cdc0e0_black_stone_floor_Metallic.jpg",
+        "sha256": "f65bb6cdc0e00e7e4f52d54910919def83e5d74e7d3f23f207afd424f542d444",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "black stone floor_Metallic.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic": null,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Black wood",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/c3290544922d_wood03_diffuse.jpg",
+        "sha256": "c3290544922da6457b9ffa13df81d33e404a125522b7ca5ac1ff49f21c6a38ba",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "wood03_diffuse.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/00d67c629d5d_wood03_normal_opengl.jpg",
+        "sha256": "00d67c629d5d8825c7849bafe7420927569cdb4863e8ca9d0f4f03108132c48c",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "wood03_normal_opengl.jpg",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/1addfde17351_wood03_roughness.jpg",
+        "sha256": "1addfde17351f359f433a9bbcb6c6c27250cdad88742699d5b5d56ae414b7987",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "wood03_roughness.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Brown teak laminate casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/43016df5756e_84.jpg",
+        "sha256": "43016df5756e7c73233b2079d0e90c3ab8ae3ab17ba6fb30dbdb16244842c9b0",
+        "size": [
+          2000,
+          2000
+        ],
+        "original_name": "84.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/7184dccdaab6_normal.jpg",
+        "sha256": "7184dccdaab66905a6ff5d00bf6cf7ad9d43a1e12be517cd1460caace91af5fb",
+        "size": [
+          2000,
+          2000
+        ],
+        "original_name": "normal.jpg.012",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/2a7851b194e8_roughness.jpg",
+        "sha256": "2a7851b194e895c089a337548e7a8679447d0fd4c85cf9cffba54371d0cbd93e",
+        "size": [
+          2000,
+          2000
+        ],
+        "original_name": "roughness.jpg.010",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Brushed black metal brass",
+      "supported": false,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/8914590db791_brushed05_diffuse.jpg",
+        "sha256": "8914590db791381e2675deaf5c0938bfe6367007445aa71a6f69f564e2a5cb66",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "brushed05_diffuse.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/a785b397417a_brushed02_normal_opengl.jpg",
+        "sha256": "a785b397417a21544efc442820555e728f73449467b5b92f438b444fd17103ab",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "brushed02_normal_opengl.jpg",
+        "color_space": "Non-Color"
+      },
+      "rough": null,
+      "metallic_map": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/30845ed12bbc_brushed02_metallic.jpg",
+        "sha256": "30845ed12bbcbae6951e5098f1c0a53bc523a3022d3ea8b7280de22823d84ef1",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "brushed02_metallic.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic": null,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Concrete",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/33dc3523971f_PaintedPlaster017_4K-JPG_Color.jpg",
+        "sha256": "33dc3523971f46b9972a6c3e3b197d048bb60228ea9ae0bbfccbc2d7619e282b",
+        "size": [
+          2048,
+          1024
+        ],
+        "original_name": "Concrete_Color.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/2e89e224b222_PaintedPlaster017_4K-JPG_NormalGL.jpg",
+        "sha256": "2e89e224b2221d376149f2e173fa874ca38a262931adff0993d00ab2bc33b636",
+        "size": [
+          2048,
+          1024
+        ],
+        "original_name": "Concrete_NormalGL.jpg",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/02f5a9508912_PaintedPlaster017_4K-JPG_Roughness.jpg",
+        "sha256": "02f5a9508912daec9656631c92bbfcb34e326d4062d4cb1e15d16536b48b3682",
+        "size": [
+          2048,
+          1024
+        ],
+        "original_name": "Concrete_Roughness.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        2.9999992847442627,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Concrete look porcelain tile casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+        "sha256": "d9702167a67efb12072926d189e1b8542f7fe4d2d9d7d6bbdccf21fb374fd794",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "162.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+        "sha256": "9d19fd6e4365996d6d4fb9b836dc88d6d5e590bcb720bcac50f629f563204a11",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "normal.jpg.007",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/5726fae2fa1d_roughness.jpg",
+        "sha256": "5726fae2fa1d65ee10d24a3c5354626e35755029ead6131195bf3a9d394b07d8",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "roughness.jpg.005",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        0.39999955892562866,
+        0.2999996840953827
+      ],
+      "offset": [
+        -0.09999999403953552,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Concrete look porcelain tile casa.001",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+        "sha256": "d9702167a67efb12072926d189e1b8542f7fe4d2d9d7d6bbdccf21fb374fd794",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "162.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+        "sha256": "9d19fd6e4365996d6d4fb9b836dc88d6d5e590bcb720bcac50f629f563204a11",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "normal.jpg.007",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/5726fae2fa1d_roughness.jpg",
+        "sha256": "5726fae2fa1d65ee10d24a3c5354626e35755029ead6131195bf3a9d394b07d8",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "roughness.jpg.005",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        0.39999955892562866,
+        0.2999996840953827
+      ],
+      "offset": [
+        0.19999998807907104,
+        0.29999998211860657
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Concrete look porcelain tile casa.002",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+        "sha256": "d9702167a67efb12072926d189e1b8542f7fe4d2d9d7d6bbdccf21fb374fd794",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "162.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+        "sha256": "9d19fd6e4365996d6d4fb9b836dc88d6d5e590bcb720bcac50f629f563204a11",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "normal.jpg.007",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/5726fae2fa1d_roughness.jpg",
+        "sha256": "5726fae2fa1d65ee10d24a3c5354626e35755029ead6131195bf3a9d394b07d8",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "roughness.jpg.005",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        0.39999955892562866,
+        0.2999996840953827
+      ],
+      "offset": [
+        0.09099999070167542,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Concrete look porcelain tile casa.003",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+        "sha256": "d9702167a67efb12072926d189e1b8542f7fe4d2d9d7d6bbdccf21fb374fd794",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "162.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+        "sha256": "9d19fd6e4365996d6d4fb9b836dc88d6d5e590bcb720bcac50f629f563204a11",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "normal.jpg.007",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/5726fae2fa1d_roughness.jpg",
+        "sha256": "5726fae2fa1d65ee10d24a3c5354626e35755029ead6131195bf3a9d394b07d8",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "roughness.jpg.005",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        0.39999955892562866,
+        0.2999996840953827
+      ],
+      "offset": [
+        -0.009000003337860107,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Concrete look porcelain tile.001 casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+        "sha256": "d9702167a67efb12072926d189e1b8542f7fe4d2d9d7d6bbdccf21fb374fd794",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "162.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+        "sha256": "9d19fd6e4365996d6d4fb9b836dc88d6d5e590bcb720bcac50f629f563204a11",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "normal.jpg.007",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/5726fae2fa1d_roughness.jpg",
+        "sha256": "5726fae2fa1d65ee10d24a3c5354626e35755029ead6131195bf3a9d394b07d8",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "roughness.jpg.005",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        0.49999967217445374,
+        0.9999997615814209
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Concrete look porcelain tile.002 casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+        "sha256": "d9702167a67efb12072926d189e1b8542f7fe4d2d9d7d6bbdccf21fb374fd794",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "162.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+        "sha256": "9d19fd6e4365996d6d4fb9b836dc88d6d5e590bcb720bcac50f629f563204a11",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "normal.jpg.007",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/5726fae2fa1d_roughness.jpg",
+        "sha256": "5726fae2fa1d65ee10d24a3c5354626e35755029ead6131195bf3a9d394b07d8",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "roughness.jpg.005",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        -2.8999996185302734,
+        -2.4000000953674316
+      ],
+      "offset": [
+        -0.04600000008940697,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Concrete look porcelain tile.003 casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+        "sha256": "d9702167a67efb12072926d189e1b8542f7fe4d2d9d7d6bbdccf21fb374fd794",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "162.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+        "sha256": "9d19fd6e4365996d6d4fb9b836dc88d6d5e590bcb720bcac50f629f563204a11",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "normal.jpg.007",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/5726fae2fa1d_roughness.jpg",
+        "sha256": "5726fae2fa1d65ee10d24a3c5354626e35755029ead6131195bf3a9d394b07d8",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "roughness.jpg.005",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        0.29999956488609314,
+        0.2999996840953827
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Concrete look porcelain tile.004 casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+        "sha256": "d9702167a67efb12072926d189e1b8542f7fe4d2d9d7d6bbdccf21fb374fd794",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "162.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+        "sha256": "9d19fd6e4365996d6d4fb9b836dc88d6d5e590bcb720bcac50f629f563204a11",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "normal.jpg.007",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/5726fae2fa1d_roughness.jpg",
+        "sha256": "5726fae2fa1d65ee10d24a3c5354626e35755029ead6131195bf3a9d394b07d8",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "roughness.jpg.005",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        0.29999956488609314,
+        0.2999996840953827
+      ],
+      "offset": [
+        0.19999998807907104,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Concrete look porcelain tile.005 casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+        "sha256": "d9702167a67efb12072926d189e1b8542f7fe4d2d9d7d6bbdccf21fb374fd794",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "162.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+        "sha256": "9d19fd6e4365996d6d4fb9b836dc88d6d5e590bcb720bcac50f629f563204a11",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "normal.jpg.007",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/5726fae2fa1d_roughness.jpg",
+        "sha256": "5726fae2fa1d65ee10d24a3c5354626e35755029ead6131195bf3a9d394b07d8",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "roughness.jpg.005",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        0.39999955892562866,
+        0.2999996840953827
+      ],
+      "offset": [
+        -0.09999999403953552,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Concrete look porcelain tile.006 casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+        "sha256": "d9702167a67efb12072926d189e1b8542f7fe4d2d9d7d6bbdccf21fb374fd794",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "162.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+        "sha256": "9d19fd6e4365996d6d4fb9b836dc88d6d5e590bcb720bcac50f629f563204a11",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "normal.jpg.007",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/5726fae2fa1d_roughness.jpg",
+        "sha256": "5726fae2fa1d65ee10d24a3c5354626e35755029ead6131195bf3a9d394b07d8",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "roughness.jpg.005",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.100000023841858,
+        0.9999997615814209
+      ],
+      "offset": [
+        -0.21899999678134918,
+        0.3999999761581421
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Concrete look porcelain tile.007 casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+        "sha256": "d9702167a67efb12072926d189e1b8542f7fe4d2d9d7d6bbdccf21fb374fd794",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "162.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+        "sha256": "9d19fd6e4365996d6d4fb9b836dc88d6d5e590bcb720bcac50f629f563204a11",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "normal.jpg.007",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/5726fae2fa1d_roughness.jpg",
+        "sha256": "5726fae2fa1d65ee10d24a3c5354626e35755029ead6131195bf3a9d394b07d8",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "roughness.jpg.005",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0999997854232788,
+        0.9999997615814209
+      ],
+      "offset": [
+        0.09999999403953552,
+        -0.020999999716877937
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Concrete look porcelain tile.008 casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+        "sha256": "d9702167a67efb12072926d189e1b8542f7fe4d2d9d7d6bbdccf21fb374fd794",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "162.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+        "sha256": "9d19fd6e4365996d6d4fb9b836dc88d6d5e590bcb720bcac50f629f563204a11",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "normal.jpg.007",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/5726fae2fa1d_roughness.jpg",
+        "sha256": "5726fae2fa1d65ee10d24a3c5354626e35755029ead6131195bf3a9d394b07d8",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "roughness.jpg.005",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        0.3999996781349182,
+        0.2999996840953827
+      ],
+      "offset": [
+        0.0,
+        0.04500000178813934
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Concrete look porcelain tile.009",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+        "sha256": "d9702167a67efb12072926d189e1b8542f7fe4d2d9d7d6bbdccf21fb374fd794",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "162.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+        "sha256": "9d19fd6e4365996d6d4fb9b836dc88d6d5e590bcb720bcac50f629f563204a11",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "normal.jpg.007",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/5726fae2fa1d_roughness.jpg",
+        "sha256": "5726fae2fa1d65ee10d24a3c5354626e35755029ead6131195bf3a9d394b07d8",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "roughness.jpg.005",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        0.3999996781349182,
+        0.2999996840953827
+      ],
+      "offset": [
+        0.09999999403953552,
+        0.04500000178813934
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Concrete look porcelain tile.010 casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/d9702167a67e_162.jpg",
+        "sha256": "d9702167a67efb12072926d189e1b8542f7fe4d2d9d7d6bbdccf21fb374fd794",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "162.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/9d19fd6e4365_normal.jpg",
+        "sha256": "9d19fd6e4365996d6d4fb9b836dc88d6d5e590bcb720bcac50f629f563204a11",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "normal.jpg.007",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/5726fae2fa1d_roughness.jpg",
+        "sha256": "5726fae2fa1d65ee10d24a3c5354626e35755029ead6131195bf3a9d394b07d8",
+        "size": [
+          1500,
+          1500
+        ],
+        "original_name": "roughness.jpg.005",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        0.3999996781349182,
+        0.2999996840953827
+      ],
+      "offset": [
+        0.0,
+        0.04500000178813934
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Concrete.001",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/33dc3523971f_PaintedPlaster017_4K-JPG_Color.jpg",
+        "sha256": "33dc3523971f46b9972a6c3e3b197d048bb60228ea9ae0bbfccbc2d7619e282b",
+        "size": [
+          2048,
+          1024
+        ],
+        "original_name": "Concrete_Color.jpg.001",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/2e89e224b222_PaintedPlaster017_4K-JPG_NormalGL.jpg",
+        "sha256": "2e89e224b2221d376149f2e173fa874ca38a262931adff0993d00ab2bc33b636",
+        "size": [
+          2048,
+          1024
+        ],
+        "original_name": "Concrete_NormalGL.jpg.001",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/02f5a9508912_PaintedPlaster017_4K-JPG_Roughness.jpg",
+        "sha256": "02f5a9508912daec9656631c92bbfcb34e326d4062d4cb1e15d16536b48b3682",
+        "size": [
+          2048,
+          1024
+        ],
+        "original_name": "Concrete_Roughness.jpg.001",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        2.9999992847442627,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Dark Grey Concrete casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/4cafdcfa7b74_Concrete020_4K-JPG_Color.jpg",
+        "sha256": "4cafdcfa7b74a41acbfc79fccc1ee3aa8a63b66750a1cc2b2cca3c8a0b4e8349",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Concrete_Color.jpg.002",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/9090b5318308_Concrete020_4K-JPG_NormalGL.jpg",
+        "sha256": "9090b5318308fae574c3d7b1916a35a0997803b1204aaf719ba4c75ea83097dd",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Concrete_NormalGL.jpg.002",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/ea6ccb5db95d_Concrete020_4K-JPG_Roughness.jpg",
+        "sha256": "ea6ccb5db95d79d657f6c4af98c9dcdde3c47119fae7e3d080d37f0d99972249",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Concrete_Roughness.jpg.002",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        0.6999999284744263,
+        0.6999999284744263
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Dark Walnut Wood PBR 4K",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/8c2109254d14_BaseColor.jpg",
+        "sha256": "8c2109254d149fdfeb7306c4f1cc152d7591af9f4f26f407422fa02180b5e5de",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "BaseColor.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/506e4922793d_Normal.jpg",
+        "sha256": "506e4922793d39fd85d288ebf16a627ddd1bc056a0fcf7baeb1a8ae4abba25a7",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Normal.jpg",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/193d3305552f_Roughness.jpg",
+        "sha256": "193d3305552fd29686663fa7923a0d807399645f60755e107546d2d7f1968b01",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Roughness.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/f4b59b001ed9_Metallic.jpg",
+        "sha256": "f4b59b001ed9a1cf2ad45972a96c9c30c8e10d15ce56985529ff8d0d070e82b4",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Metallic.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic": null,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Decorative plaster",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/5ab25b0db83a_66.jpg",
+        "sha256": "5ab25b0db83ae00f6e668cf4eeafa65e73f6ee1c049700a0b541b16050b16a82",
+        "size": [
+          2000,
+          2000
+        ],
+        "original_name": "66.jpg.001",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/86060dea77d5_normal.jpg",
+        "sha256": "86060dea77d5045daffff2305322afab06bdc1696f9839bd5f128db2569950ad",
+        "size": [
+          2000,
+          2000
+        ],
+        "original_name": "normal.jpg.001",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/358a9e4c5ca5_roughness.jpg",
+        "sha256": "358a9e4c5ca54219a8f2c2988504ddd63c3564fd659bb8ec8196c5e99a977d2f",
+        "size": [
+          2000,
+          2000
+        ],
+        "original_name": "roughness.jpg.001",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        2.0,
+        2.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Decorative plaster casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/5ab25b0db83a_66.jpg",
+        "sha256": "5ab25b0db83ae00f6e668cf4eeafa65e73f6ee1c049700a0b541b16050b16a82",
+        "size": [
+          2000,
+          2000
+        ],
+        "original_name": "66.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/86060dea77d5_normal.jpg",
+        "sha256": "86060dea77d5045daffff2305322afab06bdc1696f9839bd5f128db2569950ad",
+        "size": [
+          2000,
+          2000
+        ],
+        "original_name": "normal.jpg.006",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/358a9e4c5ca5_roughness.jpg",
+        "sha256": "358a9e4c5ca54219a8f2c2988504ddd63c3564fd659bb8ec8196c5e99a977d2f",
+        "size": [
+          2000,
+          2000
+        ],
+        "original_name": "roughness.jpg.004",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        2.0,
+        2.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Decorative plaster casa.001",
+      "supported": false,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/7aa7917fc332_painted_plaster_wall_45_color.jpg",
+        "sha256": "7aa7917fc332c1fdbde37824bf58119cb315afa366113fd4c9699ffd28303c4f",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "painted_plaster_wall_45_color.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": null,
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/f78f049c522a_painted_plaster_wall_45_roughness.jpg",
+        "sha256": "f78f049c522add7ec0072a1a804af7a00d73b8dbbfa5b0e33bcd470c578f8054",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "painted_plaster_wall_45_roughness.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Decorative plaster.001",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/5ab25b0db83a_66.jpg",
+        "sha256": "5ab25b0db83ae00f6e668cf4eeafa65e73f6ee1c049700a0b541b16050b16a82",
+        "size": [
+          2000,
+          2000
+        ],
+        "original_name": "66.jpg.002",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/86060dea77d5_normal.jpg",
+        "sha256": "86060dea77d5045daffff2305322afab06bdc1696f9839bd5f128db2569950ad",
+        "size": [
+          2000,
+          2000
+        ],
+        "original_name": "normal.jpg.002",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/358a9e4c5ca5_roughness.jpg",
+        "sha256": "358a9e4c5ca54219a8f2c2988504ddd63c3564fd659bb8ec8196c5e99a977d2f",
+        "size": [
+          2000,
+          2000
+        ],
+        "original_name": "roughness.jpg.002",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        2.0,
+        2.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Glass.001 casa",
+      "supported": false,
+      "reason": "No direct principled shader"
+    },
+    {
+      "name": "Grass 01 casa",
+      "supported": false,
+      "reason": "No direct principled shader"
+    },
+    {
+      "name": "Grey Veined Marble casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/7f116abf1df2_Marble002_4K-JPG_Color.jpg",
+        "sha256": "7f116abf1df2c13af454eed6aca9f38abac0733a85224ec9871bdac9f697950b",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Grey Veined Marble_Color.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/a5659557963f_Marble002_4K-JPG_NormalGL.jpg",
+        "sha256": "a5659557963f837e855609e9fa4d9d819b26290f41c760c1234bd52e10e0ff4e",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Grey Veined Marble_NormalGL.jpg",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/253de46d67e6_Marble002_4K-JPG_Roughness.jpg",
+        "sha256": "253de46d67e6708f8febc513170a695cbc844b694de38f70d3c3002577b4f16a",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Grey Veined Marble_Roughness.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        0.2999999225139618,
+        0.2999999225139618
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "MetalPanel05 casa",
+      "supported": false,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/5816ae8bcc58_MetalScrewlessSheet1k1Mx1M_Diffuse.jpg",
+        "sha256": "5816ae8bcc58fc5f0e27d2ba9316aecf1c3170c4d96a7d63278d992d2d03183c",
+        "size": [
+          1024,
+          1024
+        ],
+        "original_name": "MetalScrewlessSheet1k1Mx1M Diffuse.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": null,
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/6916f96602e0_MetalScrewlessSheet1k1Mx1M_Roughness.jpg",
+        "sha256": "6916f96602e0f1d747c235b5053b86272dd0d9695496556142d508efefcac511",
+        "size": [
+          1024,
+          1024
+        ],
+        "original_name": "MetalScrewlessSheet1k1Mx1M Roughness.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "New asphalt casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/6e244c97d2b3_asphalt05_diffuse.jpg",
+        "sha256": "6e244c97d2b397139407b41583d20a834f4ec3122cfa7d7c356a9a87b1af1b45",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "asphalt05_diffuse.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/b5420eb412a6_asphalt05_normal_opengl.jpg",
+        "sha256": "b5420eb412a60337851cc59b0f6c36616359af36ee61f536d11bf5da0deb4dca",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "asphalt05_normal_opengl.jpg",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/262a5715cda9_asphalt05_roughness.jpg",
+        "sha256": "262a5715cda9f9bfc804a72191672ece2be828b31692752503d0fd662319c6ce",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "asphalt05_roughness.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Off White Painted Plaster casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/b15c049298dd_Paint004_4K-JPG_Color.jpg",
+        "sha256": "b15c049298dd6f98141b687c9254c77bad4062c2c8f936b5695eb4d755139bee",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Paint_Color.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/2c243c4fbc78_Paint004_4K-JPG_NormalGL.jpg",
+        "sha256": "2c243c4fbc785dac8d1313205eed101139fb456095996f263eeea4d8e7513918",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Paint_NormalGL.jpg",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/f63b68ab15f5_Paint004_4K-JPG_Roughness.jpg",
+        "sha256": "f63b68ab15f5c4d586cea2a90fd18566d5fc9f8b2a052433042ab1dd0b2eaed2",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Paint_Roughness.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Off White Painted Plaster.001",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/b15c049298dd_Paint004_4K-JPG_Color.jpg",
+        "sha256": "b15c049298dd6f98141b687c9254c77bad4062c2c8f936b5695eb4d755139bee",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Paint_Color.jpg.002",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/2c243c4fbc78_Paint004_4K-JPG_NormalGL.jpg",
+        "sha256": "2c243c4fbc785dac8d1313205eed101139fb456095996f263eeea4d8e7513918",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Paint_NormalGL.jpg.002",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/f63b68ab15f5_Paint004_4K-JPG_Roughness.jpg",
+        "sha256": "f63b68ab15f5c4d586cea2a90fd18566d5fc9f8b2a052433042ab1dd0b2eaed2",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Paint_Roughness.jpg.002",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        2.499999761581421,
+        2.000000238418579
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Off White Painted Plaster.001 casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/b15c049298dd_Paint004_4K-JPG_Color.jpg",
+        "sha256": "b15c049298dd6f98141b687c9254c77bad4062c2c8f936b5695eb4d755139bee",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Paint_Color.jpg.001",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/2c243c4fbc78_Paint004_4K-JPG_NormalGL.jpg",
+        "sha256": "2c243c4fbc785dac8d1313205eed101139fb456095996f263eeea4d8e7513918",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Paint_NormalGL.jpg.001",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/f63b68ab15f5_Paint004_4K-JPG_Roughness.jpg",
+        "sha256": "f63b68ab15f5c4d586cea2a90fd18566d5fc9f8b2a052433042ab1dd0b2eaed2",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Paint_Roughness.jpg.001",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.5000001192092896,
+        1.5000001192092896
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Off White Painted Plaster.002",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/b15c049298dd_Paint004_4K-JPG_Color.jpg",
+        "sha256": "b15c049298dd6f98141b687c9254c77bad4062c2c8f936b5695eb4d755139bee",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Paint_Color.jpg.003",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/2c243c4fbc78_Paint004_4K-JPG_NormalGL.jpg",
+        "sha256": "2c243c4fbc785dac8d1313205eed101139fb456095996f263eeea4d8e7513918",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Paint_NormalGL.jpg.003",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/f63b68ab15f5_Paint004_4K-JPG_Roughness.jpg",
+        "sha256": "f63b68ab15f5c4d586cea2a90fd18566d5fc9f8b2a052433042ab1dd0b2eaed2",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Paint_Roughness.jpg.003",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        2.499999761581421,
+        2.000000238418579
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Plain White Flat casa",
+      "supported": false,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/416a38978edc_Plain_White_Flat_3698829_BASE.jpg",
+        "sha256": "416a38978edc0ce88812bc87d1bb89e9063ac08072b584f7972e60c050c26daf",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Plain_White_Flat_3698829_BASE.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": null,
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/d6eae7e1558e_Plain_White_Flat_3698829_ROUGH.jpg",
+        "sha256": "d6eae7e1558e360f4cfdfd008f035922b245ed4747223f4a203535b7308a443d",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Plain_White_Flat_3698829_ROUGH.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/698bce828ad3_Plain_White_Flat_3698829_MTL.jpg",
+        "sha256": "698bce828ad30cc57af03419effd9e3666ac0f51546b1024df64b406fc3bf0e5",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Plain_White_Flat_3698829_MTL.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic": null,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Porcelain tiles casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/c0b2ed2a1fd6_56.png",
+        "sha256": "c0b2ed2a1fd662c0b34421ba859ebe35cab0f1ad0d4d4b8bc023ae6a763748a3",
+        "size": [
+          600,
+          600
+        ],
+        "original_name": "56.png",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/eaeea2b8c7cd_normal.png",
+        "sha256": "eaeea2b8c7cd5a11921121485b2d67d97e8d3ee0c1794d6df09eede22140f29d",
+        "size": [
+          600,
+          600
+        ],
+        "original_name": "normal.png.001",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/ddc9209eeda4_roughness.png",
+        "sha256": "ddc9209eeda4a30ca36b66941394b55fdd82a490cd030e5606522a3cff231de9",
+        "size": [
+          600,
+          600
+        ],
+        "original_name": "roughness.png.001",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        0.3999996781349182,
+        0.7999997138977051
+      ],
+      "offset": [
+        -0.2070000022649765,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Porcelain tiles casa.002",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/c0b2ed2a1fd6_56.png",
+        "sha256": "c0b2ed2a1fd662c0b34421ba859ebe35cab0f1ad0d4d4b8bc023ae6a763748a3",
+        "size": [
+          600,
+          600
+        ],
+        "original_name": "56.png",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/eaeea2b8c7cd_normal.png",
+        "sha256": "eaeea2b8c7cd5a11921121485b2d67d97e8d3ee0c1794d6df09eede22140f29d",
+        "size": [
+          600,
+          600
+        ],
+        "original_name": "normal.png.001",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/ddc9209eeda4_roughness.png",
+        "sha256": "ddc9209eeda4a30ca36b66941394b55fdd82a490cd030e5606522a3cff231de9",
+        "size": [
+          600,
+          600
+        ],
+        "original_name": "roughness.png.001",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        0.19999969005584717,
+        0.3999996781349182
+      ],
+      "offset": [
+        -0.2070000022649765,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Porcelain tiles.001 casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/8f0a427f856d_54.png",
+        "sha256": "8f0a427f856d59171be439ddc56473a85d788851635620b323c735d41d8a4e68",
+        "size": [
+          1200,
+          1200
+        ],
+        "original_name": "54.png",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/41e030f201da_normal.png",
+        "sha256": "41e030f201daefbb5e2e2738b5ba161d387c8d9e7ce96e4afb2b9df1b9179245",
+        "size": [
+          1200,
+          1200
+        ],
+        "original_name": "normal.png.004",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/9cf5af7c55a9_roughness.png",
+        "sha256": "9cf5af7c55a9788ccf9892800abfbd6a997771cf29cae68276cb04893bff7bca",
+        "size": [
+          1200,
+          1200
+        ],
+        "original_name": "roughness.png.004",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        2.0,
+        2.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Stone tiles por si acaso",
+      "supported": false,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/a9a93d434cd9_tiles04_diffuse.jpg",
+        "sha256": "a9a93d434cd94dd1259c9532a5447de0dcdc264ac81cb9e8a52eef27aff53357",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "tiles04_diffuse.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/0ebf44db1632_tiles04_normal_opengl.jpg",
+        "sha256": "0ebf44db1632d56fde4c4b6b506c6b308f1166d175798428cd74d85a61205cff",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "tiles04_normal_opengl.jpg",
+        "color_space": "Non-Color"
+      },
+      "rough": null,
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Stone wall.001",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/96880f14b88a_stone_wall_BaseColor.jpg",
+        "sha256": "96880f14b88afe7862e354c53481c9fe68e8e274fe327ee888437e71cda0ec74",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "stone wall_BaseColor.jpg.001",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/adfa0f4f720f_stone_wall_Normal.jpg",
+        "sha256": "adfa0f4f720f2b50d162f52e4b712a1f690a00af5e6575f52408e7a6dd4e2638",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "stone wall_Normal.jpg.001",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/cd532bb948fa_stone_wall_Roughness.jpg",
+        "sha256": "cd532bb948fac4c81fbfbf94a14537ce4e6db0d1735c2e2abd0a47a70f27eac7",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "stone wall_Roughness.jpg.001",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Stone-effect porcelain tile casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/83b398d94564_85.jpg",
+        "sha256": "83b398d945640fa82e295991e3ae44697ba771a631ab5f6c0ba2b35342004bd2",
+        "size": [
+          1472,
+          1472
+        ],
+        "original_name": "85.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/8cd5569f3422_normal.jpg",
+        "sha256": "8cd5569f342299c02164a6f49809b681157d26ed1bbbf87b6305523efcbf8ca4",
+        "size": [
+          1472,
+          1472
+        ],
+        "original_name": "normal.jpg.004",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/02674d5c9bd2_roughness.jpg",
+        "sha256": "02674d5c9bd27f8e23955e7025e1e27d4746fe36cc787beff067f897451fa79e",
+        "size": [
+          1472,
+          1472
+        ],
+        "original_name": "roughness.jpg.003",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        0.5999996662139893,
+        0.5999995470046997
+      ],
+      "offset": [
+        0.0,
+        0.19999998807907104
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Stone-effect porcelain tile casa.001",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/83b398d94564_85.jpg",
+        "sha256": "83b398d945640fa82e295991e3ae44697ba771a631ab5f6c0ba2b35342004bd2",
+        "size": [
+          1472,
+          1472
+        ],
+        "original_name": "85.jpg",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/8cd5569f3422_normal.jpg",
+        "sha256": "8cd5569f342299c02164a6f49809b681157d26ed1bbbf87b6305523efcbf8ca4",
+        "size": [
+          1472,
+          1472
+        ],
+        "original_name": "normal.jpg.004",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/02674d5c9bd2_roughness.jpg",
+        "sha256": "02674d5c9bd27f8e23955e7025e1e27d4746fe36cc787beff067f897451fa79e",
+        "size": [
+          1472,
+          1472
+        ],
+        "original_name": "roughness.jpg.003",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        0.19999969005584717,
+        0.19999957084655762
+      ],
+      "offset": [
+        0.0,
+        0.25
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Vertical wood slat",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/648ffd4ac7f6_141.png",
+        "sha256": "648ffd4ac7f6529bbbc8455e18af81fad6ad3604a6ba835af7af0f176ecec3f8",
+        "size": [
+          2000,
+          2000
+        ],
+        "original_name": "141.png",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/64255b86e048_normal.png",
+        "sha256": "64255b86e04825df70aa04c974d988ea84f22295d610774bbc3065ab12c7e0b6",
+        "size": [
+          2000,
+          2000
+        ],
+        "original_name": "normal.png",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/12627b0e0221_roughness.png",
+        "sha256": "12627b0e02212be87a75064683fb353dda262ba3ce4df69845153e8299414b7e",
+        "size": [
+          2000,
+          2000
+        ],
+        "original_name": "roughness.png",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Weathered Concrete casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/4b0999d81555_Concrete014_4K-JPG_Color.jpg",
+        "sha256": "4b0999d815555ea4761f5a0ba45e73375eb9c0b086c18f5c9f7ab4b21e69cebf",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Concrete_Color.jpg.003",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/9c0ec6f8d252_Concrete014_4K-JPG_NormalGL.jpg",
+        "sha256": "9c0ec6f8d252bab5059afb1b9fcfc3c1773a46dfd05c6838188f21f07ae6889a",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Concrete_NormalGL.jpg.003",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/a5363f967575_Concrete014_4K-JPG_Roughness.jpg",
+        "sha256": "a5363f96757504d2cccf6c57b1b7a9be19f9938ccc03d958d289e44f0c422cdd",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Concrete_Roughness.jpg.003",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Wood Floor Golden Oak.001 casa",
+      "supported": false,
+      "base": null,
+      "normal": null,
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/f6799971a094_floor-board-gen_roughness.jpg",
+        "sha256": "f6799971a0941f5fe503b22389e7d75053f8f44c53b2060340c8c69b87919b66",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "floor-board-gen_roughness.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.4000000059604645,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        1.5707963705062866
+      ]
+    },
+    {
+      "name": "Wood Floor Golden Oak.003 casa",
+      "supported": false,
+      "base": null,
+      "normal": null,
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/f6799971a094_floor-board-gen_roughness.jpg",
+        "sha256": "f6799971a0941f5fe503b22389e7d75053f8f44c53b2060340c8c69b87919b66",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "floor-board-gen_roughness.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.4000000059604645,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        1.5707963705062866
+      ]
+    },
+    {
+      "name": "Wood Golden Oak casa",
+      "supported": false,
+      "base": null,
+      "normal": null,
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/10eb630fc9eb_wood-27_smooth.jpg",
+        "sha256": "10eb630fc9eb05e167c142e89a04daadbbc04349b9131032874ec6a8355a37ac",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "wood-27_smooth.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.30909091234207153,
+      "roughness": null,
+      "base_color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        0.6999999284744263,
+        0.7999999523162842
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        1.5707963705062866
+      ]
+    },
+    {
+      "name": "Wood Golden Oak casa.001",
+      "supported": false,
+      "base": null,
+      "normal": null,
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/10eb630fc9eb_wood-27_smooth.jpg",
+        "sha256": "10eb630fc9eb05e167c142e89a04daadbbc04349b9131032874ec6a8355a37ac",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "wood-27_smooth.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.30909091234207153,
+      "roughness": null,
+      "base_color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        0.6999999284744263,
+        0.2999999225139618
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        1.5707963705062866
+      ]
+    },
+    {
+      "name": "Wood Golden Oak.001 casa",
+      "supported": false,
+      "base": null,
+      "normal": null,
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/10eb630fc9eb_wood-27_smooth.jpg",
+        "sha256": "10eb630fc9eb05e167c142e89a04daadbbc04349b9131032874ec6a8355a37ac",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "wood-27_smooth.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.30909091234207153,
+      "roughness": null,
+      "base_color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        0.19999992847442627,
+        0.19999992847442627
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        1.5707963705062866
+      ]
+    },
+    {
+      "name": "Wood Golden Oak.001 casa.001",
+      "supported": false,
+      "base": null,
+      "normal": null,
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/10eb630fc9eb_wood-27_smooth.jpg",
+        "sha256": "10eb630fc9eb05e167c142e89a04daadbbc04349b9131032874ec6a8355a37ac",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "wood-27_smooth.jpg",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.30909091234207153,
+      "roughness": null,
+      "base_color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        0.19999992847442627,
+        0.2999999225139618
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        1.5707963705062866
+      ]
+    },
+    {
+      "name": "Wood casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/55298d3eafd8_Wood089_4K-JPG_Color.jpg",
+        "sha256": "55298d3eafd8e6df8fc8567e0cc91ed7517afb5be1e4ab8930ca02dcd202aa6c",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Wood_Color.jpg.001",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/a7b8bd6ca34d_Wood089_4K-JPG_NormalGL.jpg",
+        "sha256": "a7b8bd6ca34dbc4cd47dac137aa5202f880c29f6664eecc607f4c43680f158f8",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Wood_NormalGL.jpg.001",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/f7659a3aaaf3_Wood089_4K-JPG_Roughness.jpg",
+        "sha256": "f7659a3aaaf3205ebdab8283c41f01f42781ca009aa3f02dc32f243b04896255",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "Wood_Roughness.jpg.001",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "japanese_stone_wall casa 2",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/f556b9f9de03_japanese_stone_wall_diff_8k.jpg",
+        "sha256": "f556b9f9de03add9299635a6a32b604391f4f5b011bfeb3bf2608cc487188e96",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "japanese_stone_wall_diff_8k.png",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/2b943ae3b782_japanese_stone_wall_nor_gl_8k.exr",
+        "sha256": "2b943ae3b782210bcf60daeeb6aeaafa839da7148c90da9cb5e605d25ffc0903",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "japanese_stone_wall_nor_gl_8k.png",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/d227c5125e9f_japanese_stone_wall_rough_8k.exr",
+        "sha256": "d227c5125e9f2aa28c398d167fa315ffeb840ccb62fb5a0022e5a73997b0320d",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "japanese_stone_wall_rough_8k.png",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "medieval_blocks_03 casa",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/915b1c3152ed_medieval_blocks_03_diff_8k.jpg",
+        "sha256": "915b1c3152ed9e71a44b2add3d2b11e2c5014b8ea9cd347cc66079da7c0a67af",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "medieval_blocks_03_diff_4k.png",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/7edf13b0138b_medieval_blocks_03_nor_gl_8k.exr",
+        "sha256": "7edf13b0138b5249849136204f664d57bf8b07cf06c856135b1d11b1124b5d95",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "medieval_blocks_03_nor_4k.png",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/a67d7989366a_medieval_blocks_03_rough_8k.jpg",
+        "sha256": "a67d7989366a5ffb5cba7a013fdbe7f1c6d1d88728889a82c50e2e153627fd80",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "medieval_blocks_03_rough_4k.png",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        0.4999995529651642,
+        0.49999967217445374
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -2.3283064365386963e-10,
+        0.0
+      ]
+    },
+    {
+      "name": "medieval_blocks_03 casa.001",
+      "supported": true,
+      "base": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/915b1c3152ed_medieval_blocks_03_diff_8k.jpg",
+        "sha256": "915b1c3152ed9e71a44b2add3d2b11e2c5014b8ea9cd347cc66079da7c0a67af",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "medieval_blocks_03_diff_4k.png",
+        "color_space": "sRGB"
+      },
+      "normal": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/7edf13b0138b_medieval_blocks_03_nor_gl_8k.exr",
+        "sha256": "7edf13b0138b5249849136204f664d57bf8b07cf06c856135b1d11b1124b5d95",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "medieval_blocks_03_nor_4k.png",
+        "color_space": "Non-Color"
+      },
+      "rough": {
+        "path": "Assets/_Project/Art/BlenderNuevo/Textures/a67d7989366a_medieval_blocks_03_rough_8k.jpg",
+        "sha256": "a67d7989366a5ffb5cba7a013fdbe7f1c6d1d88728889a82c50e2e153627fd80",
+        "size": [
+          2048,
+          2048
+        ],
+        "original_name": "medieval_blocks_03_rough_4k.png",
+        "color_space": "Non-Color"
+      },
+      "metallic_map": null,
+      "metallic": 0.0,
+      "roughness": null,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "scale": [
+        2.0,
+        2.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -2.3283064365386963e-10,
+        0.0
+      ]
+    }
+  ]
+}
