@@ -1,0 +1,10 @@
+{
+  "baseline": "0b0fcb0",
+  "existing_objects": 4630,
+  "changed_existing_objects": 9,
+  "changed_types": [
+    "Transform"
+  ],
+  "removed_existing_objects": 0,
+  "scope": "Eight planter/fern transforms moved and planter group child list extended. All existing renderers, materials, glass, colliders, lights and XR components unchanged."
+}

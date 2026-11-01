@@ -1,0 +1,4 @@
+PASS: 2 exterior planters; front railing outer glass z=4.23m, planter back z=4.29m (6cm gap).
+Planter centers y=3.87m z=4.45m; bottom=3.66m, rim=4.08m.
+12 bracket pieces, 6 additional drooping fern meshes. No new lights or colliders. Existing glass, rail and structure retained.
+Exterior and balcony camera captures in Docs/Media/JardinerasColgadas.
