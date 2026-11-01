@@ -1,0 +1,4 @@
+Garden renderers=121 total triangles=665184
+Grass sectors=25 triangles=299376
+Grass spacing=0.30m; scale=240..255 x/z, 115 y; single original grass mesh per tuft, alternating source meshes.
+No new runtime scripts, colliders or lights. No grass shadow casters. Main house and XR components unchanged except exterior lawn material.

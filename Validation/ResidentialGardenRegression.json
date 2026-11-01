@@ -1,0 +1,12 @@
+{
+  "baseline": "eea424b",
+  "original_serialized_objects": 4134,
+  "unchanged_existing_objects": 4131,
+  "allowed_changes": {
+    "728199442": "old fence root deactivated",
+    "5728022099407082702": "exterior lawn material only",
+    "9223372036854775807": "new garden root"
+  },
+  "no_existing_objects_removed": true,
+  "house_meshes_colliders_transforms_lighting_xr_unchanged": true
+}
