@@ -49,7 +49,7 @@ namespace ProyectoVR
         void Update()
         {
             if (!IsActive || origin == null || origin.Camera == null || lookAction == null || lookHoldAction == null) return;
-            bool look = lookHoldAction.action.IsPressed() && !VrWorldMenuController.AnyMenuVisible;
+            bool look = lookHoldAction.action.IsPressed();
             Cursor.lockState = look ? CursorLockMode.Locked : CursorLockMode.None;
             Cursor.visible = !look;
             if (!look) return;

@@ -4,7 +4,7 @@ using ProyectoVR.UI;
 
 namespace ProyectoVR.Core
 {
-    /// <summary>Suppresses locomotion while using menus and keeps desktop input separate from tracked XR.</summary>
+    /// <summary>Keeps locomotion available with the menu open and separates desktop input from tracked XR.</summary>
     [DefaultExecutionOrder(-100)]
     public class XrInputModeGate : MonoBehaviour
     {
@@ -29,7 +29,7 @@ namespace ProyectoVR.Core
                     : DesktopPreview.IsSimulatorActive ? InputBinding.MaskByGroups("XR", "Simulator")
                     : InputBinding.MaskByGroup("XR");
             }
-            SetEnabled(locomotion, !VrWorldMenuController.AnyMenuVisible && (fade == null || !fade.IsFading));
+            SetEnabled(locomotion, fade == null || !fade.IsFading);
             SetEnabled(desktop, DesktopPreview.IsActive);
         }
 
