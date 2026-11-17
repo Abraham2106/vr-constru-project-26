@@ -106771,6 +106771,10 @@ PrefabInstance:
       propertyPath: m_Menu
       value: 
       objectReference: {fileID: 939204833}
+    - target: {fileID: 7077804615800948748, guid: 8ab29758e8e6c8f4fa1db0d126f1ccd2, type: 3}
+      propertyPath: labelMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: b5f34c95c65d2c447b70b1ab28b7e1cf, type: 2}
     - target: {fileID: 7721556530263669084, guid: 8ab29758e8e6c8f4fa1db0d126f1ccd2, type: 3}
       propertyPath: m_CameraYOffset
       value: 1.55

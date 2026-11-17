@@ -11,6 +11,8 @@ namespace Vivienda.Tools
         [SerializeField] float lineWidth = 0.008f;
         [SerializeField] Color lineColor = new(1f, 0.85f, 0.1f);
         [SerializeField] float labelScale = 0.024f;
+        [Tooltip("Material TMP con shader Overlay: el numero se ve por encima de paredes y muebles.")]
+        [SerializeField] Material labelMaterial;
 
         readonly List<MeasureSegment> segments = new();
         Transform segmentRoot;
@@ -86,7 +88,7 @@ namespace Vivienda.Tools
             go.transform.SetParent(segmentRoot, false);
 
             var segment = go.AddComponent<MeasureSegment>();
-            segment.Build(a, b, lineWidth, lineColor, lineMaterial, labelScale);
+            segment.Build(a, b, lineWidth, lineColor, lineMaterial, labelScale, labelMaterial);
             segments.Add(segment);
         }
 
@@ -107,7 +109,9 @@ namespace Vivienda.Tools
 
         public float DistanceMeters { get; private set; }
 
-        public void Build(Vector3 a, Vector3 b, float width, Color color, Material mat, float labelScale)
+        public static string Format(float meters) => meters < 1f ? $"{meters * 100f:F0} cm" : $"{meters:F2} m";
+
+        public void Build(Vector3 a, Vector3 b, float width, Color color, Material mat, float labelScale, Material labelMaterial = null)
         {
             DistanceMeters = Vector3.Distance(a, b);
 
@@ -123,18 +127,63 @@ namespace Vivienda.Tools
             line.startColor = color;
             line.endColor = color;
 
+            foreach (var end in new[] { a, b })
+            {
+                var dot = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+                dot.name = "Extremo";
+                Destroy(dot.GetComponent<Collider>());
+                dot.transform.SetParent(transform, false);
+                dot.transform.position = end;
+                dot.transform.localScale = Vector3.one * 0.025f;
+                if (mat != null) dot.GetComponent<Renderer>().sharedMaterial = mat;
+            }
+
             var labelGo = new GameObject("Label");
             labelGo.transform.SetParent(transform, false);
-            labelGo.transform.position = (a + b) * 0.5f + Vector3.up * 0.05f;
+            labelGo.transform.position = (a + b) * 0.5f;
             labelGo.transform.localScale = Vector3.one * labelScale;
-            labelGo.AddComponent<BillboardToCamera>();
 
             label = labelGo.AddComponent<TextMeshPro>();
+            if (labelMaterial != null) label.fontSharedMaterial = labelMaterial;
             label.alignment = TextAlignmentOptions.Center;
             label.fontSize = 30;
-            label.rectTransform.sizeDelta=new Vector2(220,60);
+            label.fontStyle = FontStyles.Bold;
+            label.textWrappingMode = TextWrappingModes.NoWrap;
+            label.rectTransform.sizeDelta = new Vector2(220, 60);
             label.color = Color.white;
-            label.text = $"{DistanceMeters:F2} m";
+            label.text = Format(DistanceMeters);
+            labelGo.AddComponent<MeasureLabel>().Init((a + b) * 0.5f);
+        }
+    }
+
+    /// <summary>
+    /// Mantiene el numero legible: mira a la camara, conserva el mismo tamano aparente a cualquier distancia
+    /// y se separa de la linea hacia el usuario para no quedar dentro de la pared.
+    /// </summary>
+    public class MeasureLabel : MonoBehaviour
+    {
+        const float HeightPerMeter = 0.05f;    // altura del texto por metro de distancia (~2.9 grados)
+        const float TextUnitHeight = 3.35f;    // altura del texto TMP (fontSize 30) a escala 1
+        const float MinScale = 0.008f, MaxScale = 0.1f;
+
+        Vector3 _anchor;
+        Camera _camera;
+
+        public void Init(Vector3 anchor) { _anchor = anchor; LateUpdate(); }
+
+        void LateUpdate()
+        {
+            if (_camera == null) _camera = Camera.main;
+            if (_camera == null) return;
+            var eye = _camera.transform.position;
+            var toEye = eye - _anchor;
+            float distance = toEye.magnitude;
+            if (distance < 0.01f) return;
+            var dir = toEye / distance;
+            transform.position = _anchor + dir * Mathf.Min(0.12f, distance * 0.25f) + Vector3.up * 0.04f;
+            transform.rotation = Quaternion.LookRotation(-dir, Vector3.up);
+            float scale = Mathf.Clamp(distance * HeightPerMeter / TextUnitHeight, MinScale, MaxScale);
+            transform.localScale = Vector3.one * scale;
         }
     }
 }
