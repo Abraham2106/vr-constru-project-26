@@ -31,6 +31,16 @@ namespace ProyectoVR
 
         public static void NotifyWindowStateChanged() => Recalculate();
 
+        /// <summary>Distancia a la ventana abierta mas cercana (infinito si no hay ninguna abierta).</summary>
+        public static float NearestOpenDistance(Vector3 position)
+        {
+            float best = float.PositiveInfinity;
+            foreach (var w in Windows)
+                if (w != null && w.isActiveAndEnabled && w.IsOpen)
+                    best = Mathf.Min(best, Vector3.Distance(position, w.transform.position));
+            return best;
+        }
+
         static void Recalculate()
         {
             var open = 0;

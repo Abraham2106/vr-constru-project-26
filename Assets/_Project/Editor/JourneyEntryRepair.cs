@@ -48,7 +48,7 @@ public static class JourneyEntryRepair
    if(door.transform.Find("Marco fijo")==null){
     var b=mf.GetComponent<Renderer>().bounds;b.Encapsulate(panel.GetComponent<Renderer>().bounds);
     var frame=new GameObject("Marco fijo");frame.layer=mf.gameObject.layer;frame.transform.SetParent(door.transform,true);
-    bool wideX=b.size.x>b.size.z;float jamb=.04f;float depth=Mathf.Max(.08f,wideX?b.size.z:b.size.x);var material=JourneyGeometry.Material("Marcos acceso",new Color(.11f,.12f,.13f),.3f);
+    bool wideX=b.size.x>b.size.z;float jamb=.04f;float depth=Mathf.Max(.08f,wideX?b.size.z:b.size.x)+.006f/*+3 mm por lado: evita z-fighting con vidrio y panel*/;var material=JourneyGeometry.Material("Marcos acceso",new Color(.11f,.12f,.13f),.3f);
     if(wideX){
      Bar(frame.transform,"Jamba izquierda",new Vector3(b.min.x+jamb*.5f,b.center.y,b.center.z),new Vector3(jamb,b.size.y,depth),material);
      Bar(frame.transform,"Jamba derecha",new Vector3(b.max.x-jamb*.5f,b.center.y,b.center.z),new Vector3(jamb,b.size.y,depth),material);

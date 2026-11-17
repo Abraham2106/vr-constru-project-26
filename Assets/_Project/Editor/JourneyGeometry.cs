@@ -89,7 +89,7 @@ public static class JourneyGeometry
    pivot.SetPositionAndRotation(hinge,Quaternion.identity);leaf.SetPositionAndRotation(position,rotation);
    Handle(leaf,options[0].bounds,wideX);Bind(door,pivot,leaf);count++;
    var audio=door.GetComponent<AudioSource>()??door.gameObject.AddComponent<AudioSource>();audio.playOnAwake=false;audio.loop=false;audio.spatialBlend=1;audio.volume=.15f;audio.maxDistance=3;
-   so=new SerializedObject(door);so.FindProperty("latchAudio").objectReferenceValue=audio;so.FindProperty("latchClip").objectReferenceValue=AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/_Project/Audio/Generated/sfx_latch.wav");so.ApplyModifiedPropertiesWithoutUndo();
+   so=new SerializedObject(door);so.FindProperty("latchAudio").objectReferenceValue=audio;so.FindProperty("latchClip").objectReferenceValue=AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/_Project/Audio/Generated/sfx_latch.wav");bool glassDoor=door.name.StartsWith("Ventana");so.FindProperty("openClip").objectReferenceValue=AssetDatabase.LoadAssetAtPath<AudioClip>(glassDoor?"Assets/_Project/Audio/Generated/sfx_window_open.wav":"Assets/_Project/Audio/Generated/sfx_door_open.wav");so.FindProperty("closeClip").objectReferenceValue=AssetDatabase.LoadAssetAtPath<AudioClip>(glassDoor?"Assets/_Project/Audio/Generated/sfx_window_close.wav":"Assets/_Project/Audio/Generated/sfx_door_close.wav");so.ApplyModifiedPropertiesWithoutUndo();
   }
   return count;
  }

@@ -16,6 +16,10 @@ namespace ProyectoVR
         [SerializeField] float openAngle = 75f;
         [SerializeField] float animationSpeed = 120f;
         [SerializeField] bool startOpen;
+        [Range(0f, 1f)] [SerializeField] float soundVolume = 0.35f;
+        [SerializeField] float soundMaxDistance = 6f;
+        float _velocity;
+        float _lastSoundTime = -10f;
         float _targetAngle;
         float _currentAngle;
         bool _isOpen;
@@ -35,6 +39,7 @@ namespace ProyectoVR
             _currentAngle = _targetAngle = startOpen ? openAngle : closedAngle;
             ApplyAngle();
             if (handleGrab != null) {handleGrab.selectEntered.AddListener(OnSelected);handleGrab.selectExited.AddListener(OnReleased);}
+            InteractionAudio.Configure(openCloseAudio, .6f, soundMaxDistance);
             WindowManager.RegisterWindow(this);
         }
 
@@ -64,10 +69,11 @@ namespace ProyectoVR
         {
             if(_dragging&&HingeGrabUtility.Radial(_hand,hingePivot,out var radial))_targetAngle=Mathf.Clamp(_grabAngle+Vector3.SignedAngle(_grabRadial,radial,Vector3.up),closedAngle,openAngle);
             if (Mathf.Approximately(_currentAngle, _targetAngle)) return;
-            _currentAngle = Mathf.MoveTowards(_currentAngle, _targetAngle, animationSpeed * Time.deltaTime);
+            _currentAngle = Mathf.SmoothDamp(_currentAngle, _targetAngle, ref _velocity, _dragging ? .05f : .25f, _dragging ? 720f : animationSpeed);
+            if (Mathf.Abs(_currentAngle - _targetAngle) < .05f) { _currentAngle = _targetAngle; _velocity = 0f; }
             ApplyAngle();
-            bool open=_currentAngle>closedAngle+5;
-            if(open!=_isOpen){_isOpen=open;WindowManager.NotifyWindowStateChanged();var clip=open?openClip:closeClip;if(openCloseAudio!=null&&clip!=null)openCloseAudio.PlayOneShot(clip);}
+            bool open=_currentAngle>closedAngle+2;
+            if(open!=_isOpen){_isOpen=open;WindowManager.NotifyWindowStateChanged();if(Time.time-_lastSoundTime>.3f&&InteractionAudio.Play(openCloseAudio,open?openClip:closeClip,soundVolume))_lastSoundTime=Time.time;}
         }
 
         void ApplyAngle()
