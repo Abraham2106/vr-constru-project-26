@@ -117,7 +117,7 @@ public static class ResidentialGarden
         lawn.SetTexture("_BumpMap",null);lawn.SetTexture("_MetallicGlossMap",null);lawn.SetTexture("_EmissionMap",null);
         lawn.DisableKeyword("_NORMALMAP");lawn.DisableKeyword("_METALLICSPECGLOSSMAP");lawn.DisableKeyword("_EMISSION");
         lawn.SetColor("_EmissionColor",Color.black);
-        lawn.SetColor("_BaseColor",new Color(.72f,.76f,.67f,1));
+        lawn.SetColor("_BaseColor",new Color(.42f,.50f,.33f,1));
         lawn.SetFloat("_Smoothness",0);lawn.SetFloat("_Metallic",0);
         lawn.SetTextureScale("_BaseMap",new Vector2(.04f,.04f));
         ground.sharedMaterial=lawn;
@@ -140,22 +140,34 @@ public static class ResidentialGarden
         if(!material){material=new Material(AssetDatabase.LoadAssetAtPath<Material>(GardenAssets+"/Materials/Grass.mat"));AssetDatabase.CreateAsset(material,materialPath);}
         material.SetColor("_BaseColor",new Color(.62f,.72f,.49f,1));material.enableInstancing=true;
         EditorUtility.SetDirty(material);
+        // Tres tonos de verde para que el cesped no se vea como un parche repetido.
+        var tints=new[]{material,Tint(materialPath,"Pasto_3D_seco",new Color(.70f,.72f,.47f,1)),Tint(materialPath,"Pasto_3D_oscuro",new Color(.50f,.64f,.42f,1))};
+        foreach(var old in AssetDatabase.FindAssets("Pasto_sector_ t:Mesh",new[]{RootPath}))AssetDatabase.DeleteAsset(AssetDatabase.GUIDToAssetPath(old));
         var group=Group("Pasto_3D_por_sectores",root);
         var sectors=new Dictionary<string,List<CombineInstance>>();
         var random=new System.Random(731);
-        for(float x=-6.9f;x<6.9f;x+=.30f)
-        for(float z=-6.8f;z<12f;z+=.30f)
+        float R()=>(float)random.NextDouble();
+        const float cell=.30f;
+        for(float x=-6.9f;x<6.9f;x+=cell)
+        for(float z=-6.8f;z<12f;z+=cell)
         {
-            // Footprint and generous margin around the patio, stair and all access routes.
-            if(x> -2.8f && x<5.2f && z<10.1f)continue;
-            // Keep grass out of the two planted soil beds.
-            if((x> -6.65f&&x< -5.15f)||(x>5.5f&&x<7f))continue;
-            float px=x+(float)(random.NextDouble()-.5)*.07f;
-            float pz=z+(float)(random.NextDouble()-.5)*.07f;
-            string key=Mathf.FloorToInt((x+7)/3)+"_"+Mathf.FloorToInt((z+7)/3);
+            // Jitter completo dentro de la celda: desaparece la cuadricula.
+            float px=x+(R()-.5f)*cell*1.15f;
+            float pz=z+(R()-.5f)*cell*1.15f;
+            // Bordes difusos: cerca de la casa y de las jardineras el pasto se va ralando.
+            float edge=Mathf.Min(EdgeDistance(px,pz),.3f)/.3f;
+            if(edge<=0f||R()>Mathf.Lerp(.6f,1f,edge))continue;
+            // Manchas: zonas algo mas ralas, mas altas y de distinto tono (ruido de baja frecuencia).
+            float density=Mathf.PerlinNoise(px*.35f+11.3f,pz*.35f+4.1f);
+            if(R()>Mathf.Lerp(.86f,1f,density))continue;
+            float heightNoise=Mathf.PerlinNoise(px*.5f+71.7f,pz*.5f+19.2f);
+            float tone=Mathf.PerlinNoise(px*.22f+33.1f,pz*.22f+57.8f);
+            int tint=tone<.38f?1:tone>.66f?2:0;
+            string key=Mathf.FloorToInt((x+7)/3)+"_"+Mathf.FloorToInt((z+7)/3)+"_"+tint;
             if(!sectors.ContainsKey(key))sectors[key]=new List<CombineInstance>();
-            float size=240f+(float)random.NextDouble()*15f;
-            var matrix=Matrix4x4.TRS(new Vector3(px,-.045f,pz),Quaternion.Euler(0,(float)random.NextDouble()*360,0),new Vector3(size,115f,size));
+            float size=(215f+R()*55f)*Mathf.Lerp(.85f,1.12f,density);
+            float height=115f*Mathf.Lerp(.62f,1.32f,heightNoise)*(.88f+R()*.24f);
+            var matrix=Matrix4x4.TRS(new Vector3(px,-.045f,pz),Quaternion.Euler((R()-.5f)*8f,R()*360,(R()-.5f)*8f),new Vector3(size,height,size));
             var source=sources[random.Next(sources.Length)];
             sectors[key].Add(new CombineInstance{mesh=source.sharedMesh,transform=matrix});
         }
@@ -164,10 +176,45 @@ public static class ResidentialGarden
             var mesh=new Mesh{name="Pasto_sector_"+pair.Key,indexFormat=IndexFormat.UInt32};
             mesh.CombineMeshes(pair.Value.ToArray(),true,true);mesh.RecalculateBounds();
             mesh=SaveMesh(mesh,mesh.name);
-            var go=MeshObject(mesh.name,group,mesh,material);
+            int tint=int.Parse(pair.Key.Substring(pair.Key.LastIndexOf('_')+1));
+            var go=MeshObject(mesh.name,group,mesh,tints[tint]);
             // Small blades receive sunlight but do not add hundreds of shadow casters.
             go.GetComponent<Renderer>().shadowCastingMode=ShadowCastingMode.Off;
         }
+    }
+
+    /// <summary>Distancia (m) al borde de la zona con pasto; 0 o menos = fuera (casa, patio o jardineras).</summary>
+    static float EdgeDistance(float x,float z)
+    {
+        // Huella de la casa, patio, escalera y accesos.
+        float house=Mathf.Max(Mathf.Max(-2.8f-x,x-5.2f),z-10.1f);
+        // Jardineras de tierra.
+        float bedA=Mathf.Max(-6.65f-x,x+5.15f);
+        float bedB=Mathf.Max(5.5f-x,x-7f);
+        return Mathf.Min(house,Mathf.Min(bedA,bedB));
+    }
+
+    static Material Tint(string basePath,string name,Color color)
+    {
+        string path=RootPath+"/"+name+".mat";var m=AssetDatabase.LoadAssetAtPath<Material>(path);
+        if(!m){m=new Material(AssetDatabase.LoadAssetAtPath<Material>(basePath));AssetDatabase.CreateAsset(m,path);}
+        m.SetColor("_BaseColor",color);m.enableInstancing=true;EditorUtility.SetDirty(m);return m;
+    }
+
+    [MenuItem("Vivienda/Jardin/Regenerar solo el pasto")]
+    public static void RegenerateGrassOnly()
+    {
+        var scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene();
+        if(EditorApplication.isPlaying||scene.path!="Assets/Scenes/Vivienda_Prueba.unity")
+            throw new InvalidOperationException("Abrir Vivienda_Prueba fuera de Play.");
+        var root=GameObject.Find("Jardin_Residencial");
+        if(!root)throw new InvalidOperationException("No existe Jardin_Residencial.");
+        var old=root.transform.Find("Pasto_3D_por_sectores");
+        if(old)UnityEngine.Object.DestroyImmediate(old.gameObject);
+        AddGrass(root.transform);
+        AssetDatabase.SaveAssets();
+        EditorSceneManager.MarkSceneDirty(scene);EditorSceneManager.SaveScene(scene);
+        Debug.Log("Pasto regenerado con distribucion irregular, manchas de tono y bordes difusos.");
     }
     static Material Material(string name,Color color,float smoothness)
     {
