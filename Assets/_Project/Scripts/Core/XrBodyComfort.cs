@@ -20,6 +20,12 @@ namespace ProyectoVR.Core
     public class XrBodyComfort : MonoBehaviour
     {
         [SerializeField] bool requestFloorTracking = true;
+        [Tooltip("Altura de los ojos en simulador y escritorio (en visor real se usa la altura real de la persona).")]
+        [SerializeField] float simulatedEyeHeight = 1.55f;
+        [Tooltip("Radio de la capsula: mas delgada pasa por puertas y pasillos sin rozar.")]
+        [SerializeField] float bodyRadius = 0.22f;
+        [Tooltip("Campo de vision vertical en simulador/escritorio. 60 se siente estrecho; el visor usa el suyo propio.")]
+        [SerializeField] float desktopFieldOfView = 74f;
         [SerializeField] float minBodyHeight = 1.0f;
         [SerializeField] float maxBodyHeight = 2.05f;
         [Tooltip("Espacio entre los ojos y la parte superior de la capsula.")]
@@ -39,6 +45,8 @@ namespace ProyectoVR.Core
             _origin = GetComponent<XROrigin>();
             _body = GetComponent<CharacterController>();
             _fade = GetComponent<TeleportFadeController>();
+            _origin.CameraYOffset = simulatedEyeHeight;
+            _body.radius = bodyRadius;
         }
 
         void Start()
@@ -53,6 +61,7 @@ namespace ProyectoVR.Core
                 var offset = _origin.CameraFloorOffsetObject.transform;
                 var p = offset.localPosition;
                 offset.localPosition = new Vector3(p.x, _origin.CameraYOffset, p.z);
+                if (_origin.Camera != null) _origin.Camera.fieldOfView = desktopFieldOfView;
             }
             BindVignette();
         }

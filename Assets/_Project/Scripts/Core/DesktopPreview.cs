@@ -35,9 +35,10 @@ namespace ProyectoVR
                 var driver = origin.Camera.GetComponent<TrackedPoseDriver>();
                 if (driver != null) driver.enabled = false;
                 var cameraTransform = origin.Camera.transform;
+                float eyes = origin.CameraYOffset;
                 if (cameraTransform.parent != origin.transform)
-                    cameraTransform.parent.localPosition = new Vector3(0, 1.65f, 0);
-                cameraTransform.localPosition = cameraTransform.parent == origin.transform ? new Vector3(0, 1.65f, 0) : Vector3.zero;
+                    cameraTransform.parent.localPosition = new Vector3(0, eyes, 0);
+                cameraTransform.localPosition = cameraTransform.parent == origin.transform ? new Vector3(0, eyes, 0) : Vector3.zero;
                 cameraTransform.localRotation = Quaternion.identity;
             }
 #else

@@ -29,6 +29,8 @@ namespace ProyectoVR
         float _grabAngle;
         bool _dragging;
         public bool IsOpen => _isOpen;
+        public float Openness => Mathf.Approximately(openAngle, closedAngle) ? 0f : Mathf.Clamp01((_currentAngle - closedAngle) / (openAngle - closedAngle));
+        public Transform Pivot => hingePivot != null ? hingePivot : transform;
 
         void Awake()
         {
@@ -39,6 +41,17 @@ namespace ProyectoVR
             _currentAngle = _targetAngle = startOpen ? openAngle : closedAngle;
             ApplyAngle();
             if (handleGrab != null) {handleGrab.selectEntered.AddListener(OnSelected);handleGrab.selectExited.AddListener(OnReleased);}
+            // Varias ventanas tienen la raiz en el origen del mundo: el sonido debe salir de la ventana, no de ahi.
+            var center = OpeningUtility.Center(hingePivot);
+            if (openCloseAudio != null && (openCloseAudio.transform.position - center).sqrMagnitude > .25f)
+            {
+                var go = new GameObject("Sonido ventana");
+                go.transform.SetParent(transform, true);
+                go.transform.position = center;
+                var moved = go.AddComponent<AudioSource>();
+                moved.volume = openCloseAudio.volume;
+                openCloseAudio = moved;
+            }
             InteractionAudio.Configure(openCloseAudio, .6f, soundMaxDistance);
             WindowManager.RegisterWindow(this);
         }

@@ -51,6 +51,8 @@ namespace ProyectoVR
 
         public float CurrentAngle => _currentAngle;
         public bool IsMoving => _dragging || !Mathf.Approximately(_currentAngle, _targetAngle);
+        public float Openness => Mathf.Approximately(maxAngle, minAngle) ? 0f : Mathf.Clamp01((_currentAngle - minAngle) / (maxAngle - minAngle));
+        public Transform Pivot => hingePivot != null ? hingePivot : transform;
 
         void Awake()
         {
