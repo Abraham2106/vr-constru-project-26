@@ -7,7 +7,7 @@ namespace Vivienda.Tools
 
         public static void SelectWallPaintTool() => ViviendaToolHost.Instance?.ActivateTool(ViviendaToolIds.WallPaint);
 
-        public static void DeselectAllTools() => ViviendaToolHost.Instance?.DeactivateAll();
+        public static void DeselectAllTools() => ViviendaToolHost.Instance?.StoreTool();
 
         public static void MeasureUndoLast() => ViviendaToolHost.Instance?.Measure?.UndoLast();
 

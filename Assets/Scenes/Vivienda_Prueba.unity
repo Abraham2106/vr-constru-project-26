@@ -3300,6 +3300,11 @@ Transform:
   - {fileID: 2061238325}
   m_Father: {fileID: 1406889218}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &105587967 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7828651186721585373, guid: 8ab29758e8e6c8f4fa1db0d126f1ccd2, type: 3}
+  m_PrefabInstance: {fileID: 4150405671924639380}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &105822934
 GameObject:
   m_ObjectHideFlags: 0
@@ -69561,12 +69566,30 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3473678933785509101, guid: 8ab29758e8e6c8f4fa1db0d126f1ccd2, type: 3}
   m_PrefabInstance: {fileID: 4150405671924639380}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 105587967}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d720bfbd31effba44a3475918ee704c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ProyectoVR.Runtime::ProyectoVR.Core.XrLocomotionTeleportService
+--- !u!114 &1418869169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105587967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c0c216090eba1d449911183a17fc7af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProyectoVR.Runtime::ProyectoVR.Core.XrBodyComfort
+  requestFloorTracking: 1
+  minBodyHeight: 1
+  maxBodyHeight: 2.05
+  headTop: 0.12
+  headRadius: 0.11
+  maxHeadFade: 0.92
 --- !u!1 &1420257734
 GameObject:
   m_ObjectHideFlags: 0
@@ -106505,10 +106528,17 @@ PrefabInstance:
       propertyPath: m_Resource
       value: 
       objectReference: {fileID: 8300000, guid: d0c2fb8b35f99e44cbbf7dd922d27edd, type: 3}
+    - target: {fileID: 8895614581495954851, guid: 8ab29758e8e6c8f4fa1db0d126f1ccd2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.65
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7828651186721585373, guid: 8ab29758e8e6c8f4fa1db0d126f1ccd2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1418869169}
   m_SourcePrefab: {fileID: 100100000, guid: 8ab29758e8e6c8f4fa1db0d126f1ccd2, type: 3}
 --- !u!114 &4150405671924639381 stripped
 MonoBehaviour:

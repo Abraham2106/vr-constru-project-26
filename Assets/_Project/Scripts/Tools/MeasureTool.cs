@@ -10,7 +10,7 @@ namespace Vivienda.Tools
         [SerializeField] Material lineMaterial;
         [SerializeField] float lineWidth = 0.008f;
         [SerializeField] Color lineColor = new(1f, 0.85f, 0.1f);
-        [SerializeField] float labelScale = 0.004f;
+        [SerializeField] float labelScale = 0.024f;
 
         readonly List<MeasureSegment> segments = new();
         Transform segmentRoot;

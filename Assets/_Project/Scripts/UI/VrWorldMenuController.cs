@@ -7,6 +7,7 @@ using UnityEngine.XR.Interaction.Toolkit.UI;
 using TMPro;
 using Vivienda.Tools;
 using Unity.XR.CoreUtils;
+using UnityEngine.XR.Interaction.Toolkit.Locomotion.Comfort;
 
 namespace ProyectoVR.UI
 {
@@ -22,12 +23,21 @@ namespace ProyectoVR.UI
   TMP_FontAsset menuFont;
   string lastDestination="";
   ProyectoVR.DayNightController environment;
+  TunnelingVignetteController comfortVignette;
+  TextMeshProUGUI comfortLabel;
+  const string ComfortPreference = "Vivienda.ComfortVignette";
+  public bool ComfortEnabled {get;private set;}
+  GroundedXrSprintModifier[] speedControls;
+  TextMeshProUGUI precisionLabel;
+  public bool PrecisionEnabled {get;private set;}
   public static VrWorldMenuController Instance {get;private set;}
   public static bool AnyMenuVisible => Instance!=null&&Instance.IsVisible;
   public bool IsVisible => m_Canvas!=null&&m_Canvas.gameObject.activeSelf;
   public int ColorButtonCount {get;private set;}
   void Awake(){Instance=this;BuildMenu();}
-  IEnumerator Start(){yield return null;SetVisible(!m_StartHidden);}
+  IEnumerator Start(){yield return null;var rig=FindAnyObjectByType<XROrigin>();comfortVignette=rig!=null?rig.GetComponentInChildren<TunnelingVignetteController>(true):null;speedControls=rig!=null?rig.GetComponentsInChildren<GroundedXrSprintModifier>(true):null;SetPrecisionEnabled(false);SetComfortEnabled(PlayerPrefs.GetInt(ComfortPreference,0)==1);SetVisible(!m_StartHidden);}
+  public void SetPrecisionEnabled(bool enabled){PrecisionEnabled=enabled;if(speedControls!=null)foreach(var control in speedControls)if(control!=null)control.PrecisionMode=enabled;if(precisionLabel!=null)precisionLabel.text=enabled?"Paso: preciso":"Paso: normal";}
+  public void SetComfortEnabled(bool enabled){ComfortEnabled=enabled;if(comfortVignette!=null)comfortVignette.gameObject.SetActive(enabled);if(comfortLabel!=null)comfortLabel.text=enabled?"Confort: activado":"Confort: desactivado";PlayerPrefs.SetInt(ComfortPreference,enabled?1:0);}
   void OnDestroy(){if(reopenHint!=null)Destroy(reopenHint);if(Instance==this)Instance=null;}
   RectTransform Rect(string name,Transform parent,Vector2 size,Vector2 position){var go=new GameObject(name,typeof(RectTransform));var r=go.GetComponent<RectTransform>();r.SetParent(parent,false);r.anchorMin=r.anchorMax=r.pivot=new Vector2(.5f,.5f);r.sizeDelta=size;r.anchoredPosition=position;return r;}
   TextMeshProUGUI Text(string name,Transform parent,string text,int size,Vector2 dimensions,Vector2 position,Color color){var r=Rect(name,parent,dimensions,position);var t=r.gameObject.AddComponent<TextMeshProUGUI>();if(menuFont==null)menuFont=Resources.Load<TMP_FontAsset>("Vivienda UI SDF");t.font=menuFont!=null?menuFont:TMP_Settings.defaultFontAsset;t.text=text;t.fontSize=size;t.color=color;t.alignment=TextAlignmentOptions.Center;t.raycastTarget=false;return t;}
@@ -88,6 +98,10 @@ namespace ProyectoVR.UI
    title.alignment=TextAlignmentOptions.Left;
    Chip("Dos apartamentos",new Vector2(-270,299),190);
    Chip("Escala real",new Vector2(-103,299),120);
+   var precision=MakeButton("PasoPreciso",mainPanel.transform,"Paso: normal",new Vector2(60,299),new Vector2(180,42),()=>{PlayClick();SetPrecisionEnabled(!PrecisionEnabled);});
+   precisionLabel=precision.GetComponentInChildren<TextMeshProUGUI>();precisionLabel.fontSize=18;
+   var comfort=MakeButton("Confort",mainPanel.transform,"Confort: desactivado",new Vector2(315,299),new Vector2(310,42),()=>{PlayClick();SetComfortEnabled(!ComfortEnabled);});
+   comfortLabel=comfort.GetComponentInChildren<TextMeshProUGUI>();comfortLabel.fontSize=20;
    Tray("Ubicacion",new Vector2(0,171),new Vector2(970,84));
    Tray("Ambiente",new Vector2(0,59),new Vector2(970,80));
    SectionLabel("Ubicaci\u00f3n",mainPanel.transform,224);
@@ -100,7 +114,7 @@ namespace ProyectoVR.UI
    SectionLabel("Herramientas",mainPanel.transform,-2);
    MakeButton("Medir",mainPanel.transform,"Medir distancia\n<size=18><color=#BDCDDF>Apunta a dos puntos</color></size>",new Vector2(-244,-64),new Vector2(472,88),ToggleMeasureTool);
    MakeButton("Pintar",mainPanel.transform,"Pintar paredes\n<size=18><color=#BDCDDF>Elige un acabado</color></size>",new Vector2(244,-64),new Vector2(472,88),OpenWallPalette);
-   MakeButton("SinHerramienta",mainPanel.transform,"Guardar herramienta",new Vector2(-324,-153),new Vector2(310,60),()=>{PlayClick();ViviendaToolHost.Instance?.DeactivateAll();});
+   MakeButton("SinHerramienta",mainPanel.transform,"Guardar herramienta",new Vector2(-324,-153),new Vector2(310,60),()=>{PlayClick();ViviendaToolHost.Instance?.StoreTool();});
    MakeButton("Deshacer",mainPanel.transform,"Deshacer medida",new Vector2(0,-153),new Vector2(310,60),()=>{PlayClick();ViviendaToolHost.Instance?.Measure?.UndoLast();});
    var restore=MakeButton("Restaurar",mainPanel.transform,"Restaurar paredes",new Vector2(324,-153),new Vector2(310,60),()=>{PlayClick();ViviendaToolHost.Instance?.WallPaint?.RestoreAllPainted();});
    restore.GetComponentInChildren<TextMeshProUGUI>().color=new Color(1,.76f,.75f);

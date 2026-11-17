@@ -92,6 +92,12 @@ namespace Vivienda.Tools
             activeTool = null;
         }
 
+        public void StoreTool()
+        {
+            measureTool?.ClearAll();
+            DeactivateAll();
+        }
+
         public void NotifyTriggerPressed()
         {
             if (activeTool == null || Time.unscaledTime < suppressedUntil || ProyectoVR.UI.VrWorldMenuController.AnyMenuVisible)

@@ -17,7 +17,7 @@ namespace ProyectoVR.Core
             controller.height = 1.7f;
             controller.radius = .3f;
             controller.skinWidth = .02f;
-            controller.stepOffset = .4f;
+            controller.stepOffset = .25f;
             controller.slopeLimit = 45;
             controller.center = Vector3.up * .85f;
             controller.minMoveDistance = 0;

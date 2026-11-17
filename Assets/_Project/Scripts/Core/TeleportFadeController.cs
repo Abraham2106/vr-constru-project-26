@@ -15,6 +15,7 @@ namespace ProyectoVR.Core
         Coroutine m_Routine;
 
         public bool IsFading => m_Routine != null;
+        public Image FadeImage => m_FadeImage;
 
         public void BindFadeImage(Image image)
         {

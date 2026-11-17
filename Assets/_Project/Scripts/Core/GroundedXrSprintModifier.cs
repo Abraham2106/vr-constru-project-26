@@ -5,14 +5,18 @@ using UnityEngine.XR.Interaction.Toolkit.Locomotion.Movement;
 namespace ProyectoVR.Core
 {
     /// <summary>
-    /// Sprint opcional (Left Shift) sobre la velocidad de caminata configurada en el rig.
+    /// Velocidades para caminar, acelerar y acercarse con precisión en escritorio.
     /// </summary>
     public class GroundedXrSprintModifier : MonoBehaviour
     {
-        const float WalkSpeed = 1.4f;
-        const float SprintSpeed = 2.5f;
+        const float WalkSpeed = 2.0f;
+        const float SprintSpeed = 3.0f;
+        const float PrecisionSpeed = 0.65f;
+        const float StickFullSpeed = 2.4f;
+        const float StickMinFactor = 0.3f;
 
         ContinuousMoveProvider[] m_Movers;
+        public bool PrecisionMode { get; set; }
 
         void Awake()
         {
@@ -24,12 +28,25 @@ namespace ProyectoVR.Core
             if (m_Movers == null || m_Movers.Length == 0)
                 return;
 
-            var speed = Keyboard.current != null && Keyboard.current.leftShiftKey.isPressed
-                ? SprintSpeed
-                : WalkSpeed;
+            var keyboard = Keyboard.current;
+            bool desktop = DesktopPreview.IsActive;
+            var speed = PrecisionMode || desktop && keyboard != null && keyboard.leftCtrlKey.isPressed
+                ? PrecisionSpeed
+                : desktop && keyboard != null && keyboard.leftShiftKey.isPressed ? SprintSpeed
+                : desktop ? WalkSpeed : StickFullSpeed;
 
             foreach (var move in m_Movers)
-                move.moveSpeed = speed;
+            {
+                // Con joystick: poca inclinacion = paso lento y preciso; a fondo = recorrido rapido.
+                // El proveedor ya multiplica por la inclinacion; este factor lo vuelve progresivo.
+                float curve = 1f;
+                if (!desktop && !PrecisionMode)
+                {
+                    float tilt = Mathf.Max(move.leftHandMoveInput.ReadValue().magnitude, move.rightHandMoveInput.ReadValue().magnitude);
+                    curve = Mathf.Lerp(StickMinFactor, 1f, Mathf.Clamp01(tilt));
+                }
+                move.moveSpeed = speed * curve;
+            }
         }
     }
 
