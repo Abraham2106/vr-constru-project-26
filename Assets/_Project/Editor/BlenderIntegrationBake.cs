@@ -48,7 +48,8 @@ public static class BlenderIntegrationBake
         if (SessionState.GetInt("Vivienda.RealismBake", 0) != 0)
             throw new InvalidOperationException("Otro horneado por escenarios esta activo.");
         var scene = UnityEngine.SceneManagement.SceneManager.GetActiveScene();
-        if (scene.path != "Assets/Scenes/Vivienda_Integracion_Blender.unity")
+        if (scene.path != "Assets/Scenes/Vivienda_Integracion_Blender.unity" &&
+            scene.path != "Assets/Scenes/Vivienda_Prueba.unity")
             throw new InvalidOperationException("Escena inesperada: " + scene.path);
         baked = UnityEngine.Object.FindAnyObjectByType<BakedDayNightLighting>();
         controller = UnityEngine.Object.FindAnyObjectByType<DayNightController>();

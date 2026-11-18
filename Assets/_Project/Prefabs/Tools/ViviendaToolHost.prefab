@@ -115,7 +115,7 @@ MonoBehaviour:
   lineMaterial: {fileID: 0}
   lineWidth: 0.008
   lineColor: {r: 1, g: 0.85, b: 0.1, a: 1}
-  labelScale: 0.004
+  labelScale: 0.024
 --- !u!114 &5444879055759957897
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -56,10 +56,10 @@ public static class JourneyNavigationCheck
             var settings = NavMesh.GetSettingsByIndex(0);
             settings.agentRadius = .3f;
             settings.agentHeight = 1.7f;
-            settings.agentClimb = .4f;
+            settings.agentClimb = .25f;
             settings.agentSlope = 45;
             settings.overrideVoxelSize = true;
-            settings.voxelSize = .05f;
+            settings.voxelSize = .025f;
             settings.overrideTileSize = true;
             settings.tileSize = 128;
             settings.minRegionArea = 0;
@@ -149,7 +149,7 @@ public static class JourneyNavigationCheck
                 }
                 route.bodyFinal = body.position;
                 float finalPlanarDistance = Vector3.ProjectOnPlane(body.position - route.sampledTarget, Vector3.up).magnitude;
-                route.bodyStatus = corner == route.corners.Length && finalPlanarDistance < .18f && Mathf.Abs(body.position.y - route.sampledTarget.y) < .45f ? "BodyComplete" : "BodyBlockedAtCorner" + corner;
+                route.bodyStatus = corner == route.corners.Length && finalPlanarDistance < .18f && Mathf.Abs(body.position.y - route.sampledTarget.y) < .15f ? "BodyComplete" : "BodyBlockedAtCorner" + corner;
                 if (route.bodyStatus == "BodyComplete") result.bodyComplete++;
                 report.AppendLine("BODY\t" + route.room + "\t" + route.bodyStatus + "\tsteps=" + route.bodySteps + "\tfinal=" + Vector(route.bodyFinal) + "\tdistance=" + finalPlanarDistance.ToString("F3", CultureInfo.InvariantCulture));
             }

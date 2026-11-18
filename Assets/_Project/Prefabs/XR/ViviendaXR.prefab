@@ -152,6 +152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3701392535095722247}
   - component: {fileID: 5412219001429737732}
+  - component: {fileID: 6135568176349284351}
   m_Layer: 0
   m_Name: Continuous Move
   m_TagString: Untagged
@@ -188,7 +189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Locomotion.Movement.ContinuousMoveProvider
   m_Mediator: {fileID: 2834335495978834091}
   m_TransformationPriority: 10
-  m_MoveSpeed: 1.4
+  m_MoveSpeed: 2
   m_InAirControlModifier: 1
   m_EnableStrafe: 1
   m_EnableFly: 0
@@ -224,6 +225,18 @@ MonoBehaviour:
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: {x: 0, y: 0}
   m_UseGravity: 1
+--- !u!114 &6135568176349284351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4189931959602877341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebd6a516bbefb724fa0865e9206f8ac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ProyectoVR.Runtime::ProyectoVR.Core.GroundedXrSprintModifier
 --- !u!1001 &1283653970163238853
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -353,6 +366,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -944628639613478452, guid: ab14bf0c100c7ed418e1b943e990cd36, type: 3}
     - target: {fileID: 4385607544623218095, guid: 0db9d067350320a4cad73966ae38c2a8, type: 3}
+      propertyPath: m_StepOffset
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4385607544623218095, guid: 0db9d067350320a4cad73966ae38c2a8, type: 3}
       propertyPath: m_MinMoveDistance
       value: 0
       objectReference: {fileID: 0}
@@ -405,12 +422,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7170345569827108125, guid: 0db9d067350320a4cad73966ae38c2a8, type: 3}
+      propertyPath: m_SphereCastLayerMask.m_Bits
+      value: 321
+      objectReference: {fileID: 0}
+    - target: {fileID: 7170345569827108125, guid: 0db9d067350320a4cad73966ae38c2a8, type: 3}
       propertyPath: m_UpdateCharacterControllerCenterEachFrame
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7530278032707065076, guid: 0db9d067350320a4cad73966ae38c2a8, type: 3}
       propertyPath: m_MoveSpeed
-      value: 1.4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7684238450916305457, guid: 0db9d067350320a4cad73966ae38c2a8, type: 3}
       propertyPath: m_IsActive
@@ -482,6 +503,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9039991891158073115, guid: 0db9d067350320a4cad73966ae38c2a8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125973812914667067, guid: 0db9d067350320a4cad73966ae38c2a8, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:

@@ -1,0 +1,38 @@
+PASS Puerta_Auto_06_PLACEHOLDER grip native hover + reader
+PASS Puerta_Auto_03_PLACEHOLDER grip native hover + reader
+PASS Puerta_Auto_09_PLACEHOLDER grip native hover + reader
+PASS Puerta_Auto_07_PLACEHOLDER grip native hover + reader
+PASS Puerta_Auto_01_PLACEHOLDER grip native hover + reader
+PASS Puerta_Auto_08_PLACEHOLDER grip native hover + reader
+PASS Puerta_Auto_05_PLACEHOLDER grip native hover + reader
+PASS Ventana_Auto_02_PLACEHOLDER grip native hover + reader
+PASS Puerta_Auto_02_PLACEHOLDER grip native hover + reader
+PASS Puerta_Auto_04_PLACEHOLDER grip native hover + reader
+PASS Ventana_Auto_01_PLACEHOLDER grip native hover + reader
+PASS Ventana VR 6 grip native hover + reader
+PASS Ventana VR 15 grip native hover + reader
+PASS Ventana VR 10 grip native hover + reader
+PASS Ventana VR 13 grip native hover + reader
+PASS Ventana VR 12 grip native hover + reader
+PASS Ventana VR 8 grip native hover + reader
+PASS Ventana VR 7 grip native hover + reader
+PASS Ventana VR 2 grip native hover + reader
+PASS Ventana VR 4 grip native hover + reader
+PASS Ventana VR 3 grip native hover + reader
+PASS Ventana VR 1 grip native hover + reader
+PASS Ventana VR 14 grip native hover + reader
+PASS Ventana VR 9 grip native hover + reader
+PASS Ventana VR 5 grip native hover + reader
+PASS Apartamento 2 - Cocina trigger native hover + reader
+PASS Apartamento 1 - Baño trigger native hover + reader
+PASS Apartamento 2 - Dormitorio 2 trigger native hover + reader
+PASS Apartamento 2 - Dormitorio 1 trigger native hover + reader
+PASS Apartamento 1 - Lavanderia trigger native hover + reader
+PASS Apartamento 2 - Lavanderia trigger native hover + reader
+PASS Apartamento 1 - Dormitorio 2 trigger native hover + reader
+PASS Apartamento 1 - Cocina trigger native hover + reader
+PASS Apartamento 2 - Baño trigger native hover + reader
+PASS Apartamento 1 - Sala trigger native hover + reader
+PASS Apartamento 2 - Sala trigger native hover + reader
+PASS Apartamento 1 - Dormitorio 1 trigger native hover + reader
+DONE 37/37

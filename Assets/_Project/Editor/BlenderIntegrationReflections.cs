@@ -10,7 +10,8 @@ public static class BlenderIntegrationReflections {
     [MenuItem("Vivienda/Integracion Blender/Actualizar reflejos dia y atardecer")]
     public static void Bake() {
         if(EditorApplication.isPlaying||Lightmapping.isRunning)throw new Exception("Editor ocupado");
-        if(UnityEngine.SceneManagement.SceneManager.GetActiveScene().path!="Assets/Scenes/Vivienda_Integracion_Blender.unity")throw new Exception("Escena incorrecta");
+        string scenePath=UnityEngine.SceneManagement.SceneManager.GetActiveScene().path;
+        if(scenePath!="Assets/Scenes/Vivienda_Integracion_Blender.unity"&&scenePath!="Assets/Scenes/Vivienda_Prueba.unity")throw new Exception("Escena incorrecta");
         var controller=UnityEngine.Object.FindAnyObjectByType<DayNightController>();
         var baked=controller.GetComponent<BakedDayNightLighting>();
         var data=new SerializedObject(controller);

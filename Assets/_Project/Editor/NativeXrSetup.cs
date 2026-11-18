@@ -124,7 +124,7 @@ public static class NativeXrSetup
         capsule.height = 1.7f;
         capsule.radius = .3f;
         capsule.skinWidth = .02f;
-        capsule.stepOffset = .4f;
+        capsule.stepOffset = .25f;
         capsule.slopeLimit = 45;
         capsule.center = Vector3.up * .85f;
         capsule.minMoveDistance = 0;
@@ -173,7 +173,7 @@ public static class NativeXrSetup
                 EditorUtility.SetDirty(tread);
             }
         }
-        move.moveSpeed = 1.4f;
+        move.moveSpeed = 2.0f;
         move.inAirControlModifier = 1;
         move.enableFly = false;
         move.enableStrafe = true;
@@ -187,6 +187,7 @@ public static class NativeXrSetup
         gravity.terminalVelocity = 20;
         gravity.sphereCastRadius = .08f;
         gravity.sphereCastDistanceBuffer = 0;
+        gravity.sphereCastLayerMask = WalkableLayerMask.Value;
         gravity.updateCharacterControllerCenterEachFrame = true;
         gravity.transformationPriority = 20;
         gravity.gravityControllers.Clear();
@@ -203,6 +204,7 @@ public static class NativeXrSetup
         foreach (var profile in rig.GetComponentsInChildren<GroundedXrLocomotionProfile>(true)) Undo.DestroyObjectImmediate(profile);
         foreach (var spawn in rig.GetComponentsInChildren<PlayerSpawnBootstrap>(true)) Undo.DestroyObjectImmediate(spawn);
         foreach (var sprint in rig.GetComponentsInChildren<GroundedXrSprintModifier>(true)) Undo.DestroyObjectImmediate(sprint);
+        move.gameObject.AddComponent<GroundedXrSprintModifier>();
         foreach (var enforcer in UnityEngine.Object.FindObjectsByType<XrDeviceSimulatorGroundedEnforcer>(FindObjectsInactive.Include)) Undo.DestroyObjectImmediate(enforcer);
         foreach (var controller in rig.GetComponentsInChildren<ControllerInputActionManager>(true))
         {

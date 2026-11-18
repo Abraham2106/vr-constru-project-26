@@ -1,0 +1,17 @@
+PASS PasoPreciso native UI pointer precision=False speed=2
+PASS PasoPreciso native UI pointer precision=True speed=0.65
+PASS PasoPreciso native UI pointer precision=False speed=2
+PASS Confort native UI pointer vignette=True
+PASS Confort native UI pointer vignette=False
+PASS Medir native UI pointer label=1.00 m height=0.08043751m at2m
+PASS SinHerramienta native UI pointer segments=0 pending=False
+PASS Pintar native UI pointer 
+PASS Color_0 native UI pointer paint applied=True
+PASS Restaurar native UI pointer paint property blocks cleared=True
+PASS Noche native UI pointer maps=2 receivers=303
+PASS Dia native UI pointer maps=2 receivers=303
+PASS Piso1 native UI pointer cameraHeight=1.40144 body=(3.00, 0.04, 0.70)
+PASS Piso2 native UI pointer cameraHeight=1.40144 body=(3.00, 3.04, 0.70)
+PASS Exterior native UI pointer cameraHeight=1.40144 body=(0.20, 0.04, 9.80)
+PASS Continuar native UI pointer 
+DONE 16/16

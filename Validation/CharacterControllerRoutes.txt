@@ -1,0 +1,13 @@
+Passed=12/12 step=0.25
+PASS P1 Entrada y sala (3.024, 0.020, 0.759)
+PASS P1 Cocina (3.160, 0.020, -2.713)
+PASS P1 Lavanderia (3.187, 0.020, -5.322)
+PASS P1 Bano (0.968, 0.020, -2.699)
+PASS P1 Dormitorio2 (-0.976, 0.020, -2.740)
+PASS P1 Dormitorio1 (-0.447, 0.020, 1.448)
+PASS P2 Entrada y sala (3.024, 3.020, 0.759)
+PASS P2 Cocina (3.159, 3.020, -2.720)
+PASS P2 Lavanderia (3.187, 3.020, -5.322)
+PASS P2 Bano (0.968, 3.020, -2.699)
+PASS P2 Dormitorio2 (-0.975, 3.020, -2.736)
+PASS P2 Dormitorio1 (-0.447, 3.020, 1.448)

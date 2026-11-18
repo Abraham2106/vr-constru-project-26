@@ -1,0 +1,5 @@
+PASS Medir native UI pointer label=1.00 m height=0.08043751m at2m
+PASS Deshacer native UI pointer segments=1 pending=False
+PASS Deshacer native UI pointer segments=0 pending=False
+PASS SinHerramienta native UI pointer segments=0 pending=False
+DONE 4/4
