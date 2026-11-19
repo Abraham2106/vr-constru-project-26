@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cielo_Hora_Azul
+  m_Shader: {fileID: 4800000, guid: 78f326b1ab6a3e547b23df867bf04b9c, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _SUNDISK_SIMPLE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _AtmosphereThickness: 1.15
+    - _Exposure: 1
+    - _GlowStrength: 1
+    - _GlowWidth: 0.16
+    - _SunDisk: 1
+    - _SunSize: 0.035
+    - _SunSizeConvergence: 6
+    m_Colors:
+    - _GroundColor: {r: 0.05, g: 0.05, b: 0.07, a: 1}
+    - _HorizonColor: {r: 0.98, g: 0.52, b: 0.3, a: 1}
+    - _MidColor: {r: 0.22, g: 0.19, b: 0.4, a: 1}
+    - _SkyTint: {r: 0.22, g: 0.28, b: 0.62, a: 1}
+    - _SunDirection: {r: 0.3, g: 0, b: -0.95, a: 0}
+    - _ZenithColor: {r: 0.035, g: 0.06, b: 0.2, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

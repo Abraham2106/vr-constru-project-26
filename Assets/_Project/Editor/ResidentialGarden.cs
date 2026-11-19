@@ -37,6 +37,9 @@ public static class ResidentialGarden
             var r = old.GetComponent<Renderer>();
             var go = MeshObject("Cerca_listones", fences, fenceMesh, metal);
             go.transform.position = new Vector3(r.bounds.center.x, -.045f, r.bounds.center.z);
+            var collider = go.AddComponent<BoxCollider>();
+            collider.center = fenceMesh.bounds.center;
+            collider.size = fenceMesh.bounds.size;
         }
         oldFences.gameObject.SetActive(false);
         var cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
@@ -113,13 +116,17 @@ public static class ResidentialGarden
         string lawnPath=RootPath+"/Cesped_Residencial.mat";
         var lawn=AssetDatabase.LoadAssetAtPath<Material>(lawnPath);
         if(!lawn){lawn=new Material(ground.sharedMaterial);AssetDatabase.CreateAsset(lawn,lawnPath);}
-        lawn.SetTexture("_BaseMap",AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/_Project/Art/Textures/Vivienda/58_grass-8_diffuse_jpg.jpg"));
-        lawn.SetTexture("_BumpMap",null);lawn.SetTexture("_MetallicGlossMap",null);lawn.SetTexture("_EmissionMap",null);
-        lawn.DisableKeyword("_NORMALMAP");lawn.DisableKeyword("_METALLICSPECGLOSSMAP");lawn.DisableKeyword("_EMISSION");
+        lawn.SetTexture("_BaseMap",AssetDatabase.LoadAssetAtPath<Texture2D>(RootPath+"/Grass005/Grass005_1K-JPG_Color.jpg"));
+        var lawnNormal = AssetDatabase.LoadAssetAtPath<Texture2D>(RootPath+"/Grass005/Grass005_1K-JPG_NormalGL.jpg");
+        lawn.SetTexture("_BumpMap",lawnNormal);lawn.SetFloat("_BumpScale",.64f);
+        if(lawnNormal)lawn.EnableKeyword("_NORMALMAP");else lawn.DisableKeyword("_NORMALMAP");
+        lawn.SetTexture("_MetallicGlossMap",null);lawn.SetTexture("_EmissionMap",null);
+        lawn.DisableKeyword("_METALLICSPECGLOSSMAP");lawn.DisableKeyword("_EMISSION");
         lawn.SetColor("_EmissionColor",Color.black);
-        lawn.SetColor("_BaseColor",new Color(.42f,.50f,.33f,1));
-        lawn.SetFloat("_Smoothness",0);lawn.SetFloat("_Metallic",0);
-        lawn.SetTextureScale("_BaseMap",new Vector2(.04f,.04f));
+        lawn.SetColor("_BaseColor",new Color(.80f,.95f,.70f,1));
+        lawn.SetFloat("_Smoothness",.02f);lawn.SetFloat("_Metallic",0);
+        lawn.SetTextureScale("_BaseMap",new Vector2(.037f,.037f));
+        lawn.SetTextureScale("_BumpMap",lawn.GetTextureScale("_BaseMap"));
         ground.sharedMaterial=lawn;
         EditorUtility.SetDirty(lawn);
         AddGrass(root);
@@ -138,16 +145,16 @@ public static class ResidentialGarden
         string materialPath=RootPath+"/Pasto_3D.mat";
         var material=AssetDatabase.LoadAssetAtPath<Material>(materialPath);
         if(!material){material=new Material(AssetDatabase.LoadAssetAtPath<Material>(GardenAssets+"/Materials/Grass.mat"));AssetDatabase.CreateAsset(material,materialPath);}
-        material.SetColor("_BaseColor",new Color(.62f,.72f,.49f,1));material.enableInstancing=true;
+        material.SetColor("_BaseColor",new Color(.70f,.95f,.48f,1));material.enableInstancing=true;
         EditorUtility.SetDirty(material);
         // Tres tonos de verde para que el cesped no se vea como un parche repetido.
-        var tints=new[]{material,Tint(materialPath,"Pasto_3D_seco",new Color(.70f,.72f,.47f,1)),Tint(materialPath,"Pasto_3D_oscuro",new Color(.50f,.64f,.42f,1))};
+        var tints=new[]{material,Tint(materialPath,"Pasto_3D_seco",new Color(.78f,.97f,.50f,1)),Tint(materialPath,"Pasto_3D_oscuro",new Color(.62f,.88f,.44f,1))};
         foreach(var old in AssetDatabase.FindAssets("Pasto_sector_ t:Mesh",new[]{RootPath}))AssetDatabase.DeleteAsset(AssetDatabase.GUIDToAssetPath(old));
         var group=Group("Pasto_3D_por_sectores",root);
         var sectors=new Dictionary<string,List<CombineInstance>>();
         var random=new System.Random(731);
         float R()=>(float)random.NextDouble();
-        const float cell=.30f;
+        const float cell=.24f;
         for(float x=-6.9f;x<6.9f;x+=cell)
         for(float z=-6.8f;z<12f;z+=cell)
         {
@@ -159,14 +166,15 @@ public static class ResidentialGarden
             if(edge<=0f||R()>Mathf.Lerp(.6f,1f,edge))continue;
             // Manchas: zonas algo mas ralas, mas altas y de distinto tono (ruido de baja frecuencia).
             float density=Mathf.PerlinNoise(px*.35f+11.3f,pz*.35f+4.1f);
-            if(R()>Mathf.Lerp(.86f,1f,density))continue;
+            if(R()>Mathf.Lerp(.96f,1f,density))continue;
             float heightNoise=Mathf.PerlinNoise(px*.5f+71.7f,pz*.5f+19.2f);
             float tone=Mathf.PerlinNoise(px*.22f+33.1f,pz*.22f+57.8f);
             int tint=tone<.38f?1:tone>.66f?2:0;
             string key=Mathf.FloorToInt((x+7)/3)+"_"+Mathf.FloorToInt((z+7)/3)+"_"+tint;
             if(!sectors.ContainsKey(key))sectors[key]=new List<CombineInstance>();
-            float size=(215f+R()*55f)*Mathf.Lerp(.85f,1.12f,density);
-            float height=115f*Mathf.Lerp(.62f,1.32f,heightNoise)*(.88f+R()*.24f);
+            float size=(205f+R()*40f)*Mathf.Lerp(.92f,1.06f,density);
+            // Cesped cortado: bajo y parejo, con apenas variacion.
+            float height=115f*Mathf.Lerp(.40f,.55f,heightNoise)*(.92f+R()*.16f);
             var matrix=Matrix4x4.TRS(new Vector3(px,-.045f,pz),Quaternion.Euler((R()-.5f)*8f,R()*360,(R()-.5f)*8f),new Vector3(size,height,size));
             var source=sources[random.Next(sources.Length)];
             sectors[key].Add(new CombineInstance{mesh=source.sharedMesh,transform=matrix});

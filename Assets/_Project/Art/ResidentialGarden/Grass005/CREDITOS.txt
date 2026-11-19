@@ -1,0 +1,2 @@
+Grass005 (Color y Normal GL 1K), ambientCG, CC0 1.0. https://ambientcg.com/view?id=Grass005
+VariacionTonal.png: mapa lineal de baja frecuencia generado para el proyecto.
